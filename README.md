@@ -1,4 +1,4 @@
-# AI服务助手 (AI Service Hub)
+# AI服务助手 (AI KB ChatBot)
 
 自研工业硬件智能客服系统，面向扫描枪/固定式扫码器/打印机产品线。
 支持型号识别、意图分类、混合检索（语义+关键词）、配置码图片输出。
@@ -6,7 +6,7 @@
 ## 项目结构
 
 ```
-AI_Service_Hub/
+AI_KB_ChatBot/
 ├── src/                    # 核心引擎
 ├── static/                 # Web 前端
 ├── data/                   # 知识库数据
