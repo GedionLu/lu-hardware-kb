@@ -11,7 +11,7 @@
 ## 用法
 
 ```bash
-cd AI_KB_ChatBot
+cd AI_Service_Hub
 python3 eval/eval.py
 python3 eval/eval_v2.py
 ```

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-硬件客服助手 — 生产级 ChatBot 服务器
+AI服务助手 — 生产级服务 (AI Service Hub)
 端口: 10054
 特性: 并发 / 图片HTTP / GZIP / 限流 / 健康检查 / 结构化日志
 
@@ -187,7 +187,7 @@ class ThreadedServer(ThreadingMixIn, HTTPServer):
     daemon_threads = True
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = 'HardwareKB/2.0'
+    server_version = 'AIServiceHub/1.0'
 
     def log_message(self, fmt, *args):
         log.info('%s %s %dms', self.client_address[0],
@@ -297,7 +297,7 @@ class Handler(BaseHTTPRequestHandler):
             self._static('index.html')
         elif path == '/health':
             import requests as _r
-            status = {'status': 'ok', 'server': 'HardwareKB/2.0'}
+            status = {'status': 'ok', 'server': 'AIServiceHub/1.0'}
             # 检查 Qdrant
             try:
                 resp = _r.get('http://localhost:6333/collections/hardware_kb', timeout=3)
@@ -367,7 +367,7 @@ def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else PORT
 
     # 预热引擎
-    log.info('启动 ChatBot 服务器 v2.0...')
+    log.info('启动 AI服务助手 (AI Service Hub)...')
     try:
         get_engine()
     except Exception as e:

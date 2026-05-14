@@ -1,4 +1,4 @@
-// 硬件客服助手 — 前端交互
+// AI服务助手 — 前端交互
 
 const STORAGE_KEY = 'hw_chat_history';
 const MAX_HISTORY = 50;
