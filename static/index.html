@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>硬件客服助手</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="header">
+  <h1>🔧 硬件客服助手</h1>
+  <p>输入产品型号+问题，获取配置码</p>
+</div>
+<div class="chat" id="chat">
+  <div class="empty-state">
+    <div class="empty-icon">💡</div>
+    <div class="empty-title">你好！我是硬件客服助手</div>
+    <div class="empty-hint">输入产品型号+问题，获取配置码图片</div>
+    <div class="examples">
+      <button class="ex-btn" onclick="quickAsk('OH430 加回车')">OH430 加回车</button>
+      <button class="ex-btn" onclick="quickAsk('1900 USB连接')">1900 USB连接</button>
+      <button class="ex-btn" onclick="quickAsk('HH760 蓝牙配对')">HH760 蓝牙配对</button>
+      <button class="ex-btn" onclick="quickAsk('7680g 扫描没输出')">7680g 扫描没输出</button>
+    </div>
+  </div>
+</div>
+<div class="input-bar">
+  <input id="inp" type="text" placeholder="输入产品型号+问题，按 Enter 发送" autofocus>
+  <button id="btn" onclick="send()">发送</button>
+  <button id="clearBtn" onclick="clearChat()" title="清空对话">🗑</button>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+# 项目: 工业硬件AI客服助手
+# Hardware KB Chatbot — Self-built query engine + hybrid retrieval
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 数据缓存
+data/image_metadata.json
+data/vision_analysis.json
+
+# 评估数据 (测试集 + 结果)
+data/eval_set.csv
+data/eval_set_v2.csv
+data/eval_result.json
+data/eval_result_v2.json
+data/product_tree.csv
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 本地配置
+.env
+*.local
+
+# 图片缓存
+/tmp/kb-images/
+/opt/kb-images/
+
+# 非项目文件
+AGENTS.md
+SOUL.md
+IDENTITY.md
+USER.md
+TOOLS.md
+HEARTBEAT.md
+MEMORY.md
+.openclaw/
+memory/
+output/
+=0.5.0
+chatbot_api.py
+webchat_reply.py

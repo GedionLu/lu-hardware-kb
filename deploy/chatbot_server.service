@@ -1,0 +1,21 @@
+[Unit]
+Description=Hardware KB Chatbot Server
+After=network.target docker.service
+
+[Service]
+Type=simple
+User=admin
+WorkingDirectory=/home/admin/.openclaw/workspace/lu/AI_KB_ChatBot/src
+ExecStart=/usr/bin/python3 /home/admin/.openclaw/workspace/lu/AI_KB_ChatBot/src/chatbot_server.py
+Restart=always
+RestartSec=5
+
+# 日志
+StandardOutput=append:/tmp/chatbot_server.log
+StandardError=append:/tmp/chatbot_server.log
+
+# 资源限制
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2581 @@
+[
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接USB线缆并上电",
+    "description": "将1900-C通过USB线缆连接到电脑USB口，连接成功后有上电提示音。",
+    "warnings": [],
+    "product_name": "1900-C",
+    "model": "1900-C",
+    "image_urls": [],
+    "source_file": "01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28",
+    "keywords": "连接USB线缆并上电 将1900-C通过USB线缆连接到电脑USB口，连接成功后有上电提示音。 1900-C 1900-C 01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28 1900-C 1900-C"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "恢复出厂设置",
+    "description": "按键出光后，扫描恢复出厂码（rId8.png）。",
+    "warnings": [],
+    "product_name": "1900-C",
+    "model": "1900-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28/images/rId8.png"
+    ],
+    "source_file": "01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28",
+    "keywords": "恢复出厂设置 按键出光后，扫描恢复出厂码（rId8.png）。 1900-C 1900-C 01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28 1900-C 1900-C"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "验证通信",
+    "description": "电脑打开记事本，光标定位，输入法切换英文，依次扫描测试码（rId6.png），确认输出正常。",
+    "warnings": [],
+    "product_name": "1900-C",
+    "model": "1900-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28/images/rId6.png"
+    ],
+    "source_file": "01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28",
+    "keywords": "验证通信 电脑打开记事本，光标定位，输入法切换英文，依次扫描测试码（rId6.png），确认输出正常。 1900-C 1900-C 01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28 1900-C 1900-C"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "配置自动换行（可选）",
+    "description": "如需扫描后自动换行，扫描自动换行码（rId5.png）。",
+    "warnings": [],
+    "product_name": "1900-C",
+    "model": "1900-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28/images/rId5.png"
+    ],
+    "source_file": "01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28",
+    "keywords": "配置自动换行（可选） 如需扫描后自动换行，扫描自动换行码（rId5.png）。 1900-C 1900-C 01_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28 LF CRLF 1900-C 1900-C"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接硬件",
+    "description": "底座经RS232串口线缆连接到电脑端，并连接电源。底座按钮一侧亮红灯表示供电正常。",
+    "warnings": [],
+    "product_name": "无线枪",
+    "model": "1902/1952/1472",
+    "image_urls": [],
+    "source_file": "02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17",
+    "keywords": "连接硬件 底座经RS232串口线缆连接到电脑端，并连接电源。底座按钮一侧亮红灯表示供电正常。 无线枪 1902/1952/1472 02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17 无线枪 1902/1952/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "恢复出厂设置",
+    "description": "扫描枪按键出光后，依次扫描恢复出厂码。",
+    "warnings": [],
+    "product_name": "无线枪",
+    "model": "1902/1952/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17/images/rId8.png"
+    ],
+    "source_file": "02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17",
+    "keywords": "恢复出厂设置 扫描枪按键出光后，依次扫描恢复出厂码。 无线枪 1902/1952/1472 02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17 无线枪 1902/1952/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "配对",
+    "description": "扫描枪扫描底座背面的配对码，等待5-8秒，听到滴声表示配对成功。",
+    "warnings": [],
+    "product_name": "无线枪",
+    "model": "1902/1952/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17/images/rId7.png"
+    ],
+    "source_file": "02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17",
+    "keywords": "配对 扫描枪扫描底座背面的配对码，等待5-8秒，听到滴声表示配对成功。 无线枪 1902/1952/1472 02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17 无线枪 1902/1952/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "设置串口参数",
+    "description": "扫描串口设置码，默认COM口参数为115200、8、1、None。注意：扫描后枪可能暂时断开连接，可将枪放在底座上等待自动配对或重新扫描配对码。",
+    "warnings": [
+      "扫描后枪可能暂时断开与底座的连接"
+    ],
+    "product_name": "无线枪",
+    "model": "1902/1952/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17/images/rId12.png"
+    ],
+    "source_file": "02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17",
+    "keywords": "设置串口参数 扫描串口设置码，默认COM口参数为115200、8、1、None。注意：扫描后枪可能暂时断开连接，可将枪放在底座上等待自动配对或重新扫描配对码。 无线枪 1902/1952/1472 02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17 无线枪 1902/1952/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "测试输出",
+    "description": "电脑端打开串口调试工具，连接枪的COM口，配置好COM口参数（与枪一致），测试输出情况。",
+    "warnings": [
+      "串口软件端COM口参数设置要与枪本身的COM口保持一致"
+    ],
+    "product_name": "无线枪",
+    "model": "1902/1952/1472",
+    "image_urls": [],
+    "source_file": "02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17",
+    "keywords": "测试输出 电脑端打开串口调试工具，连接枪的COM口，配置好COM口参数（与枪一致），测试输出情况。 无线枪 1902/1952/1472 02_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.6.17 无线枪 1902/1952/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接硬件",
+    "description": "确认串口线缆以及外接电源连接完毕，参考连接示意图。",
+    "warnings": [],
+    "product_name": "扫描枪",
+    "model": "19xx/14xx系列",
+    "image_urls": [
+      "http://172.24.59.194:8098/04_19xx、14xx等扫描枪串口连接下基本通信说明/images/rId8.png"
+    ],
+    "source_file": "04_19xx、14xx等扫描枪串口连接下基本通信说明",
+    "keywords": "连接硬件 确认串口线缆以及外接电源连接完毕，参考连接示意图。 扫描枪 19xx/14xx系列 04_19xx、14xx等扫描枪串口连接下基本通信说明 扫描枪 19xx/14xx系列"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "设置串口模式",
+    "description": "扫描串口模式设置码，将扫描枪切换到串口模式，默认参数115200、8、1、None。",
+    "warnings": [],
+    "product_name": "扫描枪",
+    "model": "19xx/14xx系列",
+    "image_urls": [
+      "http://172.24.59.194:8098/04_19xx、14xx等扫描枪串口连接下基本通信说明/images/rId5.png"
+    ],
+    "source_file": "04_19xx、14xx等扫描枪串口连接下基本通信说明",
+    "keywords": "设置串口模式 扫描串口模式设置码，将扫描枪切换到串口模式，默认参数115200、8、1、None。 扫描枪 19xx/14xx系列 04_19xx、14xx等扫描枪串口连接下基本通信说明 扫描枪 19xx/14xx系列"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "电脑端配置串口工具",
+    "description": "打开串口调试工具，设置与扫描枪一致的COM口参数（115200、8、1、None），点击“开启”打开COM口。注意关闭其他占用串口的软件。",
+    "warnings": [
+      "成功开启COM口后，右下角按钮会显示'发送'，左下角提示COM口已打开。"
+    ],
+    "product_name": "扫描枪",
+    "model": "19xx/14xx系列",
+    "image_urls": [
+      "http://172.24.59.194:8098/04_19xx、14xx等扫描枪串口连接下基本通信说明/images/rId10.png"
+    ],
+    "source_file": "04_19xx、14xx等扫描枪串口连接下基本通信说明",
+    "keywords": "电脑端配置串口工具 打开串口调试工具，设置与扫描枪一致的COM口参数（115200、8、1、None），点击“开启”打开COM口。注意关闭其他占用串口的软件。 扫描枪 19xx/14xx系列 04_19xx、14xx等扫描枪串口连接下基本通信说明 扫描枪 19xx/14xx系列"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试扫描输出",
+    "description": "手动按键扫描条码，确认串口软件能接收到数据。",
+    "warnings": [],
+    "product_name": "扫描枪",
+    "model": "19xx/14xx系列",
+    "image_urls": [],
+    "source_file": "04_19xx、14xx等扫描枪串口连接下基本通信说明",
+    "keywords": "测试扫描输出 手动按键扫描条码，确认串口软件能接收到数据。 扫描枪 19xx/14xx系列 04_19xx、14xx等扫描枪串口连接下基本通信说明 扫描枪 19xx/14xx系列"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "关闭解码成功提示音",
+    "description": "扫描文档中提供的关闭提示音码（图片 rId5.png），将扫描枪原有的解码成功提示音功能关闭。",
+    "warnings": [],
+    "product_name": "19xx/14xx系列扫描器",
+    "model": "19xx, 14xx",
+    "image_urls": [
+      "http://172.24.59.194:8098/05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示/images/rId5.png"
+    ],
+    "source_file": "05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示",
+    "keywords": "关闭解码成功提示音 扫描文档中提供的关闭提示音码（图片 rId5.png），将扫描枪原有的解码成功提示音功能关闭。 19xx/14xx系列扫描器 19xx, 14xx 05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示 19xx/14xx系列扫描器 19xx, 14xx"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "数据系统端判断",
+    "description": "客户的串口程序底层对扫描枪传输的数据进行判断，确定数据是否正确。",
+    "warnings": [],
+    "product_name": "19xx/14xx系列扫描器",
+    "model": "19xx, 14xx",
+    "image_urls": [],
+    "source_file": "05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示",
+    "keywords": "数据系统端判断 客户的串口程序底层对扫描枪传输的数据进行判断，确定数据是否正确。 19xx/14xx系列扫描器 19xx, 14xx 05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示 19xx/14xx系列扫描器 19xx, 14xx"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "发送对应指令",
+    "description": "根据数据判断结果，通过客户的串口软件给扫描枪COM口发送对应指令：若数据正确，发送 good read beep 命令（BEPEXE1. 或十六进制）；若数据错误，发送 unsuccessful beep 命令（BEPEMN. 或十六进制）。对于无线扫描枪，命令前需加上\":*:\"。",
+    "warnings": [
+      "无线扫描枪的命令前必须加上\":*:\"（不带引号），否则命令可能被底座响应而非扫描枪。"
+    ],
+    "product_name": "19xx/14xx系列扫描器",
+    "model": "19xx, 14xx",
+    "image_urls": [],
+    "source_file": "05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示",
+    "keywords": "发送对应指令 根据数据判断结果，通过客户的串口软件给扫描枪COM口发送对应指令：若数据正确，发送 good read beep 命令（BEPEXE1. 或十六进制）；若数据错误，发送 unsuccessful beep 命令（BEPEMN. 或十六进制）。对于无线扫描枪，命令前需加上\":*:\"。 19xx/14xx系列扫描器 19xx, 14xx 05_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错误提示 19xx/14xx系列扫描器 19xx, 14xx"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证基本功能并设置底座为仅充电",
+    "description": "将底座通过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常），枪放在底座上后，另一侧按钮闪绿灯（表示枪给底座充电）。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "验证基本功能并设置底座为仅充电 将底座通过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常），枪放在底座上后，另一侧按钮闪绿灯（表示枪给底座充电）。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "恢复出厂设置",
+    "description": "1991i按键出光后，依次扫描恢复出厂条码。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId8.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "恢复出厂设置 1991i按键出光后，依次扫描恢复出厂条码。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描底座配对码",
+    "description": "扫描枪继续扫描底座中间的配对码（红圈标注），等待5~8秒左右完成配对。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId13.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "扫描底座配对码 扫描枪继续扫描底座中间的配对码（红圈标注），等待5~8秒左右完成配对。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试扫描输出",
+    "description": "确认配对成功后，电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "测试扫描输出 确认配对成功后，电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "添加回车符后缀（可选）",
+    "description": "若需要实现扫描枪后自动换行（自动回车），请继续扫描添加回车符后缀的条码。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId7.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "添加回车符后缀（可选） 若需要实现扫描枪后自动换行（自动回车），请继续扫描添加回车符后缀的条码。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 CR CRLF LF CRLF 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "将底座转换为充电模式",
+    "description": "扫描“充电模式”功能码，把底座转换成充电模式。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId12.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "将底座转换为充电模式 扫描“充电模式”功能码，把底座转换成充电模式。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 7,
+    "title": "开放蓝牙搜索模式",
+    "description": "扫描“开放蓝牙搜索模式”条码，将扫描枪蓝牙开放。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId16.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "开放蓝牙搜索模式 扫描“开放蓝牙搜索模式”条码，将扫描枪蓝牙开放。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 8,
+    "title": "连接平板/手机",
+    "description": "打开平板/手机蓝牙搜索扫描枪，然后进行连接。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "连接平板/手机 打开平板/手机蓝牙搜索扫描枪，然后进行连接。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 9,
+    "title": "确认配对成功",
+    "description": "如果听到扫描枪配对成功的声音，那就完成了；继续在蓝牙设备上的输入框中测试扫码输出情况。注意：如果平板等设备连接扫描枪蓝牙时，提示需要输入密码，则继续进行下一步。",
+    "warnings": [
+      "如果提示输入密码，需进行下一步"
+    ],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "确认配对成功 如果听到扫描枪配对成功的声音，那就完成了；继续在蓝牙设备上的输入框中测试扫码输出情况。注意：如果平板等设备连接扫描枪蓝牙时，提示需要输入密码，则继续进行下一步。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 10,
+    "title": "输入蓝牙密码",
+    "description": "扫描“输入蓝牙密码”条码。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId15.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "输入蓝牙密码 扫描“输入蓝牙密码”条码。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 11,
+    "title": "扫描密码字符并保存",
+    "description": "根据平板上显示的密码，依次扫描对应的字符条码；最后扫描“Save”以保存设置。",
+    "warnings": [],
+    "product_name": "1991i扫描枪",
+    "model": "1991i",
+    "image_urls": [
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId10.png",
+      "http://172.24.59.194:8098/06_1991i扫描枪连接蓝牙设备 2025.3.28/images/rId9.png"
+    ],
+    "source_file": "06_1991i扫描枪连接蓝牙设备 2025.3.28",
+    "keywords": "扫描密码字符并保存 根据平板上显示的密码，依次扫描对应的字符条码；最后扫描“Save”以保存设置。 1991i扫描枪 1991i 06_1991i扫描枪连接蓝牙设备 2025.3.28 1991i扫描枪 1991i"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "恢复出厂设置",
+    "description": "底座通过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常），枪放在底座上后，另一侧按钮闪绿灯（表示枪给底座充电）。",
+    "warnings": [],
+    "product_name": "1902-C",
+    "model": "1902-C",
+    "image_urls": [],
+    "source_file": "07_1902-C格式编辑：Code39码输出最后8位 2025.3.12",
+    "keywords": "恢复出厂设置 底座通过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常），枪放在底座上后，另一侧按钮闪绿灯（表示枪给底座充电）。 1902-C 1902-C 07_1902-C格式编辑：Code39码输出最后8位 2025.3.12 1902-C 1902-C"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "断开连接",
+    "description": "扫描枪按键出光后，扫描如下码（断开枪可能与其他底座连接的情况）。",
+    "warnings": [],
+    "product_name": "1902-C",
+    "model": "1902-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/07_1902-C格式编辑：Code39码输出最后8位 2025.3.12/images/rId6.png"
+    ],
+    "source_file": "07_1902-C格式编辑：Code39码输出最后8位 2025.3.12",
+    "keywords": "断开连接 扫描枪按键出光后，扫描如下码（断开枪可能与其他底座连接的情况）。 1902-C 1902-C 07_1902-C格式编辑：Code39码输出最后8位 2025.3.12 1902-C 1902-C"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "配对",
+    "description": "1902-C按键扫描底座背面的配对码，并等待5~8s，注意听扫描枪提示音，出现滴的一声，表示配对成功。注意看底座配对码标志。",
+    "warnings": [],
+    "product_name": "1902-C",
+    "model": "1902-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/07_1902-C格式编辑：Code39码输出最后8位 2025.3.12/images/rId8.png"
+    ],
+    "source_file": "07_1902-C格式编辑：Code39码输出最后8位 2025.3.12",
+    "keywords": "配对 1902-C按键扫描底座背面的配对码，并等待5~8s，注意听扫描枪提示音，出现滴的一声，表示配对成功。注意看底座配对码标志。 1902-C 1902-C 07_1902-C格式编辑：Code39码输出最后8位 2025.3.12 1902-C 1902-C"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "验证基本功能",
+    "description": "电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，先确认下文本输出基本功能。",
+    "warnings": [],
+    "product_name": "1902-C",
+    "model": "1902-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/07_1902-C格式编辑：Code39码输出最后8位 2025.3.12/images/rId9.png"
+    ],
+    "source_file": "07_1902-C格式编辑：Code39码输出最后8位 2025.3.12",
+    "keywords": "验证基本功能 电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，先确认下文本输出基本功能。 1902-C 1902-C 07_1902-C格式编辑：Code39码输出最后8位 2025.3.12 1902-C 1902-C"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "配置格式",
+    "description": "扫描如下码，设置特定格式；设置后测试扫描输出效果。当前配置码规则：对于Code39码，仅输出最后8位；其他码制不做限制；配置码已包含回车后缀（即扫描后自动换行）。",
+    "warnings": [],
+    "product_name": "1902-C",
+    "model": "1902-C",
+    "image_urls": [
+      "http://172.24.59.194:8098/07_1902-C格式编辑：Code39码输出最后8位 2025.3.12/images/rId5.png"
+    ],
+    "source_file": "07_1902-C格式编辑：Code39码输出最后8位 2025.3.12",
+    "keywords": "配置格式 扫描如下码，设置特定格式；设置后测试扫描输出效果。当前配置码规则：对于Code39码，仅输出最后8位；其他码制不做限制；配置码已包含回车后缀（即扫描后自动换行）。 1902-C 1902-C 07_1902-C格式编辑：Code39码输出最后8位 2025.3.12 CR CRLF LF CRLF 1902-C 1902-C"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "下载并安装EZConfig-Scanning软件",
+    "description": "从提供的链接下载EZConfig-Scanning v4_v4.5.60，安装后桌面生成三个快捷方式，使用红圈标注的快捷方式。",
+    "warnings": [],
+    "product_name": "EZConfig-Scanning",
+    "model": "",
+    "image_urls": [],
+    "source_file": "08_Ezconfig配置案例分享 2025.2.19",
+    "keywords": "下载并安装EZConfig-Scanning软件 从提供的链接下载EZConfig-Scanning v4_v4.5.60，安装后桌面生成三个快捷方式，使用红圈标注的快捷方式。 EZConfig-Scanning  08_Ezconfig配置案例分享 2025.2.19 EZConfig-Scanning"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "数据格式编辑",
+    "description": "打开软件，进入数据格式编辑界面，按照图片流程设置规则：仅匹配以'SN'开头的Code128条码，其他Code128不读取；非Code128码制无限制；添加回车后缀。",
+    "warnings": [],
+    "product_name": "EZConfig-Scanning",
+    "model": "",
+    "image_urls": [
+      "http://172.24.59.194:8098/08_Ezconfig配置案例分享 2025.2.19/images/rId8.png",
+      "http://172.24.59.194:8098/08_Ezconfig配置案例分享 2025.2.19/images/rId6.png",
+      "http://172.24.59.194:8098/08_Ezconfig配置案例分享 2025.2.19/images/rId10.png",
+      "http://172.24.59.194:8098/08_Ezconfig配置案例分享 2025.2.19/images/rId9.png"
+    ],
+    "source_file": "08_Ezconfig配置案例分享 2025.2.19",
+    "keywords": "数据格式编辑 打开软件，进入数据格式编辑界面，按照图片流程设置规则：仅匹配以'SN'开头的Code128条码，其他Code128不读取；非Code128码制无限制；添加回车后缀。 EZConfig-Scanning  08_Ezconfig配置案例分享 2025.2.19 CR CRLF EZConfig-Scanning"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "降级文本版本",
+    "description": "点击链接下载 Microsoft.WindowsNotepad_10.2103.6.0_neutral_~_8wekyb3d8bbwe.msixbundle，双击文件，点击“Install”安装。注意：输出时务必将电脑输入法切换到英文下。",
+    "warnings": [
+      "输出时务必将电脑输入法切换到英文下"
+    ],
+    "product_name": "Honeywell平台扫描器",
+    "model": "19系列、14系列、33x0、HH490(OH460)",
+    "image_urls": [],
+    "source_file": "09_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一定延时)",
+    "keywords": "降级文本版本 点击链接下载 Microsoft.WindowsNotepad_10.2103.6.0_neutral_~_8wekyb3d8bbwe.msixbundle，双击文件，点击“Install”安装。注意：输出时务必将电脑输入法切换到英文下。 Honeywell平台扫描器 19系列、14系列、33x0、HH490(OH460) 09_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一定延时) Honeywell平台扫描器 19系列、14系列、33x0、HH490(OH460)"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "设置延时",
+    "description": "若降级后问题依旧，扫描文档中的延时设置码（见图片 rId6.png 和 rId5.png）以改善问题。",
+    "warnings": [],
+    "product_name": "Honeywell平台扫描器",
+    "model": "19系列、14系列、33x0、HH490(OH460)",
+    "image_urls": [
+      "http://172.24.59.194:8098/09_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一定延时)/images/rId6.png",
+      "http://172.24.59.194:8098/09_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一定延时)/images/rId5.png"
+    ],
+    "source_file": "09_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一定延时)",
+    "keywords": "设置延时 若降级后问题依旧，扫描文档中的延时设置码（见图片 rId6.png 和 rId5.png）以改善问题。 Honeywell平台扫描器 19系列、14系列、33x0、HH490(OH460) 09_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一定延时) Honeywell平台扫描器 19系列、14系列、33x0、HH490(OH460)"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "确认版本",
+    "description": "查看HF680底部标签PN，区分版本：HF680-R1-…/HF680-R0… 或 HF680-1-…/HF680-0…",
+    "warnings": [],
+    "product_name": "HF680",
+    "model": "HF680",
+    "image_urls": [
+      "http://172.24.59.194:8098/10_HF680添加回车(CR)后缀/images/rId7.png"
+    ],
+    "source_file": "10_HF680添加回车(CR)后缀",
+    "keywords": "确认版本 查看HF680底部标签PN，区分版本：HF680-R1-…/HF680-R0… 或 HF680-1-…/HF680-0… HF680 HF680 10_HF680添加回车(CR)后缀 回车 CR CRLF HF680 HF680"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "扫描配置码",
+    "description": "根据版本选择对应的配置码进行扫描：若为HF680-R1-…/HF680-R0…，扫描rId8.png中的码；若为HF680-1-…/HF680-0…，扫描rId9.png中的码。",
+    "warnings": [],
+    "product_name": "HF680",
+    "model": "HF680",
+    "image_urls": [
+      "http://172.24.59.194:8098/10_HF680添加回车(CR)后缀/images/rId8.png",
+      "http://172.24.59.194:8098/10_HF680添加回车(CR)后缀/images/rId9.png"
+    ],
+    "source_file": "10_HF680添加回车(CR)后缀",
+    "keywords": "扫描配置码 根据版本选择对应的配置码进行扫描：若为HF680-R1-…/HF680-R0…，扫描rId8.png中的码；若为HF680-1-…/HF680-0…，扫描rId9.png中的码。 HF680 HF680 10_HF680添加回车(CR)后缀 回车 CR CRLF HF680 HF680"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接扫描枪与电脑",
+    "description": "使用RS232串口线缆连接扫描枪和电脑，并外接电源。",
+    "warnings": [],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [
+      "http://172.24.59.194:8098/11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍/images/rId8.png"
+    ],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "连接扫描枪与电脑 使用RS232串口线缆连接扫描枪和电脑，并外接电源。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "恢复出厂设置",
+    "description": "扫描恢复出厂设置码。",
+    "warnings": [],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [
+      "http://172.24.59.194:8098/11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍/images/rId5.png"
+    ],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "恢复出厂设置 扫描恢复出厂设置码。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "设置串口模式",
+    "description": "扫描串口模式设置码，默认参数115200、8、1、None，含CRLF后缀。",
+    "warnings": [],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [
+      "http://172.24.59.194:8098/11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍/images/rId6.png"
+    ],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "设置串口模式 扫描串口模式设置码，默认参数115200、8、1、None，含CRLF后缀。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 回车 回车换行 换行 CR CRLF LF CRLF HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "打开串口工具并配置参数",
+    "description": "电脑端打开串口调试工具，设置与扫描枪一致的COM口参数（默认115200、8、1、None），点击开启。",
+    "warnings": [
+      "确保其他软件未占用该COM口"
+    ],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [
+      "http://172.24.59.194:8098/11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍/images/rId12.png"
+    ],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "打开串口工具并配置参数 电脑端打开串口调试工具，设置与扫描枪一致的COM口参数（默认115200、8、1、None），点击开启。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "测试基本扫描",
+    "description": "按键扫描条码，确认串口工具能接收到数据。",
+    "warnings": [],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "测试基本扫描 按键扫描条码，确认串口工具能接收到数据。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "设置手动模式（如需指令触发）",
+    "description": "若需使用串口指令触发，先扫描手动模式设置码，确保扫描枪处于手动模式。",
+    "warnings": [
+      "自动扫描模式下不支持指令触发"
+    ],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [
+      "http://172.24.59.194:8098/11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍/images/rId13.png"
+    ],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "设置手动模式（如需指令触发） 若需使用串口指令触发，先扫描手动模式设置码，确保扫描枪处于手动模式。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 7,
+    "title": "发送串口指令",
+    "description": "在串口工具中以十六进制形式发送开启触发扫描指令16540D或停止触发扫描指令16550D。",
+    "warnings": [
+      "必须发送十六进制格式"
+    ],
+    "product_name": "HH490/OH460扫描枪",
+    "model": "HH490, OH460",
+    "image_urls": [],
+    "source_file": "11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "发送串口指令 在串口工具中以十六进制形式发送开启触发扫描指令16540D或停止触发扫描指令16550D。 HH490/OH460扫描枪 HH490, OH460 11_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍 HH490/OH460扫描枪 HH490, OH460"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "确认串口通信基本功能",
+    "description": "确保HH490串口通信基本功能无误。",
+    "warnings": [],
+    "product_name": "HH490",
+    "model": "HH490",
+    "image_urls": [],
+    "source_file": "12_HH490通过发送串口指令控制’No Read’模式的开启与关闭",
+    "keywords": "确认串口通信基本功能 确保HH490串口通信基本功能无误。 HH490 HH490 12_HH490通过发送串口指令控制’No Read’模式的开启与关闭 HH490 HH490"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "查阅手册获取指令串",
+    "description": "查阅HH490手册第51页，找到'No Read'模式设置码。开启指令串为SHWNRD1.，关闭指令串为SHWNRD0.。",
+    "warnings": [],
+    "product_name": "HH490",
+    "model": "HH490",
+    "image_urls": [
+      "http://172.24.59.194:8098/12_HH490通过发送串口指令控制’No Read’模式的开启与关闭/images/rId5.png"
+    ],
+    "source_file": "12_HH490通过发送串口指令控制’No Read’模式的开启与关闭",
+    "keywords": "查阅手册获取指令串 查阅HH490手册第51页，找到'No Read'模式设置码。开启指令串为SHWNRD1.，关闭指令串为SHWNRD0.。 HH490 HH490 12_HH490通过发送串口指令控制’No Read’模式的开启与关闭 HH490 HH490"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "转换为十六进制",
+    "description": "将指令串转换为十六进制：SHWNRD1. -> 5348574E5244312E；SHWNRD0. -> 5348574E5244302E。",
+    "warnings": [],
+    "product_name": "HH490",
+    "model": "HH490",
+    "image_urls": [],
+    "source_file": "12_HH490通过发送串口指令控制’No Read’模式的开启与关闭",
+    "keywords": "转换为十六进制 将指令串转换为十六进制：SHWNRD1. -> 5348574E5244312E；SHWNRD0. -> 5348574E5244302E。 HH490 HH490 12_HH490通过发送串口指令控制’No Read’模式的开启与关闭 HH490 HH490"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "添加前缀和后缀",
+    "description": "在指令串前添加[SYN]M[CR]（十六进制16 4D 0D），后添加点（十六进制2E），组成完整指令。例如开启：164D0D5348574E5244312E。",
+    "warnings": [
+      "注意指令格式必须包含三部分：[SYN]M[CR]、功能指令串、点。"
+    ],
+    "product_name": "HH490",
+    "model": "HH490",
+    "image_urls": [],
+    "source_file": "12_HH490通过发送串口指令控制’No Read’模式的开启与关闭",
+    "keywords": "添加前缀和后缀 在指令串前添加[SYN]M[CR]（十六进制16 4D 0D），后添加点（十六进制2E），组成完整指令。例如开启：164D0D5348574E5244312E。 HH490 HH490 12_HH490通过发送串口指令控制’No Read’模式的开启与关闭 回车 CR CRLF HH490 HH490"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "通过串口软件发送指令",
+    "description": "使用串口软件发送完整十六进制指令，实现对应功能。",
+    "warnings": [],
+    "product_name": "HH490",
+    "model": "HH490",
+    "image_urls": [],
+    "source_file": "12_HH490通过发送串口指令控制’No Read’模式的开启与关闭",
+    "keywords": "通过串口软件发送指令 使用串口软件发送完整十六进制指令，实现对应功能。 HH490 HH490 12_HH490通过发送串口指令控制’No Read’模式的开启与关闭 HH490 HH490"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "方式一：在设备端手动添加回车后缀",
+    "description": "定位到添加后缀路径，输入回车格式，并设置Wedge as keys为9,10,13。",
+    "warnings": [],
+    "product_name": "安卓设备",
+    "model": "通用",
+    "image_urls": [
+      "http://172.24.59.194:8098/13_安卓设备添加回车后缀(新汇总) 2026.3.19/images/rId6.png"
+    ],
+    "source_file": "13_安卓设备添加回车后缀(新汇总) 2026.3.19",
+    "keywords": "方式一：在设备端手动添加回车后缀 定位到添加后缀路径，输入回车格式，并设置Wedge as keys为9,10,13。 安卓设备 通用 13_安卓设备添加回车后缀(新汇总) 2026.3.19 CR CRLF 安卓设备 通用"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "方式二：开启Provisioning Mode并扫描配置码",
+    "description": "点击“设置”-“Honeywell设置”-“Provisioning Mode”打开选项，然后扫描回车后缀配置码。",
+    "warnings": [],
+    "product_name": "安卓设备",
+    "model": "通用",
+    "image_urls": [
+      "http://172.24.59.194:8098/13_安卓设备添加回车后缀(新汇总) 2026.3.19/images/rId8.gif"
+    ],
+    "source_file": "13_安卓设备添加回车后缀(新汇总) 2026.3.19",
+    "keywords": "方式二：开启Provisioning Mode并扫描配置码 点击“设置”-“Honeywell设置”-“Provisioning Mode”打开选项，然后扫描回车后缀配置码。 安卓设备 通用 13_安卓设备添加回车后缀(新汇总) 2026.3.19 CR CRLF 安卓设备 通用"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "方式三：在EZconfig界面扫描配置码",
+    "description": "进入Power Tools > Ezconfig，然后在EZconfig界面扫描回车后缀配置码。",
+    "warnings": [
+      "有些老版本设备可能没有Provisioning Mode选项，可选择方式一或方式三。"
+    ],
+    "product_name": "安卓设备",
+    "model": "通用",
+    "image_urls": [
+      "http://172.24.59.194:8098/13_安卓设备添加回车后缀(新汇总) 2026.3.19/images/rId10.png"
+    ],
+    "source_file": "13_安卓设备添加回车后缀(新汇总) 2026.3.19",
+    "keywords": "方式三：在EZconfig界面扫描配置码 进入Power Tools > Ezconfig，然后在EZconfig界面扫描回车后缀配置码。 安卓设备 通用 13_安卓设备添加回车后缀(新汇总) 2026.3.19 CR CRLF 安卓设备 通用"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接扫描器",
+    "description": "使用RS232串口线缆连接扫描器和电脑，并连接外接电源。",
+    "warnings": [],
+    "product_name": "7580g扫描器",
+    "model": "7580g",
+    "image_urls": [
+      "http://172.24.59.194:8098/14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍/images/rId8.png"
+    ],
+    "source_file": "14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "连接扫描器 使用RS232串口线缆连接扫描器和电脑，并连接外接电源。 7580g扫描器 7580g 14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍 7580g扫描器 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "设置串口模式",
+    "description": "扫描串口模式设置码，将扫描器设为串口模式，默认参数115200、8、1、None。",
+    "warnings": [],
+    "product_name": "7580g扫描器",
+    "model": "7580g",
+    "image_urls": [
+      "http://172.24.59.194:8098/14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍/images/rId5.png"
+    ],
+    "source_file": "14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "设置串口模式 扫描串口模式设置码，将扫描器设为串口模式，默认参数115200、8、1、None。 7580g扫描器 7580g 14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍 7580g扫描器 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "电脑端设置串口软件",
+    "description": "打开串口调试工具，设置与扫描器相同的COM口参数（波特率、数据位、停止位、校验位），打开对应COM口。",
+    "warnings": [
+      "确保关闭其他占用该COM口的软件"
+    ],
+    "product_name": "7580g扫描器",
+    "model": "7580g",
+    "image_urls": [
+      "http://172.24.59.194:8098/14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍/images/rId12.png",
+      "http://172.24.59.194:8098/14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍/images/rId13.png"
+    ],
+    "source_file": "14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "电脑端设置串口软件 打开串口调试工具，设置与扫描器相同的COM口参数（波特率、数据位、停止位、校验位），打开对应COM口。 7580g扫描器 7580g 14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍 7580g扫描器 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试扫描输出",
+    "description": "手动按键扫描条码，检查串口软件是否接收到数据。",
+    "warnings": [],
+    "product_name": "7580g扫描器",
+    "model": "7580g",
+    "image_urls": [],
+    "source_file": "14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "测试扫描输出 手动按键扫描条码，检查串口软件是否接收到数据。 7580g扫描器 7580g 14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍 7580g扫描器 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "测试串口指令触发（可选）",
+    "description": "在手动模式下，通过串口软件发送十六进制指令16540D开启触发扫描，发送16550D停止触发扫描。",
+    "warnings": [
+      "仅支持手动模式，不支持自动扫描；指令需以十六进制形式发送"
+    ],
+    "product_name": "7580g扫描器",
+    "model": "7580g",
+    "image_urls": [],
+    "source_file": "14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍",
+    "keywords": "测试串口指令触发（可选） 在手动模式下，通过串口软件发送十六进制指令16540D开启触发扫描，发送16550D停止触发扫描。 7580g扫描器 7580g 14_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍 7580g扫描器 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证USB基本通信",
+    "description": "确认扫描枪与电脑连接，扫描恢复出厂+设置USB键盘口码，然后在记事本中扫描测试码，确认有输出。若已有输出则跳过此步。",
+    "warnings": [
+      "若当前扫描某些二维码后有输出，则通信正常，可跳过此步。"
+    ],
+    "product_name": "7580g",
+    "model": "7580g",
+    "image_urls": [
+      "http://172.24.59.194:8098/15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21/images/rId5.png"
+    ],
+    "source_file": "15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21",
+    "keywords": "验证USB基本通信 确认扫描枪与电脑连接，扫描恢复出厂+设置USB键盘口码，然后在记事本中扫描测试码，确认有输出。若已有输出则跳过此步。 7580g 7580g 15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21 7580g 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "安装USB虚拟串口驱动",
+    "description": "下载HSM USB Serial Driver version 3.5.38_signed_(NOWHQL)，解压后右键管理员运行setup.bat，按提示安装。",
+    "warnings": [],
+    "product_name": "7580g",
+    "model": "7580g",
+    "image_urls": [],
+    "source_file": "15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21",
+    "keywords": "安装USB虚拟串口驱动 下载HSM USB Serial Driver version 3.5.38_signed_(NOWHQL)，解压后右键管理员运行setup.bat，按提示安装。 7580g 7580g 15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21 7580g 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描USB转串口码",
+    "description": "驱动安装后，扫描USB转串口码，将USB口转为串口。",
+    "warnings": [],
+    "product_name": "7580g",
+    "model": "7580g",
+    "image_urls": [
+      "http://172.24.59.194:8098/15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21/images/rId7.png"
+    ],
+    "source_file": "15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21",
+    "keywords": "扫描USB转串口码 驱动安装后，扫描USB转串口码，将USB口转为串口。 7580g 7580g 15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21 7580g 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "检查COM口",
+    "description": "在设备管理器中查看端口，确认出现新的COM口。",
+    "warnings": [],
+    "product_name": "7580g",
+    "model": "7580g",
+    "image_urls": [
+      "http://172.24.59.194:8098/15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21/images/rId8.png"
+    ],
+    "source_file": "15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21",
+    "keywords": "检查COM口 在设备管理器中查看端口，确认出现新的COM口。 7580g 7580g 15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21 7580g 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "配置串口转文本插件",
+    "description": "下载并运行SerialUSB-COM Tool_V4.5.4，选择对应的COM口，传输编码选AUTO，点击连接。",
+    "warnings": [],
+    "product_name": "7580g",
+    "model": "7580g",
+    "image_urls": [],
+    "source_file": "15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21",
+    "keywords": "配置串口转文本插件 下载并运行SerialUSB-COM Tool_V4.5.4，选择对应的COM口，传输编码选AUTO，点击连接。 7580g 7580g 15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21 7580g 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "测试中文二维码",
+    "description": "打开记事本，光标定位，输入法切换英文，扫描中文二维码，确认数据输出到记事本。",
+    "warnings": [],
+    "product_name": "7580g",
+    "model": "7580g",
+    "image_urls": [],
+    "source_file": "15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21",
+    "keywords": "测试中文二维码 打开记事本，光标定位，输入法切换英文，扫描中文二维码，确认数据输出到记事本。 7580g 7580g 15_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.21 7580g 7580g"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "选择校验位处理方式",
+    "description": "根据需求选择No Check Digit、Validate but do not Transmit或Validate and Transmit。",
+    "warnings": [],
+    "product_name": "扫描枪",
+    "model": "19xx, 14xx, 7680",
+    "image_urls": [
+      "http://172.24.59.194:8098/16_针对Interleaved 2 of 5 校验位(Check Digit)的设置/images/rId8.png",
+      "http://172.24.59.194:8098/16_针对Interleaved 2 of 5 校验位(Check Digit)的设置/images/rId7.png",
+      "http://172.24.59.194:8098/16_针对Interleaved 2 of 5 校验位(Check Digit)的设置/images/rId6.png",
+      "http://172.24.59.194:8098/16_针对Interleaved 2 of 5 校验位(Check Digit)的设置/images/rId5.png",
+      "http://172.24.59.194:8098/16_针对Interleaved 2 of 5 校验位(Check Digit)的设置/images/rId4.png"
+    ],
+    "source_file": "16_针对Interleaved 2 of 5 校验位(Check Digit)的设置",
+    "keywords": "选择校验位处理方式 根据需求选择No Check Digit、Validate but do not Transmit或Validate and Transmit。 扫描枪 19xx, 14xx, 7680 16_针对Interleaved 2 of 5 校验位(Check Digit)的设置 扫描枪 19xx, 14xx, 7680"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "查询ASCII表",
+    "description": "确认需要添加的后缀字符对应的十进制数，例如逗号对应44。",
+    "warnings": [],
+    "product_name": "SC2800",
+    "model": "SC2800",
+    "image_urls": [
+      "http://172.24.59.194:8098/17_SC2800添加自定义后缀：逗号（,）/images/rId15.emf"
+    ],
+    "source_file": "17_SC2800添加自定义后缀：逗号（,）",
+    "keywords": "查询ASCII表 确认需要添加的后缀字符对应的十进制数，例如逗号对应44。 SC2800 SC2800 17_SC2800添加自定义后缀：逗号（,） SC2800 SC2800"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "扫描进入设置码",
+    "description": "扫描进入设置码以进入配置模式。",
+    "warnings": [],
+    "product_name": "SC2800",
+    "model": "SC2800",
+    "image_urls": [
+      "http://172.24.59.194:8098/17_SC2800添加自定义后缀：逗号（,）/images/rId5.png"
+    ],
+    "source_file": "17_SC2800添加自定义后缀：逗号（,）",
+    "keywords": "扫描进入设置码 扫描进入设置码以进入配置模式。 SC2800 SC2800 17_SC2800添加自定义后缀：逗号（,） SC2800 SC2800"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描添加第一个后缀设置码",
+    "description": "扫描添加第一个后缀的设置码。",
+    "warnings": [],
+    "product_name": "SC2800",
+    "model": "SC2800",
+    "image_urls": [
+      "http://172.24.59.194:8098/17_SC2800添加自定义后缀：逗号（,）/images/rId6.png"
+    ],
+    "source_file": "17_SC2800添加自定义后缀：逗号（,）",
+    "keywords": "扫描添加第一个后缀设置码 扫描添加第一个后缀的设置码。 SC2800 SC2800 17_SC2800添加自定义后缀：逗号（,） SC2800 SC2800"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "依次扫描三个数字码",
+    "description": "扫描代表十进制数的数字码，例如逗号需要扫描数字4两次（44）。",
+    "warnings": [],
+    "product_name": "SC2800",
+    "model": "SC2800",
+    "image_urls": [
+      "http://172.24.59.194:8098/17_SC2800添加自定义后缀：逗号（,）/images/rId7.png",
+      "http://172.24.59.194:8098/17_SC2800添加自定义后缀：逗号（,）/images/rId8.png"
+    ],
+    "source_file": "17_SC2800添加自定义后缀：逗号（,）",
+    "keywords": "依次扫描三个数字码 扫描代表十进制数的数字码，例如逗号需要扫描数字4两次（44）。 SC2800 SC2800 17_SC2800添加自定义后缀：逗号（,） SC2800 SC2800"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "扫描退出设置码",
+    "description": "扫描退出设置码以保存配置并退出。",
+    "warnings": [],
+    "product_name": "SC2800",
+    "model": "SC2800",
+    "image_urls": [
+      "http://172.24.59.194:8098/17_SC2800添加自定义后缀：逗号（,）/images/rId9.emf"
+    ],
+    "source_file": "17_SC2800添加自定义后缀：逗号（,）",
+    "keywords": "扫描退出设置码 扫描退出设置码以保存配置并退出。 SC2800 SC2800 17_SC2800添加自定义后缀：逗号（,） SC2800 SC2800"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "USB连接基本通信验证",
+    "description": "1. 连接33x0g USB线缆到电脑，按键出光，扫描恢复出厂码。\n2. 打开记事本，光标定位，输入法英文，扫描测试码确认输出。\n3. 如需自动换行，扫描添加回车后缀码。",
+    "warnings": [],
+    "product_name": "33x0g扫描枪",
+    "model": "33x0g",
+    "image_urls": [
+      "http://172.24.59.194:8098/19_33x0g基本使用说明/images/rId5.png",
+      "http://172.24.59.194:8098/19_33x0g基本使用说明/images/rId6.png",
+      "http://172.24.59.194:8098/19_33x0g基本使用说明/images/rId7.png"
+    ],
+    "source_file": "19_33x0g基本使用说明",
+    "keywords": "USB连接基本通信验证 1. 连接33x0g USB线缆到电脑，按键出光，扫描恢复出厂码。\n2. 打开记事本，光标定位，输入法英文，扫描测试码确认输出。\n3. 如需自动换行，扫描添加回车后缀码。 33x0g扫描枪 33x0g 19_33x0g基本使用说明 CR CRLF LF CRLF 33x0g扫描枪 33x0g"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "串口连接基本通信验证",
+    "description": "1. 连接串口线缆和电源。\n2. 扫描串口模式设置码（默认115200、8、1、None）。\n3. 电脑打开串口工具，设置相同参数，打开com口，按键扫描确认接收数据。",
+    "warnings": [
+      "串口软件参数需与扫描枪一致",
+      "关闭其他占用串口的软件"
+    ],
+    "product_name": "33x0g扫描枪",
+    "model": "33x0g",
+    "image_urls": [
+      "http://172.24.59.194:8098/19_33x0g基本使用说明/images/rId8.png",
+      "http://172.24.59.194:8098/19_33x0g基本使用说明/images/rId13.png"
+    ],
+    "source_file": "19_33x0g基本使用说明",
+    "keywords": "串口连接基本通信验证 1. 连接串口线缆和电源。\n2. 扫描串口模式设置码（默认115200、8、1、None）。\n3. 电脑打开串口工具，设置相同参数，打开com口，按键扫描确认接收数据。 33x0g扫描枪 33x0g 19_33x0g基本使用说明 33x0g扫描枪 33x0g"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "开启EIO功能",
+    "description": "扫描EIO开启码（见图片rId8.png）将EIO开启。",
+    "warnings": [],
+    "product_name": "Vuquest 3320g",
+    "model": "3320g",
+    "image_urls": [
+      "http://172.24.59.194:8098/20_3320g EIO功能/images/rId8.png"
+    ],
+    "source_file": "20_3320g EIO功能",
+    "keywords": "开启EIO功能 扫描EIO开启码（见图片rId8.png）将EIO开启。 Vuquest 3320g 3320g 20_3320g EIO功能 Vuquest 3320g 3320g"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "测试EIO状态",
+    "description": "扫描测试码（见图片rId10.png），查看串口软件输出是否显示'EIO enabled'。",
+    "warnings": [],
+    "product_name": "Vuquest 3320g",
+    "model": "3320g",
+    "image_urls": [
+      "http://172.24.59.194:8098/20_3320g EIO功能/images/rId10.png"
+    ],
+    "source_file": "20_3320g EIO功能",
+    "keywords": "测试EIO状态 扫描测试码（见图片rId10.png），查看串口软件输出是否显示'EIO enabled'。 Vuquest 3320g 3320g 20_3320g EIO功能 Vuquest 3320g 3320g"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "购买许可和线缆",
+    "description": "如果未显示EIO激活，需购买EIO许可（SKU: SW-EIO-33XX）和EIO线缆（52-52561-3-FR或52-52562-3-FR）。",
+    "warnings": [
+      "许可与设备SN一一对应"
+    ],
+    "product_name": "Vuquest 3320g",
+    "model": "3320g",
+    "image_urls": [],
+    "source_file": "20_3320g EIO功能",
+    "keywords": "购买许可和线缆 如果未显示EIO激活，需购买EIO许可（SKU: SW-EIO-33XX）和EIO线缆（52-52561-3-FR或52-52562-3-FR）。 Vuquest 3320g 3320g 20_3320g EIO功能 Vuquest 3320g 3320g"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接硬件",
+    "description": "确认串口线缆及外接电源连接完毕，参考连接示意图。",
+    "warnings": [],
+    "product_name": "7120-2D扫描器",
+    "model": "7120-2D",
+    "image_urls": [
+      "http://172.24.59.194:8098/21_7120-2D扫描器串口连接下基本通信说明/images/rId8.png",
+      "http://172.24.59.194:8098/21_7120-2D扫描器串口连接下基本通信说明/images/rId6.png"
+    ],
+    "source_file": "21_7120-2D扫描器串口连接下基本通信说明",
+    "keywords": "连接硬件 确认串口线缆及外接电源连接完毕，参考连接示意图。 7120-2D扫描器 7120-2D 21_7120-2D扫描器串口连接下基本通信说明 7120-2D扫描器 7120-2D"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "设置串口模式",
+    "description": "扫描串口模式设置码，将扫描器切换到串口模式。",
+    "warnings": [],
+    "product_name": "7120-2D扫描器",
+    "model": "7120-2D",
+    "image_urls": [
+      "http://172.24.59.194:8098/21_7120-2D扫描器串口连接下基本通信说明/images/rId5.png"
+    ],
+    "source_file": "21_7120-2D扫描器串口连接下基本通信说明",
+    "keywords": "设置串口模式 扫描串口模式设置码，将扫描器切换到串口模式。 7120-2D扫描器 7120-2D 21_7120-2D扫描器串口连接下基本通信说明 7120-2D扫描器 7120-2D"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "配置电脑串口工具",
+    "description": "打开串口调试工具，设置COM口参数与扫描器一致（默认115200、8、1、None）。点击“开启”按钮打开COM口。",
+    "warnings": [
+      "确保关闭其他占用串口的软件"
+    ],
+    "product_name": "7120-2D扫描器",
+    "model": "7120-2D",
+    "image_urls": [
+      "http://172.24.59.194:8098/21_7120-2D扫描器串口连接下基本通信说明/images/rId10.png"
+    ],
+    "source_file": "21_7120-2D扫描器串口连接下基本通信说明",
+    "keywords": "配置电脑串口工具 打开串口调试工具，设置COM口参数与扫描器一致（默认115200、8、1、None）。点击“开启”按钮打开COM口。 7120-2D扫描器 7120-2D 21_7120-2D扫描器串口连接下基本通信说明 7120-2D扫描器 7120-2D"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试通信",
+    "description": "扫描条码，观察串口工具是否接收到数据。",
+    "warnings": [],
+    "product_name": "7120-2D扫描器",
+    "model": "7120-2D",
+    "image_urls": [],
+    "source_file": "21_7120-2D扫描器串口连接下基本通信说明",
+    "keywords": "测试通信 扫描条码，观察串口工具是否接收到数据。 7120-2D扫描器 7120-2D 21_7120-2D扫描器串口连接下基本通信说明 7120-2D扫描器 7120-2D"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接扫描枪",
+    "description": "将7680g通过USB线缆连接到电脑的USB口，连接成功后扫描枪会发出上电提示音并出光。",
+    "warnings": [],
+    "product_name": "7680g",
+    "model": "7680g",
+    "image_urls": [],
+    "source_file": "22_7680g USB线缆连接下，USB键盘口基本使用说明",
+    "keywords": "连接扫描枪 将7680g通过USB线缆连接到电脑的USB口，连接成功后扫描枪会发出上电提示音并出光。 7680g 7680g 22_7680g USB线缆连接下，USB键盘口基本使用说明 7680g 7680g"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "恢复出厂设置",
+    "description": "扫描恢复出厂码（参考图片rId8.png）。",
+    "warnings": [],
+    "product_name": "7680g",
+    "model": "7680g",
+    "image_urls": [
+      "http://172.24.59.194:8098/22_7680g USB线缆连接下，USB键盘口基本使用说明/images/rId8.png"
+    ],
+    "source_file": "22_7680g USB线缆连接下，USB键盘口基本使用说明",
+    "keywords": "恢复出厂设置 扫描恢复出厂码（参考图片rId8.png）。 7680g 7680g 22_7680g USB线缆连接下，USB键盘口基本使用说明 7680g 7680g"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "测试输出",
+    "description": "打开记事本，将光标定位，切换电脑输入法到英文，依次扫描测试码（参考图片rId6.png），确认文本端输出正常。",
+    "warnings": [
+      "确保输入法为英文"
+    ],
+    "product_name": "7680g",
+    "model": "7680g",
+    "image_urls": [
+      "http://172.24.59.194:8098/22_7680g USB线缆连接下，USB键盘口基本使用说明/images/rId6.png"
+    ],
+    "source_file": "22_7680g USB线缆连接下，USB键盘口基本使用说明",
+    "keywords": "测试输出 打开记事本，将光标定位，切换电脑输入法到英文，依次扫描测试码（参考图片rId6.png），确认文本端输出正常。 7680g 7680g 22_7680g USB线缆连接下，USB键盘口基本使用说明 7680g 7680g"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "启用自动换行（可选）",
+    "description": "如需扫描后自动换行，扫描自动换行码（参考图片rId5.png）。",
+    "warnings": [],
+    "product_name": "7680g",
+    "model": "7680g",
+    "image_urls": [
+      "http://172.24.59.194:8098/22_7680g USB线缆连接下，USB键盘口基本使用说明/images/rId5.png"
+    ],
+    "source_file": "22_7680g USB线缆连接下，USB键盘口基本使用说明",
+    "keywords": "启用自动换行（可选） 如需扫描后自动换行，扫描自动换行码（参考图片rId5.png）。 7680g 7680g 22_7680g USB线缆连接下，USB键盘口基本使用说明 LF CRLF 7680g 7680g"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "扫描进入设置",
+    "description": "扫描“进入设置”码",
+    "warnings": [],
+    "product_name": "OH350x",
+    "model": "OH350x",
+    "image_urls": [
+      "http://172.24.59.194:8098/24_OH350x设置隐藏首尾数据位/images/rId10.png"
+    ],
+    "source_file": "24_OH350x设置隐藏首尾数据位",
+    "keywords": "扫描进入设置 扫描“进入设置”码 OH350x OH350x 24_OH350x设置隐藏首尾数据位 OH350x OH350x"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "扫描隐藏设置码",
+    "description": "扫描“隐藏开始数据位/字符串”或“隐藏末尾数据位/字符串”设置码",
+    "warnings": [],
+    "product_name": "OH350x",
+    "model": "OH350x",
+    "image_urls": [
+      "http://172.24.59.194:8098/24_OH350x设置隐藏首尾数据位/images/rId8.png",
+      "http://172.24.59.194:8098/24_OH350x设置隐藏首尾数据位/images/rId7.png"
+    ],
+    "source_file": "24_OH350x设置隐藏首尾数据位",
+    "keywords": "扫描隐藏设置码 扫描“隐藏开始数据位/字符串”或“隐藏末尾数据位/字符串”设置码 OH350x OH350x 24_OH350x设置隐藏首尾数据位 OH350x OH350x"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "选择需要隐藏的位数",
+    "description": "根据需求选择隐藏的位数",
+    "warnings": [],
+    "product_name": "OH350x",
+    "model": "OH350x",
+    "image_urls": [],
+    "source_file": "24_OH350x设置隐藏首尾数据位",
+    "keywords": "选择需要隐藏的位数 根据需求选择隐藏的位数 OH350x OH350x 24_OH350x设置隐藏首尾数据位 OH350x OH350x"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "扫描退出设置",
+    "description": "扫描“退出设置”码",
+    "warnings": [],
+    "product_name": "OH350x",
+    "model": "OH350x",
+    "image_urls": [
+      "http://172.24.59.194:8098/24_OH350x设置隐藏首尾数据位/images/rId9.png"
+    ],
+    "source_file": "24_OH350x设置隐藏首尾数据位",
+    "keywords": "扫描退出设置 扫描“退出设置”码 OH350x OH350x 24_OH350x设置隐藏首尾数据位 OH350x OH350x"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接USB线缆并确认出光",
+    "description": "将OH430 USB线缆连接到电脑端，按键确认出光，且电脑端无提示“USB设备无法识别”。",
+    "warnings": [],
+    "product_name": "OH430(1.0模组)",
+    "model": "OH430",
+    "image_urls": [],
+    "source_file": "25_OH430(1.0模组) USB线缆连接下基本使用说明",
+    "keywords": "连接USB线缆并确认出光 将OH430 USB线缆连接到电脑端，按键确认出光，且电脑端无提示“USB设备无法识别”。 OH430(1.0模组) OH430 25_OH430(1.0模组) USB线缆连接下基本使用说明 OH430(1.0模组) OH430"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "执行恢复出厂和USB键盘口设置",
+    "description": "依次扫描恢复出厂设置码和USB键盘口码。",
+    "warnings": [],
+    "product_name": "OH430(1.0模组)",
+    "model": "OH430",
+    "image_urls": [
+      "http://172.24.59.194:8098/25_OH430(1.0模组) USB线缆连接下基本使用说明/images/rId5.png",
+      "http://172.24.59.194:8098/25_OH430(1.0模组) USB线缆连接下基本使用说明/images/rId6.png"
+    ],
+    "source_file": "25_OH430(1.0模组) USB线缆连接下基本使用说明",
+    "keywords": "执行恢复出厂和USB键盘口设置 依次扫描恢复出厂设置码和USB键盘口码。 OH430(1.0模组) OH430 25_OH430(1.0模组) USB线缆连接下基本使用说明 OH430(1.0模组) OH430"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "验证USB键盘口通信",
+    "description": "在电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描测试输出码，观察输出情况。若输出无误，则说明USB键盘口正常，基本通信正常。",
+    "warnings": [],
+    "product_name": "OH430(1.0模组)",
+    "model": "OH430",
+    "image_urls": [
+      "http://172.24.59.194:8098/25_OH430(1.0模组) USB线缆连接下基本使用说明/images/rId7.png"
+    ],
+    "source_file": "25_OH430(1.0模组) USB线缆连接下基本使用说明",
+    "keywords": "验证USB键盘口通信 在电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描测试输出码，观察输出情况。若输出无误，则说明USB键盘口正常，基本通信正常。 OH430(1.0模组) OH430 25_OH430(1.0模组) USB线缆连接下基本使用说明 OH430(1.0模组) OH430"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "扫描恢复出厂码",
+    "description": "扫描第一个码（rId4.png）以恢复出厂设置。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(1.0模组)",
+    "image_urls": [
+      "http://172.24.59.194:8098/26_OH430(1.0模组)恢复出厂、配置USB接口/images/rId4.png"
+    ],
+    "source_file": "26_OH430(1.0模组)恢复出厂、配置USB接口",
+    "keywords": "扫描恢复出厂码 扫描第一个码（rId4.png）以恢复出厂设置。 OH430 OH430(1.0模组) 26_OH430(1.0模组)恢复出厂、配置USB接口 OH430 OH430(1.0模组)"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "扫描重置USB键盘口码",
+    "description": "扫描第二个码（rId5.png）以配置USB接口为键盘口。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(1.0模组)",
+    "image_urls": [
+      "http://172.24.59.194:8098/26_OH430(1.0模组)恢复出厂、配置USB接口/images/rId5.png"
+    ],
+    "source_file": "26_OH430(1.0模组)恢复出厂、配置USB接口",
+    "keywords": "扫描重置USB键盘口码 扫描第二个码（rId5.png）以配置USB接口为键盘口。 OH430 OH430(1.0模组) 26_OH430(1.0模组)恢复出厂、配置USB接口 OH430 OH430(1.0模组)"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描第三个码",
+    "description": "扫描第三个码（rId6.png）以执行恢复出厂+重置USB键盘口。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(1.0模组)",
+    "image_urls": [
+      "http://172.24.59.194:8098/26_OH430(1.0模组)恢复出厂、配置USB接口/images/rId6.png"
+    ],
+    "source_file": "26_OH430(1.0模组)恢复出厂、配置USB接口",
+    "keywords": "扫描第三个码 扫描第三个码（rId6.png）以执行恢复出厂+重置USB键盘口。 OH430 OH430(1.0模组) 26_OH430(1.0模组)恢复出厂、配置USB接口 OH430 OH430(1.0模组)"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "进入设置",
+    "description": "进入设备的设置界面。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(SN前三位24H)",
+    "image_urls": [
+      "http://172.24.59.194:8098/27_OH430(SN前三位24H)添加CRLF后缀/images/rId4.png"
+    ],
+    "source_file": "27_OH430(SN前三位24H)添加CRLF后缀",
+    "keywords": "进入设置 进入设备的设置界面。 OH430 OH430(SN前三位24H) 27_OH430(SN前三位24H)添加CRLF后缀 回车 回车换行 换行 CR CRLF LF CRLF OH430 OH430(SN前三位24H)"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "删除所有后缀",
+    "description": "删除原有CR后缀。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(SN前三位24H)",
+    "image_urls": [
+      "http://172.24.59.194:8098/27_OH430(SN前三位24H)添加CRLF后缀/images/rId5.png"
+    ],
+    "source_file": "27_OH430(SN前三位24H)添加CRLF后缀",
+    "keywords": "删除所有后缀 删除原有CR后缀。 OH430 OH430(SN前三位24H) 27_OH430(SN前三位24H)添加CRLF后缀 回车 回车换行 换行 CR CRLF LF CRLF OH430 OH430(SN前三位24H)"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "添加CRLF后缀",
+    "description": "添加CRLF后缀。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(SN前三位24H)",
+    "image_urls": [
+      "http://172.24.59.194:8098/27_OH430(SN前三位24H)添加CRLF后缀/images/rId6.png"
+    ],
+    "source_file": "27_OH430(SN前三位24H)添加CRLF后缀",
+    "keywords": "添加CRLF后缀 添加CRLF后缀。 OH430 OH430(SN前三位24H) 27_OH430(SN前三位24H)添加CRLF后缀 回车 回车换行 换行 CR CRLF LF CRLF OH430 OH430(SN前三位24H)"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "退出设置",
+    "description": "退出设置界面。",
+    "warnings": [],
+    "product_name": "OH430",
+    "model": "OH430(SN前三位24H)",
+    "image_urls": [
+      "http://172.24.59.194:8098/27_OH430(SN前三位24H)添加CRLF后缀/images/rId7.png"
+    ],
+    "source_file": "27_OH430(SN前三位24H)添加CRLF后缀",
+    "keywords": "退出设置 退出设置界面。 OH430 OH430(SN前三位24H) 27_OH430(SN前三位24H)添加CRLF后缀 回车 回车换行 换行 CR CRLF LF CRLF OH430 OH430(SN前三位24H)"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "准备工作",
+    "description": "将扫描枪、USB线缆、USB接收器都拔掉，独立放置待用。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "准备工作 将扫描枪、USB线缆、USB接收器都拔掉，独立放置待用。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "无线功能验证 - 进入设置模式",
+    "description": "扫描进入设置模式、进入正常模式。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "无线功能验证 - 进入设置模式 扫描进入设置模式、进入正常模式。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "无线功能验证 - 强制对码",
+    "description": "扫描强制与接收器对码。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "无线功能验证 - 强制对码 扫描强制与接收器对码。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "无线功能验证 - 插入接收器",
+    "description": "将USB接收器插入电脑USB口，等待5~8秒听到“滴”声表示配对成功。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [
+      "http://172.24.59.194:8098/29_OH4502(SN前四位2508)基本功能验证 2025.4.9/images/rId8.png"
+    ],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "无线功能验证 - 插入接收器 将USB接收器插入电脑USB口，等待5~8秒听到“滴”声表示配对成功。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "无线功能验证 - 测试输出",
+    "description": "打开文本文档，输入法切换英文，扫描条码，确认文本中是否有信息显示。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "无线功能验证 - 测试输出 打开文本文档，输入法切换英文，扫描条码，确认文本中是否有信息显示。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "有线功能验证 - 连接",
+    "description": "拔掉接收器，用标配USB线缆将扫描枪连接到电脑USB口（尽量接主机USB口）。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "有线功能验证 - 连接 拔掉接收器，用标配USB线缆将扫描枪连接到电脑USB口（尽量接主机USB口）。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 7,
+    "title": "有线功能验证 - 测试输出",
+    "description": "扫描进入正常模式，打开文本文档，输入法切换英文，扫描条码测试输出。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "有线功能验证 - 测试输出 扫描进入正常模式，打开文本文档，输入法切换英文，扫描条码测试输出。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 8,
+    "title": "恢复出厂设置",
+    "description": "依次扫描三个条码（具体码值见文档图片）。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [
+      "http://172.24.59.194:8098/29_OH4502(SN前四位2508)基本功能验证 2025.4.9/images/rId15.png"
+    ],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "恢复出厂设置 依次扫描三个条码（具体码值见文档图片）。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 9,
+    "title": "设置连续扫描模式",
+    "description": "依次扫描三个条码（具体码值见文档图片）。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [
+      "http://172.24.59.194:8098/29_OH4502(SN前四位2508)基本功能验证 2025.4.9/images/rId15.png"
+    ],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "设置连续扫描模式 依次扫描三个条码（具体码值见文档图片）。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 10,
+    "title": "调整扫描间隔（可选）",
+    "description": "若需要调整扫描间隔，扫描对应的间隔条码。",
+    "warnings": [],
+    "product_name": "OH4502",
+    "model": "OH4502 (SN前四位2508)",
+    "image_urls": [
+      "http://172.24.59.194:8098/29_OH4502(SN前四位2508)基本功能验证 2025.4.9/images/rId15.png"
+    ],
+    "source_file": "29_OH4502(SN前四位2508)基本功能验证 2025.4.9",
+    "keywords": "调整扫描间隔（可选） 若需要调整扫描间隔，扫描对应的间隔条码。 OH4502 OH4502 (SN前四位2508) 29_OH4502(SN前四位2508)基本功能验证 2025.4.9 OH4502 OH4502 (SN前四位2508)"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "开启设置",
+    "description": "扫描开启设置的配置码",
+    "warnings": [],
+    "product_name": "OH4503",
+    "model": "OH4503",
+    "image_urls": [
+      "http://172.24.59.194:8098/30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)/images/rId9.png"
+    ],
+    "source_file": "30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)",
+    "keywords": "开启设置 扫描开启设置的配置码 OH4503 OH4503 30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车) 回车 CR CRLF OH4503 OH4503"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "取消自带的回车",
+    "description": "扫描取消自带回车的配置码",
+    "warnings": [
+      "OH450x自带回车后缀，设置其他后缀前需取消自带回车，避免格式冲突"
+    ],
+    "product_name": "OH4503",
+    "model": "OH4503",
+    "image_urls": [
+      "http://172.24.59.194:8098/30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)/images/rId7.png"
+    ],
+    "source_file": "30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)",
+    "keywords": "取消自带的回车 扫描取消自带回车的配置码 OH4503 OH4503 30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车) 回车 CR CRLF OH4503 OH4503"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描自定义后缀配置码",
+    "description": "按顺序从左到右扫描自定义后缀CRCR的配置码",
+    "warnings": [
+      "本文设置适用于SN前四位2110及以上"
+    ],
+    "product_name": "OH4503",
+    "model": "OH4503",
+    "image_urls": [
+      "http://172.24.59.194:8098/30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)/images/rId8.png"
+    ],
+    "source_file": "30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)",
+    "keywords": "扫描自定义后缀配置码 按顺序从左到右扫描自定义后缀CRCR的配置码 OH4503 OH4503 30_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车) 回车 CR CRLF OH4503 OH4503"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "插入U盘",
+    "description": "将U盘插入打印机（最好使用8G以下内存U盘）。",
+    "warnings": [],
+    "product_name": "Fiji平台打印机",
+    "model": "RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940",
+    "image_urls": [],
+    "source_file": "31_Fiji平台打印机通过发送打印指令抓取打印日志",
+    "keywords": "插入U盘 将U盘插入打印机（最好使用8G以下内存U盘）。 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940 31_Fiji平台打印机通过发送打印指令抓取打印日志 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "打开发送命令界面",
+    "description": "在电脑控制面板>设备和打印机，找到当前打印机图标，选择\"打印机属性\">\"工具\">\"操作\">\"发送打印机命令...\"。",
+    "warnings": [],
+    "product_name": "Fiji平台打印机",
+    "model": "RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940",
+    "image_urls": [
+      "http://172.24.59.194:8098/31_Fiji平台打印机通过发送打印指令抓取打印日志/images/rId6.png",
+      "http://172.24.59.194:8098/31_Fiji平台打印机通过发送打印指令抓取打印日志/images/rId5.png"
+    ],
+    "source_file": "31_Fiji平台打印机通过发送打印指令抓取打印日志",
+    "keywords": "打开发送命令界面 在电脑控制面板>设备和打印机，找到当前打印机图标，选择\"打印机属性\">\"工具\">\"操作\">\"发送打印机命令...\"。 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940 31_Fiji平台打印机通过发送打印指令抓取打印日志 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "发送开启抓取指令",
+    "description": "发送指令 SYSVAR(82)=2（注意后面再敲入一回车）。",
+    "warnings": [
+      "仅Direct Protocol语言支持开启该功能。"
+    ],
+    "product_name": "Fiji平台打印机",
+    "model": "RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940",
+    "image_urls": [],
+    "source_file": "31_Fiji平台打印机通过发送打印指令抓取打印日志",
+    "keywords": "发送开启抓取指令 发送指令 SYSVAR(82)=2（注意后面再敲入一回车）。 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940 31_Fiji平台打印机通过发送打印指令抓取打印日志 CR CRLF Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "发送打印任务",
+    "description": "发送需要抓取日志的打印任务。",
+    "warnings": [],
+    "product_name": "Fiji平台打印机",
+    "model": "RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940",
+    "image_urls": [],
+    "source_file": "31_Fiji平台打印机通过发送打印指令抓取打印日志",
+    "keywords": "发送打印任务 发送需要抓取日志的打印任务。 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940 31_Fiji平台打印机通过发送打印指令抓取打印日志 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "停止抓取（如需要）",
+    "description": "若出现漏打情况，继续按以上第3步，发送指令 SYSVAR(82)=0（同样注意，输入指令后再敲入一回车）。",
+    "warnings": [],
+    "product_name": "Fiji平台打印机",
+    "model": "RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940",
+    "image_urls": [],
+    "source_file": "31_Fiji平台打印机通过发送打印指令抓取打印日志",
+    "keywords": "停止抓取（如需要） 若出现漏打情况，继续按以上第3步，发送指令 SYSVAR(82)=0（同样注意，输入指令后再敲入一回车）。 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940 31_Fiji平台打印机通过发送打印指令抓取打印日志 CR CRLF Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "取下U盘查看日志",
+    "description": "取下U盘查看log，U盘中将生成lineanalyzer.dat文件。",
+    "warnings": [
+      "打印机关机或者重启后，需重复上面的步骤（重新发送打印指令）。"
+    ],
+    "product_name": "Fiji平台打印机",
+    "model": "RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940",
+    "image_urls": [],
+    "source_file": "31_Fiji平台打印机通过发送打印指令抓取打印日志",
+    "keywords": "取下U盘查看日志 取下U盘查看log，U盘中将生成lineanalyzer.dat文件。 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940 31_Fiji平台打印机通过发送打印指令抓取打印日志 Fiji平台打印机 RP2F, RP4F, PX240, PD45, PC42T, PC42D, PC42E, PC300T, PC310T, PC43, PC45, PD43, PX4E, PX6E, PX45, PX65, PM43, PM45, PM65, PX940"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "PM42（按键版）查看固件版本",
+    "description": "打印机待机桌面，按向上的方向键，再按向左的方向键选中打印机信息图标，最后按确定键。",
+    "warnings": [],
+    "product_name": "PM42 PM43",
+    "model": "PM42, PM43",
+    "image_urls": [
+      "http://172.24.59.194:8098/32_PM42 PM43查看固件版本/images/rId5.png"
+    ],
+    "source_file": "32_PM42 PM43查看固件版本",
+    "keywords": "PM42（按键版）查看固件版本 打印机待机桌面，按向上的方向键，再按向左的方向键选中打印机信息图标，最后按确定键。 PM42 PM43 PM42, PM43 32_PM42 PM43查看固件版本 PM42 PM43 PM42, PM43"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "PM43（触摸屏）查看固件版本",
+    "description": "在打印机待机桌面，通过触摸屏操作进入打印机信息界面查看。",
+    "warnings": [],
+    "product_name": "PM42 PM43",
+    "model": "PM42, PM43",
+    "image_urls": [
+      "http://172.24.59.194:8098/32_PM42 PM43查看固件版本/images/rId4.png"
+    ],
+    "source_file": "32_PM42 PM43查看固件版本",
+    "keywords": "PM43（触摸屏）查看固件版本 在打印机待机桌面，通过触摸屏操作进入打印机信息界面查看。 PM42 PM43 PM42, PM43 32_PM42 PM43查看固件版本 PM42 PM43 PM42, PM43"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "进入设置菜单",
+    "description": "在打印机主界面，点击或选择“设置”选项。",
+    "warnings": [],
+    "product_name": "PM45、PX240等打印机",
+    "model": "PM45, PX240",
+    "image_urls": [],
+    "source_file": "33_PM45、PX240等打印机设置系统界面显示语言",
+    "keywords": "进入设置菜单 在打印机主界面，点击或选择“设置”选项。 PM45、PX240等打印机 PM45, PX240 33_PM45、PX240等打印机设置系统界面显示语言 PM45、PX240等打印机 PM45, PX240"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "进入系统设置",
+    "description": "在设置菜单中，选择“系统设置”。",
+    "warnings": [],
+    "product_name": "PM45、PX240等打印机",
+    "model": "PM45, PX240",
+    "image_urls": [],
+    "source_file": "33_PM45、PX240等打印机设置系统界面显示语言",
+    "keywords": "进入系统设置 在设置菜单中，选择“系统设置”。 PM45、PX240等打印机 PM45, PX240 33_PM45、PX240等打印机设置系统界面显示语言 PM45、PX240等打印机 PM45, PX240"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "进入常规设置",
+    "description": "在系统设置中，选择“常规”。",
+    "warnings": [],
+    "product_name": "PM45、PX240等打印机",
+    "model": "PM45, PX240",
+    "image_urls": [],
+    "source_file": "33_PM45、PX240等打印机设置系统界面显示语言",
+    "keywords": "进入常规设置 在系统设置中，选择“常规”。 PM45、PX240等打印机 PM45, PX240 33_PM45、PX240等打印机设置系统界面显示语言 PM45、PX240等打印机 PM45, PX240"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "选择显示语言",
+    "description": "在常规设置中，找到并选择“显示语言”，然后选择所需的语言。",
+    "warnings": [],
+    "product_name": "PM45、PX240等打印机",
+    "model": "PM45, PX240",
+    "image_urls": [
+      "http://172.24.59.194:8098/33_PM45、PX240等打印机设置系统界面显示语言/images/rId4.png"
+    ],
+    "source_file": "33_PM45、PX240等打印机设置系统界面显示语言",
+    "keywords": "选择显示语言 在常规设置中，找到并选择“显示语言”，然后选择所需的语言。 PM45、PX240等打印机 PM45, PX240 33_PM45、PX240等打印机设置系统界面显示语言 PM45、PX240等打印机 PM45, PX240"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "校准标签",
+    "description": "先校准标签，确认按吐纸按键是否一张一张吐。",
+    "warnings": [],
+    "product_name": "PC300T",
+    "model": "PC300T",
+    "image_urls": [],
+    "source_file": "34_PC300T，打印一张，中间出一张白纸",
+    "keywords": "校准标签 先校准标签，确认按吐纸按键是否一张一张吐。 PC300T PC300T 34_PC300T，打印一张，中间出一张白纸 PC300T PC300T"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "检查驱动设置",
+    "description": "如果吐纸正常，关闭打印软件，进入驱动-打印首选项-页面设置，确认选择的标签尺寸与实际安装在打印机上的尺寸一致。",
+    "warnings": [],
+    "product_name": "PC300T",
+    "model": "PC300T",
+    "image_urls": [],
+    "source_file": "34_PC300T，打印一张，中间出一张白纸",
+    "keywords": "检查驱动设置 如果吐纸正常，关闭打印软件，进入驱动-打印首选项-页面设置，确认选择的标签尺寸与实际安装在打印机上的尺寸一致。 PC300T PC300T 34_PC300T，打印一张，中间出一张白纸 PC300T PC300T"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "新建标签规格",
+    "description": "如果尺寸不对，点击“新建”创建一个标签规格。",
+    "warnings": [],
+    "product_name": "PC300T",
+    "model": "PC300T",
+    "image_urls": [],
+    "source_file": "34_PC300T，打印一张，中间出一张白纸",
+    "keywords": "新建标签规格 如果尺寸不对，点击“新建”创建一个标签规格。 PC300T PC300T 34_PC300T，打印一张，中间出一张白纸 PC300T PC300T"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试打印",
+    "description": "打开软件，选择打印机，确认选择的标签尺寸是新建的规格，然后测试打印。",
+    "warnings": [],
+    "product_name": "PC300T",
+    "model": "PC300T",
+    "image_urls": [],
+    "source_file": "34_PC300T，打印一张，中间出一张白纸",
+    "keywords": "测试打印 打开软件，选择打印机，确认选择的标签尺寸是新建的规格，然后测试打印。 PC300T PC300T 34_PC300T，打印一张，中间出一张白纸 PC300T PC300T"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证USB键盘口基本通信",
+    "description": "1. 1900 USB线缆连接电脑，按键确认出光，依次扫描恢复出厂+USB码。2. 电脑打开记事本，输入法切换英文，依次扫描测试码，确认文本输出正常。",
+    "warnings": [],
+    "product_name": "1900",
+    "model": "1900GHD",
+    "image_urls": [
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId5.png",
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId6.png"
+    ],
+    "source_file": "36_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "keywords": "验证USB键盘口基本通信 1. 1900 USB线缆连接电脑，按键确认出光，依次扫描恢复出厂+USB码。2. 电脑打开记事本，输入法切换英文，依次扫描测试码，确认文本输出正常。 1900 1900GHD 36_1900 USB口虚拟串口功能说明+串口指令触发功能说明 1900 1900GHD"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "安装USB虚拟串口驱动",
+    "description": "下载驱动（链接见文档），解压后右键管理员运行setup.bat，按提示完成安装。",
+    "warnings": [
+      "仅适用于Windows系统"
+    ],
+    "product_name": "1900",
+    "model": "1900GHD",
+    "image_urls": [
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId12.png"
+    ],
+    "source_file": "36_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "keywords": "安装USB虚拟串口驱动 下载驱动（链接见文档），解压后右键管理员运行setup.bat，按提示完成安装。 1900 1900GHD 36_1900 USB口虚拟串口功能说明+串口指令触发功能说明 1900 1900GHD"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描USB串行码",
+    "description": "驱动安装后，扫描USB口转串口码。",
+    "warnings": [],
+    "product_name": "1900",
+    "model": "1900GHD",
+    "image_urls": [
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId7.png"
+    ],
+    "source_file": "36_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "keywords": "扫描USB串行码 驱动安装后，扫描USB口转串口码。 1900 1900GHD 36_1900 USB口虚拟串口功能说明+串口指令触发功能说明 1900 1900GHD"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "检查设备管理器",
+    "description": "检查设备管理器（我的电脑>管理>设备管理器>端口）是否有新com口生成。",
+    "warnings": [],
+    "product_name": "1900",
+    "model": "1900GHD",
+    "image_urls": [
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId14.png"
+    ],
+    "source_file": "36_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "keywords": "检查设备管理器 检查设备管理器（我的电脑>管理>设备管理器>端口）是否有新com口生成。 1900 1900GHD 36_1900 USB口虚拟串口功能说明+串口指令触发功能说明 1900 1900GHD"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "测试串口通信",
+    "description": "使用串口调试工具（如serial_port_utility_latest）测试扫描输出。",
+    "warnings": [],
+    "product_name": "1900",
+    "model": "1900GHD",
+    "image_urls": [
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId17.png"
+    ],
+    "source_file": "36_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "keywords": "测试串口通信 使用串口调试工具（如serial_port_utility_latest）测试扫描输出。 1900 1900GHD 36_1900 USB口虚拟串口功能说明+串口指令触发功能说明 1900 1900GHD"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "验证串口指令触发功能",
+    "description": "确保扫描器处于手动模式，串口软件发送十六进制指令：开启16540D，停止16550D。",
+    "warnings": [
+      "仅手动模式支持，自动扫描不支持"
+    ],
+    "product_name": "1900",
+    "model": "1900GHD",
+    "image_urls": [
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId19.png",
+      "http://172.24.59.194:8098/36_1900 USB口虚拟串口功能说明+串口指令触发功能说明/images/rId21.png"
+    ],
+    "source_file": "36_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "keywords": "验证串口指令触发功能 确保扫描器处于手动模式，串口软件发送十六进制指令：开启16540D，停止16550D。 1900 1900GHD 36_1900 USB口虚拟串口功能说明+串口指令触发功能说明 1900 1900GHD"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证USB基本通信",
+    "description": "1. 将底座通过USB线缆连接到Windows电脑，底座按钮一侧亮红灯表示供电正常，枪放在底座上后另一侧按钮闪绿灯表示充电。\n2. 扫描恢复出厂+设置USB键盘口码。\n3. 扫描底座背面的配对码，等待5~8秒听到滴声表示配对成功。\n4. 打开记事本，切换输入法到英文，扫描测试码确认有输出。\n5. 如需自动换行，扫描自动换行配置码。",
+    "warnings": [],
+    "product_name": "1472 USB虚拟串口",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/37_1472 USB虚拟串口使用说明/images/rId5.png",
+      "http://172.24.59.194:8098/37_1472 USB虚拟串口使用说明/images/rId6.png",
+      "http://172.24.59.194:8098/37_1472 USB虚拟串口使用说明/images/rId7.png"
+    ],
+    "source_file": "37_1472 USB虚拟串口使用说明",
+    "keywords": "验证USB基本通信 1. 将底座通过USB线缆连接到Windows电脑，底座按钮一侧亮红灯表示供电正常，枪放在底座上后另一侧按钮闪绿灯表示充电。\n2. 扫描恢复出厂+设置USB键盘口码。\n3. 扫描底座背面的配对码，等待5~8秒听到滴声表示配对成功。\n4. 打开记事本，切换输入法到英文，扫描测试码确认有输出。\n5. 如需自动换行，扫描自动换行配置码。 1472 USB虚拟串口 1472 37_1472 USB虚拟串口使用说明 LF CRLF 1472 USB虚拟串口 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "安装USB虚拟串口驱动",
+    "description": "保持当前连接，在Windows电脑上安装HSM USB Serial Driver version 3.5.38_signed_(NOWHQL)驱动。下载驱动后解压，右键以管理员身份运行setup.bat，按提示点击确认直至关闭。",
+    "warnings": [],
+    "product_name": "1472 USB虚拟串口",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/37_1472 USB虚拟串口使用说明/images/rId12.png"
+    ],
+    "source_file": "37_1472 USB虚拟串口使用说明",
+    "keywords": "安装USB虚拟串口驱动 保持当前连接，在Windows电脑上安装HSM USB Serial Driver version 3.5.38_signed_(NOWHQL)驱动。下载驱动后解压，右键以管理员身份运行setup.bat，按提示点击确认直至关闭。 1472 USB虚拟串口 1472 37_1472 USB虚拟串口使用说明 1472 USB虚拟串口 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描USB转串口码",
+    "description": "驱动安装后，扫描USB转串口码（注意枪与底座会短暂断开），然后将枪放回底座或再次扫描配对码，等待5~8秒重新配对。",
+    "warnings": [
+      "枪与底座会短暂断开"
+    ],
+    "product_name": "1472 USB虚拟串口",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/37_1472 USB虚拟串口使用说明/images/rId9.png"
+    ],
+    "source_file": "37_1472 USB虚拟串口使用说明",
+    "keywords": "扫描USB转串口码 驱动安装后，扫描USB转串口码（注意枪与底座会短暂断开），然后将枪放回底座或再次扫描配对码，等待5~8秒重新配对。 1472 USB虚拟串口 1472 37_1472 USB虚拟串口使用说明 1472 USB虚拟串口 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "检查COM口",
+    "description": "在电脑设备管理器中查看端口（COM和LPT）下是否有扫描枪的COM口出现。确认COM口出现后，即可使用串口软件测试输出。",
+    "warnings": [],
+    "product_name": "1472 USB虚拟串口",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/37_1472 USB虚拟串口使用说明/images/rId14.png"
+    ],
+    "source_file": "37_1472 USB虚拟串口使用说明",
+    "keywords": "检查COM口 在电脑设备管理器中查看端口（COM和LPT）下是否有扫描枪的COM口出现。确认COM口出现后，即可使用串口软件测试输出。 1472 USB虚拟串口 1472 37_1472 USB虚拟串口使用说明 1472 USB虚拟串口 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证基本功能",
+    "description": "将底座通过USB线缆连接到电脑，底座按钮一侧亮红灯表示供电正常。将扫描枪放在底座上，另一侧按钮闪绿灯表示充电。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "验证基本功能 将底座通过USB线缆连接到电脑，底座按钮一侧亮红灯表示供电正常。将扫描枪放在底座上，另一侧按钮闪绿灯表示充电。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "恢复出厂设置",
+    "description": "扫描恢复出厂设置条码。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId7.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "恢复出厂设置 扫描恢复出厂设置条码。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描枪与底座配对",
+    "description": "扫描底座上的配对码（红圈标注），等待5-8秒完成配对。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId8.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "扫描枪与底座配对 扫描底座上的配对码（红圈标注），等待5-8秒完成配对。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "确认输出正常",
+    "description": "打开电脑记事本，光标定位，切换输入法至英文，扫描测试条码，确认有输出。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "确认输出正常 打开电脑记事本，光标定位，切换输入法至英文，扫描测试条码，确认有输出。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "添加回车符（可选）",
+    "description": "若需要自动换行，扫描添加回车符后缀条码。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId9.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "添加回车符（可选） 若需要自动换行，扫描添加回车符后缀条码。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 CR CRLF LF CRLF 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "设置底座为充电模式",
+    "description": "扫描“充电模式”功能码，将底座转换为仅充电模式。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId10.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "设置底座为充电模式 扫描“充电模式”功能码，将底座转换为仅充电模式。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 7,
+    "title": "开放蓝牙搜索模式",
+    "description": "扫描“开放蓝牙搜索模式”条码，使扫描枪蓝牙可被搜索。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId11.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "开放蓝牙搜索模式 扫描“开放蓝牙搜索模式”条码，使扫描枪蓝牙可被搜索。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 8,
+    "title": "连接平板/手机",
+    "description": "打开平板或手机的蓝牙设置，搜索并连接扫描枪。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "连接平板/手机 打开平板或手机的蓝牙设置，搜索并连接扫描枪。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 9,
+    "title": "确认配对成功",
+    "description": "若听到配对成功声音，则完成；否则继续下一步。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "确认配对成功 若听到配对成功声音，则完成；否则继续下一步。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 10,
+    "title": "输入蓝牙密码（如需）",
+    "description": "若提示输入密码，扫描“输入蓝牙密码”条码。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId13.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "输入蓝牙密码（如需） 若提示输入密码，扫描“输入蓝牙密码”条码。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 11,
+    "title": "输入PIN码并保存",
+    "description": "若主机未显示PIN码，则输入默认PIN码1234（依次扫描1、2、3、4字符条码），然后扫描“Save”保存；若主机显示PIN码，则按提示依次扫描对应字符条码，最后扫描“Save”保存。",
+    "warnings": [],
+    "product_name": "无线扫描枪",
+    "model": "1902/1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId14.png",
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId15.png",
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId16.png",
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId17.png",
+      "http://172.24.59.194:8098/38_1902、1472等无线扫描枪连接蓝牙设备/images/rId18.png"
+    ],
+    "source_file": "38_1902、1472等无线扫描枪连接蓝牙设备",
+    "keywords": "输入PIN码并保存 若主机未显示PIN码，则输入默认PIN码1234（依次扫描1、2、3、4字符条码），然后扫描“Save”保存；若主机显示PIN码，则按提示依次扫描对应字符条码，最后扫描“Save”保存。 无线扫描枪 1902/1472 38_1902、1472等无线扫描枪连接蓝牙设备 无线扫描枪 1902/1472"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证基本通信",
+    "description": "1. 底座通过USB线连接到Windows电脑，底座按钮一侧亮红灯表示供电正常，枪放在底座上后另一侧按钮闪绿灯表示充电。\n2. 扫描枪出光后扫描恢复出厂码。\n3. 扫描底座背面的配对码，等待5~8秒，听到滴一声表示配对成功。\n4. 打开记事本，光标定位，输入法切换英文，扫描测试码确认输出。\n5. 如需自动换行，扫描添加回车符后缀码。",
+    "warnings": [
+      "保持当前配对状态不要断开"
+    ],
+    "product_name": "1472扫描枪",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId5.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId6.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId9.png"
+    ],
+    "source_file": "39_1472：配置读取包含中文字符的二维码并输出到文本端",
+    "keywords": "验证基本通信 1. 底座通过USB线连接到Windows电脑，底座按钮一侧亮红灯表示供电正常，枪放在底座上后另一侧按钮闪绿灯表示充电。\n2. 扫描枪出光后扫描恢复出厂码。\n3. 扫描底座背面的配对码，等待5~8秒，听到滴一声表示配对成功。\n4. 打开记事本，光标定位，输入法切换英文，扫描测试码确认输出。\n5. 如需自动换行，扫描添加回车符后缀码。 1472扫描枪 1472 39_1472：配置读取包含中文字符的二维码并输出到文本端 CR CRLF LF CRLF 1472扫描枪 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "USB虚拟串口",
+    "description": "1. 安装HSM USB Serial Driver驱动（如已安装可跳过）。\n2. 扫描USB转串口码，枪与底座会短暂断开，然后枪放回底座或重新扫描配对码等待5~8秒重新配对。\n3. 检查设备管理器端口，确认出现COM口。",
+    "warnings": [
+      "驱动安装需以管理员身份运行setup.bat"
+    ],
+    "product_name": "1472扫描枪",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId7.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId11.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId13.png"
+    ],
+    "source_file": "39_1472：配置读取包含中文字符的二维码并输出到文本端",
+    "keywords": "USB虚拟串口 1. 安装HSM USB Serial Driver驱动（如已安装可跳过）。\n2. 扫描USB转串口码，枪与底座会短暂断开，然后枪放回底座或重新扫描配对码等待5~8秒重新配对。\n3. 检查设备管理器端口，确认出现COM口。 1472扫描枪 1472 39_1472：配置读取包含中文字符的二维码并输出到文本端 1472扫描枪 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "使用串口转文本插件",
+    "description": "1. 下载并解压USBSerialCOM_HID Tool_V5.3.2。\n2. 双击运行程序，点击“串口”选择对应的COM口。\n3. 找到“传输编码”选择AUTO（默认）。\n4. 点击“连接”按钮，工具自动最小化。\n5. 打开记事本，光标定位，扫描中文二维码测试输出。",
+    "warnings": [],
+    "product_name": "1472扫描枪",
+    "model": "1472",
+    "image_urls": [
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId15.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId17.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId19.png",
+      "http://172.24.59.194:8098/39_1472：配置读取包含中文字符的二维码并输出到文本端/images/rId20.png"
+    ],
+    "source_file": "39_1472：配置读取包含中文字符的二维码并输出到文本端",
+    "keywords": "使用串口转文本插件 1. 下载并解压USBSerialCOM_HID Tool_V5.3.2。\n2. 双击运行程序，点击“串口”选择对应的COM口。\n3. 找到“传输编码”选择AUTO（默认）。\n4. 点击“连接”按钮，工具自动最小化。\n5. 打开记事本，光标定位，扫描中文二维码测试输出。 1472扫描枪 1472 39_1472：配置读取包含中文字符的二维码并输出到文本端 1472扫描枪 1472"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证USB基本通信",
+    "description": "扫描枪连接到电脑，扫描恢复出厂码，打开记事本，输入法切换到英文，扫描测试码确认输出。如需自动换行，扫描换行码。",
+    "warnings": [],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId5.png",
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId6.png",
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId7.png"
+    ],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "验证USB基本通信 扫描枪连接到电脑，扫描恢复出厂码，打开记事本，输入法切换到英文，扫描测试码确认输出。如需自动换行，扫描换行码。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 LF CRLF HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "安装USB虚拟串口驱动",
+    "description": "下载并安装HSM USB Serial Driver version 3.5.38_signed_(NOWHQL)驱动，以管理员身份运行setup.bat。",
+    "warnings": [
+      "仅适用于Windows系统"
+    ],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "安装USB虚拟串口驱动 下载并安装HSM USB Serial Driver version 3.5.38_signed_(NOWHQL)驱动，以管理员身份运行setup.bat。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描USB转串口码",
+    "description": "驱动安装后，扫描USB转串口码，将USB口转为串口。",
+    "warnings": [],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId9.png"
+    ],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "扫描USB转串口码 驱动安装后，扫描USB转串口码，将USB口转为串口。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "检查设备管理器",
+    "description": "在电脑设备管理器中查看端口，确认出现新的COM口。",
+    "warnings": [],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId11.png"
+    ],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "检查设备管理器 在电脑设备管理器中查看端口，确认出现新的COM口。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "下载并运行USBSerialCOM_HID Tool",
+    "description": "下载USBSerialCOM_HID Tool_V5.3.2，双击运行。",
+    "warnings": [],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "下载并运行USBSerialCOM_HID Tool 下载USBSerialCOM_HID Tool_V5.3.2，双击运行。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "配置串口工具",
+    "description": "点击“串口”选择对应的COM口，传输编码选择AUTO(默认)，点击“连接”按钮，工具自动最小化。",
+    "warnings": [],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId14.png",
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId16.png",
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId17.png"
+    ],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "配置串口工具 点击“串口”选择对应的COM口，传输编码选择AUTO(默认)，点击“连接”按钮，工具自动最小化。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 7,
+    "title": "测试中文二维码",
+    "description": "打开记事本，光标定位，扫描中文二维码测试码，确认输出。",
+    "warnings": [],
+    "product_name": "HF680 GEN7",
+    "model": "HF680 GEN7",
+    "image_urls": [
+      "http://172.24.59.194:8098/40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处/images/rId13.png"
+    ],
+    "source_file": "40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "keywords": "测试中文二维码 打开记事本，光标定位，扫描中文二维码测试码，确认输出。 HF680 GEN7 HF680 GEN7 40_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处 HF680 GEN7 HF680 GEN7"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "恢复出厂设置",
+    "description": "扫描恢复出厂码，避免可能存在的其他格式干扰",
+    "warnings": [],
+    "product_name": "1900扫描器",
+    "model": "1900",
+    "image_urls": [
+      "http://172.24.59.194:8098/41_1900数据格式编辑/images/rId6.png"
+    ],
+    "source_file": "41_1900数据格式编辑",
+    "keywords": "恢复出厂设置 扫描恢复出厂码，避免可能存在的其他格式干扰 1900扫描器 1900 41_1900数据格式编辑 1900扫描器 1900"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "扫描配置码",
+    "description": "扫描配置码以应用QR码输出规则",
+    "warnings": [],
+    "product_name": "1900扫描器",
+    "model": "1900",
+    "image_urls": [
+      "http://172.24.59.194:8098/41_1900数据格式编辑/images/rId5.png"
+    ],
+    "source_file": "41_1900数据格式编辑",
+    "keywords": "扫描配置码 扫描配置码以应用QR码输出规则 1900扫描器 1900 41_1900数据格式编辑 1900扫描器 1900"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "测试输出效果",
+    "description": "配置后测试输出效果",
+    "warnings": [
+      "若是文本/光标处输出，务必要将电脑输入法切换到英文下。"
+    ],
+    "product_name": "1900扫描器",
+    "model": "1900",
+    "image_urls": [],
+    "source_file": "41_1900数据格式编辑",
+    "keywords": "测试输出效果 配置后测试输出效果 1900扫描器 1900 41_1900数据格式编辑 1900扫描器 1900"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "恢复出厂",
+    "description": "底座通过USB连接电脑，底座红灯亮表示供电正常。将枪放在底座上，另一侧绿灯闪表示充电。扫描恢复出厂码。",
+    "warnings": [],
+    "product_name": "1952",
+    "model": "1952",
+    "image_urls": [],
+    "source_file": "42_1952格式编辑：code128指定格式输出 2025.3.18",
+    "keywords": "恢复出厂 底座通过USB连接电脑，底座红灯亮表示供电正常。将枪放在底座上，另一侧绿灯闪表示充电。扫描恢复出厂码。 1952 1952 42_1952格式编辑：code128指定格式输出 2025.3.18 1952 1952"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "断开其他连接",
+    "description": "扫描枪按键出光后，扫描断开连接的码。",
+    "warnings": [],
+    "product_name": "1952",
+    "model": "1952",
+    "image_urls": [],
+    "source_file": "42_1952格式编辑：code128指定格式输出 2025.3.18",
+    "keywords": "断开其他连接 扫描枪按键出光后，扫描断开连接的码。 1952 1952 42_1952格式编辑：code128指定格式输出 2025.3.18 1952 1952"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "配对",
+    "description": "扫描底座背面的配对码，等待5-8秒，听到滴声表示配对成功。",
+    "warnings": [],
+    "product_name": "1952",
+    "model": "1952",
+    "image_urls": [
+      "http://172.24.59.194:8098/42_1952格式编辑：code128指定格式输出 2025.3.18/images/rId5.png"
+    ],
+    "source_file": "42_1952格式编辑：code128指定格式输出 2025.3.18",
+    "keywords": "配对 扫描底座背面的配对码，等待5-8秒，听到滴声表示配对成功。 1952 1952 42_1952格式编辑：code128指定格式输出 2025.3.18 1952 1952"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "验证基本功能",
+    "description": "打开记事本，光标定位，输入法切换英文，扫描测试码确认文本输出。",
+    "warnings": [],
+    "product_name": "1952",
+    "model": "1952",
+    "image_urls": [],
+    "source_file": "42_1952格式编辑：code128指定格式输出 2025.3.18",
+    "keywords": "验证基本功能 打开记事本，光标定位，输入法切换英文，扫描测试码确认文本输出。 1952 1952 42_1952格式编辑：code128指定格式输出 2025.3.18 1952 1952"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "配置所需格式",
+    "description": "根据需求扫描规则1或规则2配置码，然后测试输出效果。",
+    "warnings": [
+      "设置不同格式前建议先恢复出厂"
+    ],
+    "product_name": "1952",
+    "model": "1952",
+    "image_urls": [
+      "http://172.24.59.194:8098/42_1952格式编辑：code128指定格式输出 2025.3.18/images/rId13.png",
+      "http://172.24.59.194:8098/42_1952格式编辑：code128指定格式输出 2025.3.18/images/rId12.png"
+    ],
+    "source_file": "42_1952格式编辑：code128指定格式输出 2025.3.18",
+    "keywords": "配置所需格式 根据需求扫描规则1或规则2配置码，然后测试输出效果。 1952 1952 42_1952格式编辑：code128指定格式输出 2025.3.18 1952 1952"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "补充后缀设置",
+    "description": "根据需要扫描回车或Tab后缀码。",
+    "warnings": [],
+    "product_name": "1952",
+    "model": "1952",
+    "image_urls": [
+      "http://172.24.59.194:8098/42_1952格式编辑：code128指定格式输出 2025.3.18/images/rId10.png",
+      "http://172.24.59.194:8098/42_1952格式编辑：code128指定格式输出 2025.3.18/images/rId11.png"
+    ],
+    "source_file": "42_1952格式编辑：code128指定格式输出 2025.3.18",
+    "keywords": "补充后缀设置 根据需要扫描回车或Tab后缀码。 1952 1952 42_1952格式编辑：code128指定格式输出 2025.3.18 CR CRLF 1952 1952"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "验证基本通信",
+    "description": "确保扫描枪、底座、电脑三者基本通信正常。具体操作参考对应文件（根据线缆接口不同）。",
+    "warnings": [],
+    "product_name": "无线枪",
+    "model": "1472/1902",
+    "image_urls": [],
+    "source_file": "45_1472、1902等无线枪配置离线存储模式说明 2025.4.16",
+    "keywords": "验证基本通信 确保扫描枪、底座、电脑三者基本通信正常。具体操作参考对应文件（根据线缆接口不同）。 无线枪 1472/1902 45_1472、1902等无线枪配置离线存储模式说明 2025.4.16 无线枪 1472/1902"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "选择离线存储模式",
+    "description": "根据需要选择Automatic Batch Mode、Inventory Batch Mode或Persistent Batch Mode，并扫描对应的设置条码。",
+    "warnings": [],
+    "product_name": "无线枪",
+    "model": "1472/1902",
+    "image_urls": [
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId7.emf",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId5.emf",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId9.png",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId10.png",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId11.png"
+    ],
+    "source_file": "45_1472、1902等无线枪配置离线存储模式说明 2025.4.16",
+    "keywords": "选择离线存储模式 根据需要选择Automatic Batch Mode、Inventory Batch Mode或Persistent Batch Mode，并扫描对应的设置条码。 无线枪 1472/1902 45_1472、1902等无线枪配置离线存储模式说明 2025.4.16 无线枪 1472/1902"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "使用功能码管理数据",
+    "description": "根据需要扫描功能码1-5进行数据删除、查询、传输后处理或退出模式。",
+    "warnings": [],
+    "product_name": "无线枪",
+    "model": "1472/1902",
+    "image_urls": [
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId13.png",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId12.png",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId17.png",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId16.png",
+      "http://172.24.59.194:8098/45_1472、1902等无线枪配置离线存储模式说明 2025.4.16/images/rId15.png"
+    ],
+    "source_file": "45_1472、1902等无线枪配置离线存储模式说明 2025.4.16",
+    "keywords": "使用功能码管理数据 根据需要扫描功能码1-5进行数据删除、查询、传输后处理或退出模式。 无线枪 1472/1902 45_1472、1902等无线枪配置离线存储模式说明 2025.4.16 无线枪 1472/1902"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接底座与电脑",
+    "description": "将底座通过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常）。",
+    "warnings": [],
+    "product_name": "1202g无线枪",
+    "model": "1202g",
+    "image_urls": [],
+    "source_file": "48_1202g无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "连接底座与电脑 将底座通过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常）。 1202g无线枪 1202g 48_1202g无线枪基本使用说明(底座USB线缆连接) 1202g无线枪 1202g"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "断开其他连接",
+    "description": "扫描枪按键出光后，扫描断开与其他底座连接的码。",
+    "warnings": [],
+    "product_name": "1202g无线枪",
+    "model": "1202g",
+    "image_urls": [
+      "http://172.24.59.194:8098/48_1202g无线枪基本使用说明(底座USB线缆连接)/images/rId8.png"
+    ],
+    "source_file": "48_1202g无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "断开其他连接 扫描枪按键出光后，扫描断开与其他底座连接的码。 1202g无线枪 1202g 48_1202g无线枪基本使用说明(底座USB线缆连接) 1202g无线枪 1202g"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "扫描配对码",
+    "description": "扫描底座上的配对码（底座两处均有，扫描其中一处即可），等待5~8秒，注意听扫描枪提示音，出现滴的一声表示配对成功。",
+    "warnings": [
+      "1202g为单线激光枪，对着屏幕扫描无效，务必将文档打印到纸质端再做扫描操作。"
+    ],
+    "product_name": "1202g无线枪",
+    "model": "1202g",
+    "image_urls": [
+      "http://172.24.59.194:8098/48_1202g无线枪基本使用说明(底座USB线缆连接)/images/rId13.png"
+    ],
+    "source_file": "48_1202g无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "扫描配对码 扫描底座上的配对码（底座两处均有，扫描其中一处即可），等待5~8秒，注意听扫描枪提示音，出现滴的一声表示配对成功。 1202g无线枪 1202g 48_1202g无线枪基本使用说明(底座USB线缆连接) 1202g无线枪 1202g"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试输出",
+    "description": "配对无误后，电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描测试码，确认文本端是否有输出信息。",
+    "warnings": [],
+    "product_name": "1202g无线枪",
+    "model": "1202g",
+    "image_urls": [
+      "http://172.24.59.194:8098/48_1202g无线枪基本使用说明(底座USB线缆连接)/images/rId7.png"
+    ],
+    "source_file": "48_1202g无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "测试输出 配对无误后，电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描测试码，确认文本端是否有输出信息。 1202g无线枪 1202g 48_1202g无线枪基本使用说明(底座USB线缆连接) 1202g无线枪 1202g"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "设置自动换行",
+    "description": "如果需要实现扫描后自动换行（自动回车），请扫描添加回车符后缀的码。",
+    "warnings": [],
+    "product_name": "1202g无线枪",
+    "model": "1202g",
+    "image_urls": [
+      "http://172.24.59.194:8098/48_1202g无线枪基本使用说明(底座USB线缆连接)/images/rId12.png"
+    ],
+    "source_file": "48_1202g无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "设置自动换行 如果需要实现扫描后自动换行（自动回车），请扫描添加回车符后缀的码。 1202g无线枪 1202g 48_1202g无线枪基本使用说明(底座USB线缆连接) CR CRLF LF CRLF 1202g无线枪 1202g"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "恢复出厂设置",
+    "description": "将接收器插入电脑，扫描枪按键确认出光后，扫描恢复默认的功能码，确保扫描枪处于断开状态。",
+    "warnings": [],
+    "product_name": "HH492/OH462",
+    "model": "HH492, OH462",
+    "image_urls": [
+      "http://172.24.59.194:8098/49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑/images/rId7.jpeg"
+    ],
+    "source_file": "49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "keywords": "恢复出厂设置 将接收器插入电脑，扫描枪按键确认出光后，扫描恢复默认的功能码，确保扫描枪处于断开状态。 HH492/OH462 HH492, OH462 49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑 HH492/OH462 HH492, OH462"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "配对",
+    "description": "按键扫描接收器上的配对码，注意听扫描枪的提示音，大约5~10秒后配对成功。",
+    "warnings": [],
+    "product_name": "HH492/OH462",
+    "model": "HH492, OH462",
+    "image_urls": [
+      "http://172.24.59.194:8098/49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑/images/rId9.png"
+    ],
+    "source_file": "49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "keywords": "配对 按键扫描接收器上的配对码，注意听扫描枪的提示音，大约5~10秒后配对成功。 HH492/OH462 HH492, OH462 49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑 HH492/OH462 HH492, OH462"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "验证测试",
+    "description": "配对成功后，电脑端打开文本，鼠标光标定位好，输入法切换到英文下，扫描测试码验证输出。",
+    "warnings": [],
+    "product_name": "HH492/OH462",
+    "model": "HH492, OH462",
+    "image_urls": [
+      "http://172.24.59.194:8098/49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑/images/rId10.png"
+    ],
+    "source_file": "49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "keywords": "验证测试 配对成功后，电脑端打开文本，鼠标光标定位好，输入法切换到英文下，扫描测试码验证输出。 HH492/OH462 HH492, OH462 49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑 HH492/OH462 HH492, OH462"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "处理无输出问题（可选）",
+    "description": "如果解码声音正常但没有内容输出，扫描功能码后继续测试。",
+    "warnings": [],
+    "product_name": "HH492/OH462",
+    "model": "HH492, OH462",
+    "image_urls": [
+      "http://172.24.59.194:8098/49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑/images/rId11.png"
+    ],
+    "source_file": "49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "keywords": "处理无输出问题（可选） 如果解码声音正常但没有内容输出，扫描功能码后继续测试。 HH492/OH462 HH492, OH462 49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑 HH492/OH462 HH492, OH462"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "数据格式编辑配置",
+    "description": "扫描配置码，设置只读长度19位的code128码，其他码制不读取，同时设置自动扫描和回车后缀。",
+    "warnings": [],
+    "product_name": "HH492/OH462",
+    "model": "HH492, OH462",
+    "image_urls": [
+      "http://172.24.59.194:8098/49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑/images/rId12.png"
+    ],
+    "source_file": "49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "keywords": "数据格式编辑配置 扫描配置码，设置只读长度19位的code128码，其他码制不读取，同时设置自动扫描和回车后缀。 HH492/OH462 HH492, OH462 49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑 CR CRLF HH492/OH462 HH492, OH462"
+  },
+  {
+    "type": "step",
+    "step_number": 6,
+    "title": "执行测试",
+    "description": "完成配置后，进行测试验证。",
+    "warnings": [],
+    "product_name": "HH492/OH462",
+    "model": "HH492, OH462",
+    "image_urls": [],
+    "source_file": "49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "keywords": "执行测试 完成配置后，进行测试验证。 HH492/OH462 HH492, OH462 49_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑 HH492/OH462 HH492, OH462"
+  },
+  {
+    "type": "step",
+    "step_number": 1,
+    "title": "连接底座与电脑",
+    "description": "底座经过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常），枪放在底座上后，另一侧按钮闪绿灯（表示枪给底座充电）。标配USB线缆编号如下。",
+    "warnings": [],
+    "product_name": "HH762无线枪",
+    "model": "HH762",
+    "image_urls": [],
+    "source_file": "50_HH762无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "连接底座与电脑 底座经过USB线缆连接到电脑端，此时底座按钮一侧亮红灯（表示底座供电正常），枪放在底座上后，另一侧按钮闪绿灯（表示枪给底座充电）。标配USB线缆编号如下。 HH762无线枪 HH762 50_HH762无线枪基本使用说明(底座USB线缆连接) HH762无线枪 HH762"
+  },
+  {
+    "type": "step",
+    "step_number": 2,
+    "title": "断开其他连接",
+    "description": "扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况。",
+    "warnings": [],
+    "product_name": "HH762无线枪",
+    "model": "HH762",
+    "image_urls": [
+      "http://172.24.59.194:8098/50_HH762无线枪基本使用说明(底座USB线缆连接)/images/rId8.png"
+    ],
+    "source_file": "50_HH762无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "断开其他连接 扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况。 HH762无线枪 HH762 50_HH762无线枪基本使用说明(底座USB线缆连接) HH762无线枪 HH762"
+  },
+  {
+    "type": "step",
+    "step_number": 3,
+    "title": "配对底座",
+    "description": "HH762按键扫描底座背面的配对码，并等待5~8s，注意听扫描枪提示音，出现滴的一声，表示配对成功。注意看底座配对码标志。",
+    "warnings": [],
+    "product_name": "HH762无线枪",
+    "model": "HH762",
+    "image_urls": [
+      "http://172.24.59.194:8098/50_HH762无线枪基本使用说明(底座USB线缆连接)/images/rId13.png"
+    ],
+    "source_file": "50_HH762无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "配对底座 HH762按键扫描底座背面的配对码，并等待5~8s，注意听扫描枪提示音，出现滴的一声，表示配对成功。注意看底座配对码标志。 HH762无线枪 HH762 50_HH762无线枪基本使用说明(底座USB线缆连接) HH762无线枪 HH762"
+  },
+  {
+    "type": "step",
+    "step_number": 4,
+    "title": "测试输出",
+    "description": "电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息。",
+    "warnings": [],
+    "product_name": "HH762无线枪",
+    "model": "HH762",
+    "image_urls": [
+      "http://172.24.59.194:8098/50_HH762无线枪基本使用说明(底座USB线缆连接)/images/rId7.png"
+    ],
+    "source_file": "50_HH762无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "测试输出 电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息。 HH762无线枪 HH762 50_HH762无线枪基本使用说明(底座USB线缆连接) HH762无线枪 HH762"
+  },
+  {
+    "type": "step",
+    "step_number": 5,
+    "title": "设置自动换行",
+    "description": "需要实现扫描枪后自动换行（自动回车），请继续扫描如下码，添加回车符后缀。",
+    "warnings": [],
+    "product_name": "HH762无线枪",
+    "model": "HH762",
+    "image_urls": [
+      "http://172.24.59.194:8098/50_HH762无线枪基本使用说明(底座USB线缆连接)/images/rId11.png"
+    ],
+    "source_file": "50_HH762无线枪基本使用说明(底座USB线缆连接)",
+    "keywords": "设置自动换行 需要实现扫描枪后自动换行（自动回车），请继续扫描如下码，添加回车符后缀。 HH762无线枪 HH762 50_HH762无线枪基本使用说明(底座USB线缆连接) CR CRLF LF CRLF HH762无线枪 HH762"
+  }
+]
