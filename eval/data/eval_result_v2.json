@@ -1,0 +1,593 @@
+{
+  "metrics": {
+    "model_correct": 25,
+    "intent_correct": 25,
+    "doc_correct": 18,
+    "total": 30,
+    "total_with_model": 25,
+    "total_with_doc_kw": 30,
+    "llm_scores": 26
+  },
+  "llm_avg_score": 3.3461538461538463,
+  "results": [
+    {
+      "query": "OH430 加回车",
+      "expected_model": "OH430",
+      "expected_intent": "add_suffix",
+      "expected_doc_kw": "CRLF,回车,后缀",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "OH430"
+      ],
+      "got_intents": [
+        "add_suffix"
+      ],
+      "response": "📌 适用于: OH430\n\n→ 步骤 1: 🔧 进入/退出设置\n   1.进入设置\n   [图片: http://172.24.59.194:8098/kb/config_code/OH430_%E5%90%8E%E7%BC%80_s001_243849_61543ea0.png]\n\n→ 步骤 2: 📝 后缀设置\n   2.删除所有后缀(去掉原有CR后缀)\n   [图片: http://172.24.59.194:8098/kb/config_code/OH430_%E5%90%8E%E7%BC%80_s002_243849_c3261756.png]\n\n→ 步骤 3: 📝 后缀设置\n   3",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 5
+    },
+    {
+      "query": "1900 USB连接",
+      "expected_model": "1900",
+      "expected_intent": "usb_connect",
+      "expected_doc_kw": "USB,线缆",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1900"
+      ],
+      "got_intents": [
+        "usb_connect"
+      ],
+      "response": "📌 适用于: 1900\n\n  步骤 2: 📋 配置码\n   1.1900 经过USB线缆连接到电脑的U口上，连接成功，扫描枪会有上电成功提示音；按键确认出光，然后依次扫描如下码：恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/1900_s002_208a19_d06db740.png]\n\n→ 步骤 3: 🔌 接口模式\n   2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常：\n   [图片: http://172.24.59.194:8098/kb/config_code/19",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 5
+    },
+    {
+      "query": "HH760 蓝牙配对",
+      "expected_model": "HH760",
+      "expected_intent": "bluetooth_pairing",
+      "expected_doc_kw": "蓝牙,配对",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "HH760"
+      ],
+      "got_intents": [
+        "bluetooth_pairing",
+        "pairing"
+      ],
+      "response": "📌 适用于: HH760\n🤖 混合检索增强\n\n  步骤 3: 🔄 恢复出厂\n   2.HH762按键出光后，依次扫描如下码执行恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/HH760_HH762_%E4%B8%B2%E5%8F%A3_s003_f9c64b_1c13df8b.png]\n\n→ 步骤 5: 📡 配对\n   (注意：扫描后，枪可能暂时断开与底座的连接，此时可以将枪放在底座上等待自动配对，或者枪再次扫描下配对码)\n   [图片: http://172.24.59.194:8098/kb/config_code/HH760_H",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 3
+    },
+    {
+      "query": "7680g 扫描没输出",
+      "expected_model": "7680g",
+      "expected_intent": "test_comm",
+      "expected_doc_kw": "test_comm",
+      "category": "平台式扫描器",
+      "note": "",
+      "got_models": [
+        "7680g"
+      ],
+      "got_intents": [
+        "test_comm"
+      ],
+      "response": "📌 适用于: 7680g\n🤖 混合检索增强\n\n  步骤 2: 📋 配置码\n   1.7680g经过USB线缆连接到电脑的USB口上，连接成功，扫描枪会有上电成功提示音并出光，然后依次扫描如下码：恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/7680g_s002_023fd2_d06db740.png]\n\n  步骤 3: 🔌 接口模式\n   2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常：\n   [图片: http://172.24.59.194:8098/kb/confi",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 2
+    },
+    {
+      "query": "1902 怎么恢复出厂",
+      "expected_model": "1902",
+      "expected_intent": "restore_factory",
+      "expected_doc_kw": "恢复出厂",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1902"
+      ],
+      "got_intents": [
+        "restore_factory"
+      ],
+      "response": "📌 适用于: 1902\n\n→ 步骤 3: 🔄 恢复出厂\n   2.1902按键出光后，依次扫描如下码执行恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/1902_%E4%B8%B2%E5%8F%A3_s003_542398_1c13df8b.png]\n\n  步骤 5: 📡 配对\n   (注意：扫描后，枪可能暂时断开与底座的连接，此时可以将枪放在底座上等待自动配对，或者枪再次扫描下配对码)\n   [图片: http://172.24.59.194:8098/kb/config_code/1902_%E4%B8%B2%E5%8F%A3_s",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 4
+    },
+    {
+      "query": "OH4502 串口通信",
+      "expected_model": "OH4502",
+      "expected_intent": "serial_connect",
+      "expected_doc_kw": "串口,RS232",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "OH4502"
+      ],
+      "got_intents": [
+        "serial_connect"
+      ],
+      "response": "📌 适用于: OH4502\n\n→ 步骤 1: 🔧 进入/退出设置\n   1.扫描进入设置模式、进入正常模式\n   [图片: http://172.24.59.194:8098/kb/config_code/OH450_s001_8efb0a_6656ce60.png]\n\n  步骤 2: ✅ 测试码\n   1.扫描进入设置模式、进入正常模式\n   [图片: http://172.24.59.194:8098/kb/config_code/OH450_s002_8efb0a_1c785cc5.png]\n\n  步骤 3: 📡 配对\n   2.扫描强制与接收器对码\n   [图片: http://172",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 2
+    },
+    {
+      "query": "1952 USB虚拟串口",
+      "expected_model": "1952",
+      "expected_intent": "virtual_com_port",
+      "expected_doc_kw": "虚拟串口",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1952"
+      ],
+      "got_intents": [
+        "virtual_com_port",
+        "usb_connect",
+        "serial_connect"
+      ],
+      "response": "📌 适用于: 1952\n\n→ 步骤 1: 🔄 恢复出厂\n   扫描枪按键出光后，扫描如下码，设置扫描枪恢复出厂+设置USB键盘口\n   [图片: http://172.24.59.194:8098/kb/config_code/1952_USB%E8%99%9A%E6%8B%9F%E4%B8%B2%E5%8F%A3_%E4%B8%B2%E5%8F%A3_s001_6a75a6_83452b60.png]\n\n→ 步骤 2: 🔄 恢复出厂\n   扫描枪按键出光后，扫描如下码，设置扫描枪恢复出厂+设置USB键盘口\n   [图片: http://172.24.59.194:8098/kb/config",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 4
+    },
+    {
+      "query": "PM43 怎么加后缀",
+      "expected_model": "PM43",
+      "expected_intent": "add_suffix",
+      "expected_doc_kw": "后缀,CRLF",
+      "category": "打印机",
+      "note": "",
+      "got_models": [
+        "PM43"
+      ],
+      "got_intents": [
+        "add_suffix"
+      ],
+      "response": "📌 适用于: PM43\n\n→ 步骤 1: 📝 后缀设置\n   SYSVAR(82)=2 (注意：后面再敲入一回车)\n   [图片: http://172.24.59.194:8098/kb/config_code/Fiji_s001_cbd625_5e8c3312.png]\n\n📄 来源: Fiji平台打印机通过发送打印指令抓取打印日志.docx",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 5
+    },
+    {
+      "query": "1472 蓝牙连接电脑",
+      "expected_model": "1472",
+      "expected_intent": "bluetooth_pairing",
+      "expected_doc_kw": "蓝牙,配对",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1472"
+      ],
+      "got_intents": [
+        "usb_connect",
+        "bluetooth_pairing",
+        "pairing"
+      ],
+      "response": "📌 适用于: 1472\n\n→ 步骤 2: 🔄 恢复出厂\n   2.1902按键出光后，依次扫描如下码执行恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/1902_1472_%E8%93%9D%E7%89%99_s002_0f9615_052dd188.png]\n\n→ 步骤 5: 📡 配对\n   4.确认配对成功后，电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息\n   [图片: http://172.24.59.194:8098/kb/config_code/1902_1472_%E8",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 3
+    },
+    {
+      "query": "HH490 怎么设置串口",
+      "expected_model": "HH490",
+      "expected_intent": "serial_connect",
+      "expected_doc_kw": "串口,RS232",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "HH490"
+      ],
+      "got_intents": [
+        "serial_connect",
+        "general_setup"
+      ],
+      "response": "📌 适用于: HH490\n🤖 混合检索增强\n\n  步骤 2: 📋 配置码\n   1.开篇扫描枪连接示意图右侧连接方式(确认串口线缆以及电源连接完毕)，并扫描如下码执行恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/HH490_OH460_%E4%B8%B2%E5%8F%A3_s002_fa8845_d06db740.png]\n\n  步骤 3: 📝 后缀设置\n   2.扫描如下码设置到串口模式下，默认参数115200、8、1、None；该码中含CRLF后缀\n   [图片: http://172.24.59.194:8098/kb/con",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 4
+    },
+    {
+      "query": "1900 接口码设置",
+      "expected_model": "1900",
+      "expected_intent": "interface_mode",
+      "expected_doc_kw": "接口码",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1900"
+      ],
+      "got_intents": [
+        "interface_mode",
+        "general_setup"
+      ],
+      "response": "📌 适用于: 1900\n\n  步骤 2: 📋 配置码\n   1.1900 USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB\n   [图片: http://172.24.59.194:8098/kb/config_code/1900_%E4%B8%B2%E5%8F%A3_s002_dc16b8_a879df63.png]\n\n→ 步骤 3: 🔌 接口模式\n   2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常：\n   [图片: http://172.24.59.194:8098/kb/config_code/19",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 3
+    },
+    {
+      "query": "HF680 加换行符",
+      "expected_model": "HF680",
+      "expected_intent": "add_suffix",
+      "expected_doc_kw": "换行,CRLF",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "HF680"
+      ],
+      "got_intents": [
+        "add_suffix"
+      ],
+      "response": "📌 适用于: HF680\n\n→ 步骤 2: 📝 后缀设置\n   1.当PN为HF680-R1-…/HF680-R0…(如图2)时，扫描如下码设置回车后缀\n   [图片: http://172.24.59.194:8098/kb/config_code/HF680_%E5%9B%9E%E8%BD%A6_%E5%90%8E%E7%BC%80_s002_9f787a_a63657b2.png]\n\n→ 步骤 3: 📝 后缀设置\n   2.当PN为HF680-1-…/HF680-0…(如图1)时，扫描如下码设置回车后缀\n   [图片: http://172.24.59.194:8098/kb/confi",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 5
+    },
+    {
+      "query": "PX240 恢复出厂设置",
+      "expected_model": "PX240",
+      "expected_intent": "restore_factory",
+      "expected_doc_kw": "恢复出厂",
+      "category": "打印机",
+      "note": "",
+      "got_models": [
+        "PX240"
+      ],
+      "got_intents": [
+        "restore_factory",
+        "general_setup"
+      ],
+      "response": "📌 适用于: PX240\n🤖 混合检索增强\n\n→ 步骤 1: 🔄 恢复出厂\n   扫描恢复出厂，避免格式干扰：\n   [图片: http://172.24.59.194:8098/kb/config_code/1900_s001_7b2eab_e6d3890a.png]\n\n📄 来源: 1900：设置同一个码，输出两次内容.docx\n\n💡 还有 4 个相关方案",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 2
+    },
+    {
+      "query": "OH460 设置连续模式",
+      "expected_model": "OH460",
+      "expected_intent": "continuous_scan",
+      "expected_doc_kw": "连续模式",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "OH460"
+      ],
+      "got_intents": [
+        "continuous_scan",
+        "general_setup"
+      ],
+      "response": "📌 适用于: OH460\n\n→ 步骤 1: 🔄 恢复出厂\n   扫描枪连接到电脑端，扫描枪按键出光后，扫描如下码，设置扫描枪恢复出厂+设置USB键盘口\n   [图片: http://172.24.59.194:8098/kb/config_code/HH490_OH460_%E4%B8%AD%E6%96%87_s001_8efaad_9e8653a3.png]\n\n→ 步骤 2: 🔄 恢复出厂\n   扫描枪连接到电脑端，扫描枪按键出光后，扫描如下码，设置扫描枪恢复出厂+设置USB键盘口\n   [图片: http://172.24.59.194:8098/kb/config_code/HH490_",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 2
+    },
+    {
+      "query": "1991i 怎么配对",
+      "expected_model": "1991i",
+      "expected_intent": "bluetooth_pairing",
+      "expected_doc_kw": "配对,蓝牙",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1991i"
+      ],
+      "got_intents": [
+        "bluetooth_pairing",
+        "pairing"
+      ],
+      "response": "📌 适用于: 1991i\n\n  步骤 1: 📋 配置码\n   USB线缆连接下，基本都是即插即用，如需扫描重置USB键盘口，如下码：\n   [图片: http://172.24.59.194:8098/kb/config_code/19xx_14xx_s001_b2e445_e59795d6.png]\n\n  步骤 2: 📋 配置码\n   USB线缆连接下作USB虚拟串口，用到如下码：\n   [图片: http://172.24.59.194:8098/kb/config_code/19xx_14xx_s002_b2e445_df9c08dc.png]\n\n  步骤 3: 🔌 接口模式\n   RS",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 1
+    },
+    {
+      "query": "1202g 基本使用说明",
+      "expected_model": "1202g",
+      "expected_intent": "general_setup",
+      "expected_doc_kw": "基本使用",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "1202g"
+      ],
+      "got_intents": [
+        "general_setup"
+      ],
+      "response": "📌 适用于: 1202g\n\n→ 步骤 1: 🔌 接口模式\n   上图是Keyboard Wedge / PS2接口线缆标配连接形式，需要特别确认实际使用中，红色圈出标注的区域是否有连接，这部分连接或者不连接，对应的配置码有差\n   [图片: http://172.24.59.194:8098/kb/config_code/7680g_19xx_14xx_s001_1ae254_fab4894b.png]\n\n→ 步骤 2: 🔄 恢复出厂\n   操作步骤如下：1.扫描如下码，执行恢复出厂2.扫描接口码：注意两点：\n   [图片: http://172.24.59.194:8098/kb/confi",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 3
+    },
+    {
+      "query": "7580g 怎么测试通信",
+      "expected_model": "7580g",
+      "expected_intent": "test_comm",
+      "expected_doc_kw": "测试,通信验证",
+      "category": "平台式扫描器",
+      "note": "",
+      "got_models": [
+        "7580g"
+      ],
+      "got_intents": [
+        "test_comm"
+      ],
+      "response": "📌 适用于: 7580g\n🤖 混合检索增强\n\n  步骤 3: 🔌 接口模式\n   2.扫描如下码设置到串口模式下，默认参数115200、8、1、None\n   [图片: http://172.24.59.194:8098/kb/config_code/7580g_%E4%B8%B2%E5%8F%A3_s003_63d826_d4281318.png]\n\n  步骤 4: 📋 配置码\n   如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。\n   [图片: http://172.24.59.194:8098/kb/config_code/7580g_%E",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 3
+    },
+    {
+      "query": "OH350 怎么加前缀",
+      "expected_model": "OH350X",
+      "expected_intent": "add_prefix",
+      "expected_doc_kw": "前缀",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "OH350X"
+      ],
+      "got_intents": [
+        "add_prefix"
+      ],
+      "response": "📌 适用于: OH350X\n🤖 混合检索增强\n\n→ 步骤 1: 🔧 进入/退出设置\n   B. 扫描“开启设置码”\n   [图片: http://172.24.59.194:8098/kb/config_code/OH430_%E5%89%8D%E7%BC%80_s001_2467f3_4a7b0de9.png]\n\n→ 步骤 2: 📝 前缀设置\n   C.扫描”允许添加前缀”\n   [图片: http://172.24.59.194:8098/kb/config_code/OH430_%E5%89%8D%E7%BC%80_s002_2467f3_768d4115.png]\n\n→ 步骤 3: 📝",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 4
+    },
+    {
+      "query": "OH420 接口设置",
+      "expected_model": "OH420",
+      "expected_intent": "interface_mode",
+      "expected_doc_kw": "接口,接口码",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "OH420"
+      ],
+      "got_intents": [
+        "interface_mode",
+        "general_setup"
+      ],
+      "response": "📌 适用于: OH420\n\n→ 步骤 1: 🔌 接口模式\n   OH420设置USB虚拟串口\n   [图片: http://172.24.59.194:8098/kb/config_code/OH420_USB%E8%99%9A%E6%8B%9F%E4%B8%B2%E5%8F%A3_%E4%B8%B2%E5%8F%A3_s001_11f4cd_f0c5d810.png]\n\n  步骤 2: 📋 配置码\n   1.扫描枪经USB线缆连接到电脑端，且电脑端无异常提示、扫描枪按键出光的情况下，依次扫描如下码执行恢复出厂+配置USB键盘口：\n   [图片: http://172.24.59.194:80",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 4
+    },
+    {
+      "query": "PC300T 基本操作",
+      "expected_model": "PC300T",
+      "expected_intent": "general_setup",
+      "expected_doc_kw": "基本,操作",
+      "category": "打印机",
+      "note": "",
+      "got_models": [
+        "PC300T"
+      ],
+      "got_intents": [
+        "general_setup"
+      ],
+      "response": "📌 适用于: PC300T\n\n  步骤 1: 📋 配置码\n   PC300T，打印一张，中间出一张白纸\n   [图片: http://172.24.59.194:8098/kb/config_code/PC300T_s001_5835ef_cbf38d41.jpeg]\n\n📄 来源: PC300T，打印一张，中间出一张白纸.docx",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": 3
+    },
+    {
+      "query": "扫码枪怎么加回车",
+      "expected_model": "",
+      "expected_intent": "",
+      "expected_doc_kw": "回车,后缀",
+      "category": "无型号",
+      "note": "",
+      "got_models": [],
+      "got_intents": [
+        "add_suffix"
+      ],
+      "response": "🔍 请提供您的产品型号，我能给出更精确的配置方案。\n\n例如：\n  • 手持扫描枪：1900-C、1902、1952、HH490、HH760\n  • 固定式扫码器：OH430、OH4502、HF680\n  • 平台式扫描器：7580g、7680g\n  • 打印机：PM42、PM43、PX240\n\n请这样问：\"1900-C USB连接\" \"OH430 加回车\" \"HH760 配对\"",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": null
+    },
+    {
+      "query": "1900 和 1902 配对有什么区别",
+      "expected_model": "",
+      "expected_intent": "product_overview",
+      "expected_doc_kw": "区别,对比",
+      "category": "跨型号",
+      "note": "",
+      "got_models": [
+        "1902",
+        "1900"
+      ],
+      "got_intents": [
+        "bluetooth_pairing",
+        "pairing"
+      ],
+      "response": "📌 适用于: 1902, 1900\n🤖 混合检索增强\n\n  步骤 2: 📋 配置码\n   1.1900 经过USB线缆连接到电脑的U口上，连接成功，扫描枪会有上电成功提示音；按键确认出光，然后依次扫描如下码：恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/1900_s002_208a19_d06db740.png]\n\n  步骤 3: 🔌 接口模式\n   2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常：\n   [图片: http://172.24.59.194:8098/kb",
+      "model_ok": true,
+      "intent_ok": false,
+      "doc_ok": false,
+      "llm_score": 2
+    },
+    {
+      "query": "扫了一下电脑上什么都没有",
+      "expected_model": "",
+      "expected_intent": "",
+      "expected_doc_kw": "test_comm",
+      "category": "没反应,没输出",
+      "note": "",
+      "got_models": [],
+      "got_intents": [
+        "usb_connect"
+      ],
+      "response": "🔍 请提供您的产品型号，我能给出更精确的配置方案。\n\n例如：\n  • 手持扫描枪：1900-C、1902、1952、HH490、HH760\n  • 固定式扫码器：OH430、OH4502、HF680\n  • 平台式扫描器：7580g、7680g\n  • 打印机：PM42、PM43、PX240\n\n请这样问：\"1900-C USB连接\" \"OH430 加回车\" \"HH760 配对\"",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": null
+    },
+    {
+      "query": "扫描枪蓝牙连不上",
+      "expected_model": "",
+      "expected_intent": "",
+      "expected_doc_kw": "bluetooth_pairing",
+      "category": "蓝牙,连不上",
+      "note": "",
+      "got_models": [],
+      "got_intents": [
+        "bluetooth_pairing"
+      ],
+      "response": "🔍 请提供您的产品型号，我能给出更精确的配置方案。\n\n例如：\n  • 手持扫描枪：1900-C、1902、1952、HH490、HH760\n  • 固定式扫码器：OH430、OH4502、HF680\n  • 平台式扫描器：7580g、7680g\n  • 打印机：PM42、PM43、PX240\n\n请这样问：\"1900-C USB连接\" \"OH430 加回车\" \"HH760 配对\"",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": null
+    },
+    {
+      "query": "hh760 USB连接",
+      "expected_model": "HH760",
+      "expected_intent": "usb_connect",
+      "expected_doc_kw": "USB,线缆",
+      "category": "大小写混淆",
+      "note": "",
+      "got_models": [
+        "HH760"
+      ],
+      "got_intents": [
+        "usb_connect"
+      ],
+      "response": "📌 适用于: HH760\n\n  步骤 2: 📋 配置码\n   1.HH760 USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB\n   [图片: http://172.24.59.194:8098/kb/config_code/HH760_HH762_%E4%B8%B2%E5%8F%A3_s002_2c16fc_33313aa6.png]\n\n→ 步骤 3: 🔌 接口模式\n   2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常：\n   [图片: http://172.24.59.194:8098/kb/confi",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 4
+    },
+    {
+      "query": "OH430 前缀和后缀怎么设置",
+      "expected_model": "OH430",
+      "expected_intent": "add_suffix",
+      "expected_doc_kw": "前缀,后缀",
+      "category": "复合意图",
+      "note": "",
+      "got_models": [
+        "OH430"
+      ],
+      "got_intents": [
+        "add_suffix",
+        "add_prefix",
+        "general_setup"
+      ],
+      "response": "📌 适用于: OH430\n\n→ 步骤 1: 📝 后缀设置\n   样本码：\n   [图片: http://172.24.59.194:8098/kb/config_code/OH430_%E5%90%8E%E7%BC%80_s001_19d312_e41befa4.png]\n\n→ 步骤 2: 🔄 恢复出厂\n   在设置前后缀格式前，建议先扫描如下两个码执行恢复出厂，避免其他格式干扰(扫描恢复出厂后，等待2~3s枪反应)：\n   [图片: http://172.24.59.194:8098/kb/config_code/OH430_%E5%90%8E%E7%BC%80_s002_19d312_7f",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 3
+    },
+    {
+      "query": "1900 蓝牙配对然后加回车",
+      "expected_model": "1900",
+      "expected_intent": "add_suffix",
+      "expected_doc_kw": "后缀,回车",
+      "category": "多意图顺序",
+      "note": "",
+      "got_models": [
+        "1900"
+      ],
+      "got_intents": [
+        "bluetooth_pairing",
+        "add_suffix",
+        "pairing"
+      ],
+      "response": "📌 适用于: 1900\n🤖 混合检索增强\n\n  步骤 1: 🔄 恢复出厂\n   先扫描如下码，执行恢复出厂，避免可能存在的其他格式干扰：\n   [图片: http://172.24.59.194:8098/kb/config_code/1900_s001_feef25_677e30b9.png]\n\n→ 步骤 2: 📝 后缀设置\n   6.当前配置码已含回车后缀\n   [图片: http://172.24.59.194:8098/kb/config_code/1900_s002_feef25_42b5ecd1.png]\n\n📄 来源: 1900数据格式编辑.docx\n\n💡 还有 10 个相关方案",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 5
+    },
+    {
+      "query": "8680i 恢复出厂",
+      "expected_model": "8680i",
+      "expected_intent": "restore_factory",
+      "expected_doc_kw": "恢复出厂",
+      "category": "手持扫描枪",
+      "note": "",
+      "got_models": [
+        "8680i"
+      ],
+      "got_intents": [
+        "restore_factory"
+      ],
+      "response": "📌 适用于: 8680i\n🤖 混合检索增强\n\n→ 步骤 2: 🔄 恢复出厂\n   2.按照如下流程，尝试借助Ezconfig连接扫描器，执行恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/HF680_19xx_%E6%81%A2%E5%A4%8D%E5%87%BA%E5%8E%82_s002_b17777_8b85f4bd.png]\n\n→ 步骤 3: 🔄 恢复出厂\n   2.按照如下流程，尝试借助Ezconfig连接扫描器，执行恢复出厂\n   [图片: http://172.24.59.194:8098/kb/config_code/",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 3
+    },
+    {
+      "query": "SC2800 怎么设置",
+      "expected_model": "SC2800",
+      "expected_intent": "general_setup",
+      "expected_doc_kw": "基本,设置",
+      "category": "固定式扫码器",
+      "note": "",
+      "got_models": [
+        "SC2800"
+      ],
+      "got_intents": [
+        "general_setup"
+      ],
+      "response": "📌 适用于: SC2800\n\n→ 步骤 1: 🔧 进入/退出设置\n   2.扫描如下码，进入设置\n   [图片: http://172.24.59.194:8098/kb/config_code/SC2800_%E5%90%8E%E7%BC%80_s001_bb5c18_8b4fff95.png]\n\n  步骤 2: 📝 后缀设置\n   3.扫描如下设置码，添加第一个后缀\n   [图片: http://172.24.59.194:8098/kb/config_code/SC2800_%E5%90%8E%E7%BC%80_s002_bb5c18_3259eaef.png]\n\n  步骤 3: 📝 后",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": true,
+      "llm_score": 3
+    },
+    {
+      "query": "这是什么产品",
+      "expected_model": "",
+      "expected_intent": "",
+      "expected_doc_kw": "product_overview",
+      "category": "产品介绍",
+      "note": "",
+      "got_models": [],
+      "got_intents": [
+        "product_overview"
+      ],
+      "response": "🔍 请提供您的产品型号，我能给出更精确的配置方案。\n\n例如：\n  • 手持扫描枪：1900-C、1902、1952、HH490、HH760\n  • 固定式扫码器：OH430、OH4502、HF680\n  • 平台式扫描器：7580g、7680g\n  • 打印机：PM42、PM43、PX240\n\n请这样问：\"1900-C USB连接\" \"OH430 加回车\" \"HH760 配对\"",
+      "model_ok": true,
+      "intent_ok": true,
+      "doc_ok": false,
+      "llm_score": null
+    }
+  ]
+}

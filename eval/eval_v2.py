@@ -7,7 +7,7 @@
 """
 
 import csv, json, sys, os, re, requests, time
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 from query import QueryEngineV3 as QueryEngineV2
 from query import load_intents
 INTENT_MAP = load_intents()
@@ -93,10 +93,11 @@ def main():
             continue
         
         exp_model = case.get('model', '').strip()
-        exp_intent = case.get('intent', '').strip()
-        exp_doc_kw = case.get('expected_doc_kw', '').strip()
+        exp_intent = case.get('expected_intent', '').strip()
+        exp_doc_kw_raw = case.get('expected_doc_kw', '').strip()
+        exp_kws = [kw.strip() for kw in exp_doc_kw_raw.split(',') if kw.strip()] if exp_doc_kw_raw else []
         cat = case.get('category', '其他').strip()
-        note = case.get('note', '').strip()
+        note = ''
         
         metrics['total'] += 1
         
@@ -116,16 +117,16 @@ def main():
         intent_ok = (not exp_intent) or (exp_intent in intents)
         
         doc_ok = True
-        if exp_doc_kw:
+        if exp_kws:
             metrics['total_with_doc_kw'] += 1
-            doc_ok = exp_doc_kw in resp
+            doc_ok = any(kw in resp for kw in exp_kws)
         
         if exp_model:
             metrics['total_with_model'] += 1
             if model_ok: metrics['model_correct'] += 1
         if exp_intent and intent_ok:
             metrics['intent_correct'] += 1
-        if exp_doc_kw and doc_ok:
+        if exp_kws and doc_ok:
             metrics['doc_correct'] += 1
         
         # LLM 语义评分
@@ -143,7 +144,7 @@ def main():
         if intent_ok: cat_metrics[cat]["intent_ok"] += 1
         if doc_ok: cat_metrics[cat]["doc_ok"] += 1
         
-        all_ok = (not exp_model or model_ok) and (not exp_intent or intent_ok) and (not exp_doc_kw or doc_ok)
+        all_ok = (not exp_model or model_ok) and (not exp_intent or intent_ok) and (not exp_kws or doc_ok)
         if all_ok: cat_metrics[cat]["all_ok"] += 1
         
         status = "✅" if all_ok else "❌"
@@ -152,7 +153,7 @@ def main():
         issues = []
         if exp_model and not model_ok: issues.append(f"型号:{exp_model}→{models}")
         if exp_intent and not intent_ok: issues.append(f"意图:{exp_intent}→{intents}")
-        if exp_doc_kw and not doc_ok: issues.append(f"文档缺'{exp_doc_kw}'")
+        if exp_kws and not doc_ok: issues.append(f"文档缺{exp_kws}")
         llm_str = f" [LLM:{llm_score}]" if llm_score else ""
         
         print(f"  {status} [{i+1:>2}/{len(cases)}] {query[:45]:45s} | 型号={'✓' if model_ok else '✗'} 意图={'✓' if intent_ok else '✗'} 文档={'✓' if doc_ok else '✗'}{llm_str} | {note}")
@@ -163,7 +164,7 @@ def main():
             "query": query,
             "expected_model": exp_model,
             "expected_intent": exp_intent,
-            "expected_doc_kw": exp_doc_kw,
+            "expected_doc_kw": exp_doc_kw_raw,
             "category": cat,
             "note": note,
             "got_models": models,
