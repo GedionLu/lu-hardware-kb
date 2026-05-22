@@ -1,26 +1,34 @@
 #!/usr/bin/env python3
 """
-V7.3: YOLO 条码 + Plan B 图片提取 + 统一命名 + 统一输出格式
+V7.3: YOLO 条码 + VLM 非码图检测 + 统一命名 + 统一输出格式
 
 V7.2 → V7.3 升级:
-  1. Plan B: PyMuPDF 提取非条码图片 (产品图/连接图) → type: "image"
-  2. 统一命名: {model}_{category}_p{page}_s{idx}_{value}_{hash}.png
-  3. 统一输出: kb-images/pdf/{barcode,qrcode,image}/ + image_index.json
-  4. 型号提取: 从 PDF 文件名自动提取产品型号
-  5. 对齐 DOCX image_index.json 格式
+  1. VLM 视觉元素检测: qwen3-vl-8b 检测非条码图片 (product/diagram/icon)
+  2. Plan B fallback: PyMuPDF 提取嵌入图 (VLM 未启用时)
+  3. 统一命名: {model}_{category}_p{page}_s{idx}_{value}_{hash}.png
+  4. 统一输出: kb-images/pdf/{barcode,qrcode,image,product,diagram,icon}/
+  5. 型号提取: 从 PDF 文件名自动提取产品型号
+  6. 对齐 DOCX image_index.json 格式
 
 用法:
+  # 基础 (无 VLM)
+  python3 pdf_pipeline/extract_yolo_v7.3.py \\
+    --pdf "19Series/197x/1972-EN-QS-01 Rev A.pdf" \\
+    --out kb-images/pdf/
+  
+  # 启用 VLM (本地 LM Studio)
   python3 pdf_pipeline/extract_yolo_v7.3.py \\
     --pdf "19Series/197x/1972-EN-QS-01 Rev A.pdf" \\
     --out kb-images/pdf/ \\
-    [--dpi 300] [--conf 0.25] [--skip 1]
+    --vlm http://192.168.3.83:1234
 """
-import os, sys, json, argparse, hashlib, re
+import os, sys, json, argparse, hashlib, re, base64
 from io import BytesIO
 
 import fitz
 import numpy as np
 from PIL import Image
+import requests
 
 # ── macOS zbar 路径补丁 ──
 import ctypes, ctypes.util, platform
@@ -211,10 +219,99 @@ def decode_with_pyzbar(img_array):
 
 
 # ═══════════════════════════════════════════════════════════════════
+# 🆕 VLM: qwen3-vl-8b 非条码视觉元素检测
+# ═══════════════════════════════════════════════════════════════════
+
+VLM_CATEGORY_DIRS = ['barcode', 'qrcode', 'image', 'product', 'diagram', 'icon']
+
+
+def query_vlm_for_elements(rendered_img_b64, img_w, img_h, barcode_masks, vlm_url):
+    """
+    调用 qwen3-vl-8b 检测非条码视觉元素。
+    barcode_masks: [(x0,y0,x1,y1), ...] 像素坐标，这些区域会被白色遮盖。
+    返回: [{"type":"product|diagram|icon","description":"...",
+            "x0":px,"y0":px,"x1":px,"y1":px}, ...]
+    """
+    import base64
+    from PIL import Image, ImageDraw
+    
+    # 遮盖条码区域
+    img = Image.open(BytesIO(base64.b64decode(rendered_img_b64)))
+    if barcode_masks:
+        draw = ImageDraw.Draw(img)
+        for (mx0, my0, mx1, my1) in barcode_masks:
+            draw.rectangle([mx0, my0, mx1, my1], fill='white')
+    
+    # 缩放到 ≤800px 宽以加速推理
+    target_w = 800
+    if img_w > target_w:
+        scale = target_w / img_w
+        new_w, new_h = int(img_w * scale), int(img_h * scale)
+        img = img.resize((new_w, new_h), Image.LANCZOS)
+        img_w, img_h = new_w, new_h
+    
+    buf = BytesIO()
+    img.save(buf, format='PNG')
+    masked_b64 = base64.b64encode(buf.getvalue()).decode()
+    
+    prompt = (
+        f"图片原始尺寸{img_w}x{img_h}像素。"
+        "列出除正文文字和条码外的所有视觉元素。"
+        "type只能是: product(产品照片), diagram(示意图), icon(图标)。"
+        "输出JSON: [{\"type\":\"product\",\"description\":\"简短中文描述\","
+        "\"x0\":左边界px,\"y0\":上边界px,\"x1\":右边界px,\"y1\":下边界px}]。"
+        "坐标相对于原始尺寸。没有则返回[]。只返回JSON，不要代码块。"
+    )
+    
+    try:
+        resp = requests.post(
+            f"{vlm_url}/v1/chat/completions",
+            json={
+                'model': 'qwen/qwen3-vl-8b',
+                'messages': [{
+                    'role': 'user',
+                    'content': [
+                        {'type': 'image_url',
+                         'image_url': {'url': f'data:image/png;base64,{masked_b64}'}},
+                        {'type': 'text', 'text': prompt},
+                    ]
+                }],
+                'max_tokens': 500,
+                'temperature': 0.0,
+            },
+            timeout=180,
+        )
+        if resp.status_code != 200:
+            print(f"  [VLM] HTTP {resp.status_code}: {resp.text[:100]}")
+            return []
+        
+        content = resp.json()['choices'][0]['message']['content'].strip()
+        # 去掉 markdown 代码块标记
+        if content.startswith('```'):
+            content = content.split('\n', 1)[-1]
+            if content.endswith('```'):
+                content = content[:-3]
+        content = content.strip()
+        
+        # 提取 JSON 数组
+        json_start = content.find('[')
+        json_end = content.rfind(']') + 1
+        if json_start >= 0 and json_end > json_start:
+            return json.loads(content[json_start:json_end])
+        
+        print(f"  [VLM] 无法解析JSON: {content[:100]}")
+        return []
+    
+    except Exception as e:
+        print(f"  [VLM] ERROR: {e}")
+        return []
+
+
+# ═══════════════════════════════════════════════════════════════════
 # 主函数
 # ═══════════════════════════════════════════════════════════════════
 
-def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
+def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None, vlm_url=None):
     if skip_pages is None:
         skip_pages = {1}
 
@@ -222,7 +319,7 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
     series_name = extract_series(model_name)
 
     os.makedirs(out_dir, exist_ok=True)
-    for cat in ['barcode', 'qrcode', 'image']:
+    for cat in VLM_CATEGORY_DIRS:
         os.makedirs(os.path.join(out_dir, cat), exist_ok=True)
 
     model = YOLO(MODEL_PATH)
@@ -487,89 +584,153 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
                 'page': pn,
             })
 
-        # ── 🆕 Plan B: 非条码图片提取 ──
-        MIN_IMG_SIZE = 50   # pt, 最小尺寸
-        MAX_PAGE_RATIO = 0.8
-
-        for img_info in page.get_images(full=True):
-            xref = img_info[0]
-            base = doc.extract_image(xref)
-            w, h = base['width'], base['height']
-            rects = page.get_image_rects(xref)
-            if not rects:
-                continue
-            r = rects[0]
-            iw_pt = (r.x1 - r.x0)
-            ih_pt = (r.y1 - r.y0)
-
-            # 尺寸过滤
-            if iw_pt < MIN_IMG_SIZE or ih_pt < MIN_IMG_SIZE:
-                continue
-            if iw_pt > page_w * MAX_PAGE_RATIO or ih_pt > page_h * MAX_PAGE_RATIO:
-                continue
-
-            # 检查是否被 YOLO 条码覆盖
-            ix0_px, iy0_px = int(r.x0 * SCALE), int(r.y0 * SCALE)
-            ix1_px, iy1_px = int(r.x1 * SCALE), int(r.y1 * SCALE)
-            overlap = False
-            for cx1, cy1, cx2, cy2 in covered_rects:
-                ox = max(0, min(ix1_px, cx2) - max(ix0_px, cx1))
-                oy = max(0, min(iy1_px, cy2) - max(iy0_px, cy1))
-                if ox > 20 and oy > 20:
-                    overlap = True
-                    break
-            if overlap:
-                continue
-
-            # 保存非条码图片
-            image_counter += 1
-            try:
-                img_bytes = base['image']
-                sub_img = Image.open(BytesIO(img_bytes))
-                if sub_img.mode == 'RGBA':
-                    bg = Image.new('RGB', sub_img.size, (255, 255, 255))
-                    bg.paste(sub_img, mask=sub_img.split()[3])
-                    sub_img = bg
-                elif sub_img.mode != 'RGB':
-                    sub_img = sub_img.convert('RGB')
-                crop_np = np.array(sub_img)
-                fhash = img_hash(crop_np)
-
-                # 找附近文字作标注
-                label = ""
-                i_mid_y = (r.y0 + r.y1) / 2
-                for tb in text_blocks:
-                    t_mid_y = (tb['y0'] + tb['y1']) / 2
-                    if abs(t_mid_y - i_mid_y) < 60:
-                        label = tb['text']
-                        break
-
-                label_part = safe_filename(label, 20) if label else f"p{pn}"
-                fname = f"{model_name}_image_p{pn:02d}_s{image_counter:02d}_{label_part}_{fhash}.png"
-                fpath = os.path.join(out_dir, 'image', fname)
-                sub_img.save(fpath)
-
+        # ── 🆕 VLM 非条码视觉元素检测 ──
+        vlm_elements = []
+        if vlm_url:
+            # 用 150DPI 渲染页给 VLM
+            vlm_pix = page.get_pixmap(dpi=150)
+            import base64
+            vlm_b64 = base64.b64encode(vlm_pix.tobytes()).decode()
+            vlm_w, vlm_h = vlm_pix.width, vlm_pix.height
+            
+            # 构建条码遮盖区域 (像素坐标，相对于 150 DPI)
+            VLM_SCALE = 150 / 72.0
+            barcode_masks = []
+            for d in detections:
+                x1, y1, x2, y2 = d['px_box']  # 300 DPI px
+                scale_ratio = 150.0 / dpi  # 300→150
+                barcode_masks.append((
+                    int(x1 * scale_ratio), int(y1 * scale_ratio),
+                    int(x2 * scale_ratio), int(y2 * scale_ratio),
+                ))
+            
+            t0 = __import__('time').time()
+            raw_elements = query_vlm_for_elements(vlm_b64, vlm_w, vlm_h, barcode_masks, vlm_url)
+            vlm_time = __import__('time').time() - t0
+            
+            # 处理 VLM 返回的元素
+            for elem in raw_elements:
+                etype = elem.get('type', 'image')
+                desc = elem.get('description', '')
+                # 坐标从 150DPI 像素 → 300DPI 像素 (dpi)
+                px_scale = dpi / 150.0
+                x0_px = max(0, int(elem.get('x0', 0) * px_scale))
+                y0_px = max(0, int(elem.get('y0', 0) * px_scale))
+                x1_px = min(PAGE_W, int(elem.get('x1', vlm_w) * px_scale))
+                y1_px = min(PAGE_H, int(elem.get('y1', vlm_h) * px_scale))
+                
+                if x1_px - x0_px < 20 or y1_px - y0_px < 20:
+                    continue
+                
+                # 裁剪
+                crop = img[y0_px:y1_px, x0_px:x1_px]
+                if crop.size == 0:
+                    continue
+                fhash = img_hash(crop)
+                
+                image_counter += 1
+                cat = etype if etype in ('product', 'diagram', 'icon') else 'image'
+                label_part = safe_filename(desc, 20) if desc else f"p{pn}"
+                fname = f"{model_name}_{cat}_p{pn:02d}_s{image_counter:02d}_{label_part}_{fhash}.png"
+                fpath = os.path.join(out_dir, cat, fname)
+                Image.fromarray(crop).save(fpath)
+                
+                bt0 = max(0, x0_px / SCALE)
+                bt1 = max(0, y0_px / SCALE)
+                bt2 = min(page_w, x1_px / SCALE)
+                bt3 = min(page_h, y1_px / SCALE)
+                
+                vlm_elements.append({
+                    'type': 'image',
+                    'file_name': fname,
+                    'category': cat,
+                    'description': desc,
+                    'confidence': 0.9,
+                    'x0': bt0, 'y0': bt1, 'x1': bt2, 'y1': bt3,
+                })
+                
                 image_index.append({
                     'image_id': f"{fhash}_{model_name}",
                     'file_name': fname,
-                    'category': 'image',
-                    'confidence': 1.0,
-                    'context_text': label or f"Page {pn} image",
+                    'category': cat,
+                    'confidence': 0.9,
+                    'context_text': desc or f"Page {pn} {cat}",
                     'image_order': image_counter,
                     'source_doc_rel': pdf_path,
                     'applicable_models': [{
-                        'category': '手持扫描枪',
-                        'series': series_name,
-                        'model': model_name,
-                        'full_name': model_name,
+                        'category': '手持扫描枪', 'series': series_name,
+                        'model': model_name, 'full_name': model_name,
                     }],
-                    'image_url': f"kb-images/pdf/image/{fname}",
+                    'image_url': f"kb-images/pdf/{cat}/{fname}",
                     'page': pn,
                 })
-
-                print(f"  [IMAGE] page{pn} → {fname} ({iw_pt:.0f}×{ih_pt:.0f}pt) \"{label[:40]}\"")
-            except Exception as e:
-                print(f"  [IMAGE] page{pn} ERROR: {e}")
+                print(f"  [VLM] {cat:8s} → {fname} \"{desc[:40]}\"")
+            
+            print(f"  [VLM] page{pn}: {len(raw_elements)} 候选 → {len(vlm_elements)} 有效 ({vlm_time:.1f}s)")
+        
+        else:
+            # ── Plan B fallback: PyMuPDF 嵌入图提取 ──
+            MIN_IMG_SIZE = 20   # pt, 降低阈值
+            MAX_PAGE_RATIO = 0.8
+            for img_info in page.get_images(full=True):
+                xref = img_info[0]
+                base = doc.extract_image(xref)
+                w, h = base['width'], base['height']
+                rects = page.get_image_rects(xref)
+                if not rects:
+                    continue
+                r = rects[0]
+                iw_pt, ih_pt = (r.x1 - r.x0), (r.y1 - r.y0)
+                if iw_pt < MIN_IMG_SIZE or ih_pt < MIN_IMG_SIZE:
+                    continue
+                if iw_pt > page_w * MAX_PAGE_RATIO or ih_pt > page_h * MAX_PAGE_RATIO:
+                    continue
+                ix0_px, iy0_px = int(r.x0 * SCALE), int(r.y0 * SCALE)
+                ix1_px, iy1_px = int(r.x1 * SCALE), int(r.y1 * SCALE)
+                if any(max(0, min(ix1_px, cx2) - max(ix0_px, cx1)) > 20
+                       and max(0, min(iy1_px, cy2) - max(iy0_px, cy1)) > 20
+                       for cx1, cy1, cx2, cy2 in covered_rects):
+                    continue
+                image_counter += 1
+                try:
+                    sub_img = Image.open(BytesIO(base['image']))
+                    if sub_img.mode == 'RGBA':
+                        bg = Image.new('RGB', sub_img.size, (255, 255, 255))
+                        bg.paste(sub_img, mask=sub_img.split()[3])
+                        sub_img = bg
+                    elif sub_img.mode != 'RGB':
+                        sub_img = sub_img.convert('RGB')
+                    crop_np = np.array(sub_img)
+                    fhash = img_hash(crop_np)
+                    label = ""
+                    i_mid_y = (r.y0 + r.y1) / 2
+                    for tb in text_blocks:
+                        if abs((tb['y0'] + tb['y1']) / 2 - i_mid_y) < 60:
+                            label = tb['text']; break
+                    label_part = safe_filename(label, 20) if label else f"p{pn}"
+                    fname = f"{model_name}_image_p{pn:02d}_s{image_counter:02d}_{label_part}_{fhash}.png"
+                    fpath = os.path.join(out_dir, 'image', fname)
+                    sub_img.save(fpath)
+                    bt0 = max(0, ix0_px / SCALE); bt1 = max(0, iy0_px / SCALE)
+                    bt2 = min(page_w, ix1_px / SCALE); bt3 = min(page_h, iy1_px / SCALE)
+                    vlm_elements.append({
+                        'type': 'image', 'file_name': fname, 'category': 'image',
+                        'confidence': 1.0, 'x0': bt0, 'y0': bt1, 'x1': bt2, 'y1': bt3,
+                    })
+                    image_index.append({
+                        'image_id': f"{fhash}_{model_name}", 'file_name': fname,
+                        'category': 'image', 'confidence': 1.0,
+                        'context_text': label or f"Page {pn} image",
+                        'image_order': image_counter, 'source_doc_rel': pdf_path,
+                        'applicable_models': [{
+                            'category': '手持扫描枪', 'series': series_name,
+                            'model': model_name, 'full_name': model_name,
+                        }],
+                        'image_url': f"kb-images/pdf/image/{fname}", 'page': pn,
+                    })
+                    print(f"  [IMAGE] page{pn} → {fname} ({iw_pt:.0f}×{ih_pt:.0f}pt) \"{label[:40]}\"")
+                except Exception as e:
+                    print(f"  [IMAGE] page{pn} ERROR: {e}")
 
         if not detections and not text_blocks:
             continue
@@ -598,6 +759,16 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
                 'zbar_type': be_['zbar_type'],
                 'ocr_label': be_['ocr_label'],
                 'x0': be_['x0'], 'y0': be_['y0'], 'x1': be_['x1'], 'y1': be_['y1'],
+            })
+        # 🆕 添加 VLM 元素到排序
+        for ve in vlm_elements:
+            all_elements.append({
+                'type': 'image',
+                'file_name': ve['file_name'],
+                'category': ve['category'],
+                'description': ve.get('description', ''),
+                'confidence': ve['confidence'],
+                'x0': ve['x0'], 'y0': ve['y0'], 'x1': ve['x1'], 'y1': ve['y1'],
             })
 
         if num_cols == 2 and split_x is not None:
@@ -628,6 +799,17 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
                 elements_out.append({
                     'type': 'text',
                     'content': elem['content'],
+                    'bbox': [round(elem['x0'], 1), round(elem['y0'], 1),
+                             round(elem['x1'], 1), round(elem['y1'], 1)],
+                })
+            elif elem['type'] == 'image':
+                elements_out.append({
+                    'type': 'image',
+                    'file_name': elem['file_name'],
+                    'category': elem['category'],
+                    'description': elem.get('description', ''),
+                    'image_url': f"kb-images/pdf/{elem['category']}/{elem['file_name']}",
+                    'confidence': elem['confidence'],
                     'bbox': [round(elem['x0'], 1), round(elem['y0'], 1),
                              round(elem['x1'], 1), round(elem['y1'], 1)],
                 })
@@ -686,9 +868,11 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
         json.dump(image_index, f, ensure_ascii=False, indent=2)
 
     print(f"\n✅ {os.path.basename(pdf_path)} → {out_dir}")
-    print(f"   index.json: {total_elements} elements ({total_barcodes} barcode, {image_counter} image)")
+    print(f"   index.json: {total_elements} elements ({total_barcodes} barcode, {image_counter} non-barcode)")
     print(f"   image_index.json: {len(image_index)} entries")
-    print(f"   images: kb-images/pdf/{{barcode,qrcode,image}}/")
+    imode = "VLM" if vlm_url else "Plan B"
+    print(f"   non-barcode mode: {imode}")
+    print(f"   images: kb-images/pdf/{{barcode,qrcode,product,diagram,icon,image}}/")
     return output
 
 
@@ -697,12 +881,14 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None):
 # ═══════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="V7.3: YOLO barcode + Plan B images + unified naming")
+    parser = argparse.ArgumentParser(description="V7.3: YOLO barcode + VLM non-barcode + unified naming")
     parser.add_argument("--pdf", required=True, help="Input PDF path")
     parser.add_argument("--out", required=True, help="Output directory (e.g. kb-images/pdf)")
     parser.add_argument("--dpi", type=int, default=300)
     parser.add_argument("--conf", type=float, default=0.25)
     parser.add_argument("--skip", type=str, default="1")
+    parser.add_argument("--vlm", type=str, default=None,
+                        help="VLM server URL (e.g. http://192.168.3.83:1234). If set, uses qwen3-vl-8b for non-barcode detection.")
     args = parser.parse_args()
     skip = set(int(p.strip()) for p in args.skip.split(",") if p.strip())
-    extract_v73(args.pdf, args.out, dpi=args.dpi, conf=args.conf, skip_pages=skip)
+    extract_v73(args.pdf, args.out, dpi=args.dpi, conf=args.conf, skip_pages=skip, vlm_url=args.vlm)
