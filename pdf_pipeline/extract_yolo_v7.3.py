@@ -256,7 +256,8 @@ def query_vlm_for_elements(rendered_img_b64, img_w, img_h, barcode_masks, vlm_ur
     
     prompt = (
         f"图片原始尺寸{img_w}x{img_h}像素。"
-        "列出除正文文字和条码外的所有视觉元素。"
+        "忽略所有条码(barcode)和二维码(QR code)图案，它们已经被白色遮盖。"
+        "只列出真正的视觉元素。"
         "type只能是: product(产品照片), diagram(示意图), icon(图标)。"
         "输出JSON: [{\"type\":\"product\",\"description\":\"简短中文描述\","
         "\"x0\":左边界px,\"y0\":上边界px,\"x1\":右边界px,\"y1\":下边界px}]。"
@@ -626,6 +627,20 @@ def extract_v73(pdf_path, out_dir, dpi=300, conf=0.25, skip_pages=None, vlm_url=
                 crop = img[y0_px:y1_px, x0_px:x1_px]
                 if crop.size == 0:
                     continue
+                
+                # 🆕 pyzbar 二次验证：解码成功 → 条码，丢弃
+                raw_val, _ = decode_with_pyzbar(crop)
+                if raw_val:
+                    print(f"  [VLM] SKIP {etype}: pyzbar decoded '{raw_val[:25]}' → false positive")
+                    continue
+                
+                # 🆕 与 YOLO bbox 重叠检查
+                if any(max(0, min(x1_px, dx2) - max(x0_px, dx1)) > 10
+                       and max(0, min(y1_px, dy2) - max(y0_px, dy1)) > 10
+                       for dx1, dy1, dx2, dy2 in [d['px_box'] for d in detections]):
+                    print(f"  [VLM] SKIP {etype}: overlaps YOLO bbox → false positive")
+                    continue
+                
                 fhash = img_hash(crop)
                 
                 image_counter += 1
