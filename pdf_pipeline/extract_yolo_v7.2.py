@@ -46,8 +46,7 @@ except (ImportError, OSError, Exception):
 from ultralytics import YOLO
 
 # ---------- paths ----------
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "yolov8s-barcode-detection.pt")
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "yolov8s-barcode-detection.pt")
 
 
 # ═══════════════════════════════════════════════════════════════════
