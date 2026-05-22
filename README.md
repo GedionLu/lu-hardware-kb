@@ -6,18 +6,30 @@
 ## 项目结构
 
 ```
-AI_KB_ChatBot/
-├── src/                    # 核心引擎
+ai-kb-chatbot/
+├── src/                    # 核心引擎 (chatbot 服务)
 ├── static/                 # Web 前端
 ├── data/                   # 知识库数据
-├── pipeline/               # 数据处理管线
+├── pdf_pipeline/           # 🟢 PDF 条码提取管线 (激活)
+│   ├── extract_yolo_v7.2.py
+│   ├── extract_yolo_v7.py
+│   └── models/
+├── docx_pipeline/          # 🔒 DOCX 处理管线 (冻结)
 ├── scripts/                # 辅助工具
 ├── eval/                   # 质量评估
 ├── deploy/                 # 部署配置
 ├── intents.yaml            # 意图定义
-├── TODO.md                 # 待办
-└── README.md               # 本文件
+├── output_schema.md        # 统一输出格式规范
+├── TODO.md
+└── README.md
 ```
+
+## 管线状态
+
+| 管线 | 状态 | 说明 |
+|---|---|---|
+| `pdf_pipeline/` | 🟢 激活 | YOLOv8s + pyzbar 条码提取，可独立测试 |
+| `docx_pipeline/` | 🔒 冻结 | DOCX 处理管线，保留代码暂不启用 |
 
 ## 架构
 
@@ -34,6 +46,14 @@ src/query.py            (查询引擎 v3)
   ├── src/retriever.py  (Qdrant + BM25 + RRF)
   │     └── embed_server:8190 (bge-small-zh-v1.5)
   └── 图片输出: data/image_index.json → /img/ URL
+```
+
+## 知识入库流程
+
+```
+DOCX → docx_pipeline/ ─┐
+                         ├──→ output_schema.md (统一格式) → data/ → chatbot
+PDF  → pdf_pipeline/  ──┘
 ```
 
 ## 快速开始
@@ -54,6 +74,18 @@ cd src && python3 chatbot_server.py
 
 # 访问 → http://localhost:10054
 ```
+
+## 独立测试 PDF 管线
+
+```bash
+pip install ultralytics PyMuPDF Pillow pyzbar numpy
+
+python3 pdf_pipeline/extract_yolo_v7.2.py \
+  --pdf /path/to/document.pdf \
+  --out /tmp/output/
+```
+
+详见 [`pdf_pipeline/README.md`](pdf_pipeline/README.md)
 
 ## 服务进程
 

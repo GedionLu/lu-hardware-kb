@@ -20,6 +20,10 @@ data/eval_result.json
 data/eval_result_v2.json
 data/product_tree.csv
 
+# PDF 管线测试输出
+pdf_pipeline/test_output/
+test_results/
+
 # 系统文件
 .DS_Store
 Thumbs.db
