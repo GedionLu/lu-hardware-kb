@@ -50,14 +50,18 @@ python3 pdf_pipeline/extract_yolo_v7.2.py \
 |---|---|
 | YOLOv8s 检测 | 全页 + 嵌入图两阶段检测 |
 | pyzbar 解码 | 条码原始值写入元数据 |
+| Plan B 图片提取 | 自动提取非条码图片（产品图/连接图） |
+| 统一命名 | `{model}_{category}_p{page}_s{step}_{value}_{hash}.png` |
 | 分栏检测 | 自动识别双栏排版并正确排序 |
 | 重叠过滤 | 剔除条码自带 HRI 文字 |
 | 扫描件分流 | 自动检测无文本层的扫描页 |
 | 空间排序 | 文字块+条码块按阅读顺序排列 |
+| 统一输出 | 对齐 DOCX image_index.json 格式，含 applicable_models |
 
 ## 版本
 
 | 文件 | 版本 | 说明 |
 |---|---|---|
-| `extract_yolo_v7.2.py` | V7.2 | 当前主力（空间排序+三补丁） |
+| `extract_yolo_v7.3.py` | V7.3 | ⭐ 当前主力（Plan B 图片 + 统一命名 + 统一输出） |
+| `extract_yolo_v7.2.py` | V7.2 | 稳定版（空间排序+三补丁） |
 | `extract_yolo_v7.py` | V7.1 | 稳定版（YOLO+pyzbar，无排序） |
