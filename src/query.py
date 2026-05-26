@@ -62,12 +62,29 @@ class QueryEngineV3:
         self.index_by_name = {e['file_name']: e for e in self.index if e.get('file_name')}
         self.ds_key = self._load_ds_key()
         self._retriever = None  # lazy init
+        self._fulltext = None  # lazy init
     
     def _get_retriever(self):
         if self._retriever is None:
             from retriever import get_retriever
             self._retriever = get_retriever()
         return self._retriever
+
+    def _get_fulltext(self):
+        if self._fulltext is None:
+            from fulltext_search import FulltextSearch
+            self._fulltext = FulltextSearch()
+        return self._fulltext
+
+    def _search_fulltext(self, query, models, top_k=3):
+        """全文搜索兜底"""
+        try:
+            ft = self._get_fulltext()
+            product = models[0] if models else None
+            results = ft.search(query, product=product, top_k=top_k)
+            return results
+        except Exception:
+            return []
     
     def _reload_intents(self):
         """检查 YAML 是否更新，自动热加载"""
@@ -680,6 +697,13 @@ class QueryEngineV3:
                 groups = llm_groups
                 llm_used = True
                 search_method = 'llm_kb'
+
+        # 🔥 全文检索兜底 — 所有检索都找不到时搜索手册原文
+        fulltext_results = None
+        if not groups:
+            fulltext_results = self._search_fulltext(user_text, models, top_k=3)
+            if fulltext_results:
+                search_method = 'fulltext'
         
         # 无型号
         if not models:
@@ -709,7 +733,7 @@ class QueryEngineV3:
                 llm_used = True
         
         response = self._build_group_response(groups, models, intents, llm_used=llm_used)
-        return {
+        result = {
             'query': user_text,
             'models': models,
             'intents': intents,
@@ -718,6 +742,9 @@ class QueryEngineV3:
             'search_method': search_method,
             'response': response,
         }
+        if fulltext_results:
+            result['fulltext_results'] = fulltext_results
+        return result
 
 
 def main():
