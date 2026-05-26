@@ -140,8 +140,50 @@ def get_engine():
                 log.info('查询引擎就绪')
     return _engine
 
-def do_query(query):
+# ── 诊断引擎 ──
+_diag_engine = None
+_session_states = {}  # chat_id → diagnostic state
+
+def _get_diag_engine():
+    global _diag_engine
+    if _diag_engine is None:
+        from diagnostic import DiagnosticEngine
+        _diag_engine = DiagnosticEngine(get_engine())
+    return _diag_engine
+
+def do_query(query, chat_id=None):
     engine = get_engine()
+    
+    # 诊断流程: 检查是否在进行中
+    diag = _get_diag_engine()
+    if chat_id and chat_id in _session_states:
+        state = _session_states[chat_id]
+        result = diag.continue_diagnosis(query, state)
+        if result:
+            if result['type'] == 'diagnostic_complete':
+                del _session_states[chat_id]
+                return {
+                    'response': result['message'],
+                    'segments': [],
+                    'diagnostic_complete': True,
+                }
+            _session_states[chat_id] = result['state']
+            return {
+                'response': result['message'],
+                'segments': result.get('segments', []),
+                'diagnostic': True,
+            }
+    
+    # 检查是否触发诊断
+    diag_start = diag.start_diagnosis(query)
+    if diag_start:
+        _session_states[chat_id] = diag_start['state']
+        return {
+            'response': diag_start['message'],
+            'segments': [],
+            'diagnostic': True,
+        }
+    
     result = engine.query(query)
 
     response = result.get('response', '')
@@ -354,7 +396,7 @@ class Handler(BaseHTTPRequestHandler):
 
         t0 = time.time()
         try:
-            result = do_query(query)
+            result = do_query(query, chat_id=ip)
             result['elapsed_ms'] = int((time.time() - t0) * 1000)
             log.info('query "%s" → %dms [%s]', query[:50], result['elapsed_ms'],
                      result.get('search_method', '?'))
