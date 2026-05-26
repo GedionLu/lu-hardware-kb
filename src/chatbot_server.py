@@ -173,6 +173,7 @@ def do_query(query):
         'models': models,
         'intents': intents,
         'search_method': result.get('search_method', ''),
+        'fulltext': result.get('fulltext_results', []),
     }
 
 def _extract_step_label(text):

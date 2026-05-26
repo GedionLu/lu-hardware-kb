@@ -139,6 +139,94 @@ class FulltextSearch:
 
         return results
 
+    # ═══ 中文查询桥接 ═══
+
+    def _load_api_key(self):
+        """加载 DeepSeek API key"""
+        import urllib.request
+        api_key = os.environ.get('DEEPSEEK_API_KEY', '')
+        if not api_key:
+            for cp in [os.path.expanduser('~/.openclaw/openclaw.json'),
+                        '/home/admin/.openclaw/openclaw.json']:
+                try:
+                    with open(cp) as f:
+                        cfg = json.load(f)
+                    ds = cfg.get('models', {}).get('providers', {}).get('deepseek', {})
+                    api_key = ds.get('apiKey', '')
+                    if api_key: break
+                except: continue
+        return api_key
+
+    def _extract_keywords_cn(self, query):
+        """
+        用 DeepSeek 从中文查询提取英文搜索关键词
+        
+        输入: "XEN197X 怎么配置串口通信参数"
+        输出: {"product": "XEN197X", "keywords": ["serial port", "configuration", "RS232"]}
+        """
+        import urllib.request
+        api_key = self._load_api_key()
+        if not api_key:
+            return None
+
+        prompt = f"""Extract English search keywords from this Chinese scanner support query.
+
+Query: {query}
+
+Return ONLY JSON:
+{{"product":"model_number_or_empty","keywords":["word1","word2","word3"]}}"""
+
+        data = json.dumps({
+            'model': 'deepseek-chat',
+            'messages': [{'role': 'user', 'content': prompt}],
+            'temperature': 0, 'max_tokens': 200,
+        }).encode()
+
+        try:
+            req = urllib.request.Request(
+                'https://api.deepseek.com/v1/chat/completions',
+                data=data,
+                headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}
+            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                result = json.loads(resp.read())
+                content = result['choices'][0]['message']['content'].strip()
+                if content.startswith('```'):
+                    content = re.sub(r'^```(?:json)?\s*', '', content)
+                    content = re.sub(r'\s*```$', '', content)
+                return json.loads(content)
+        except Exception as e:
+            return None
+
+    def search_cn(self, query, top_k=5):
+        """
+        中文查询入口: 自动翻译关键词 → 英文全文搜索
+        
+        用法:
+          results = ft.search_cn("XEN197X 怎么配置串口")
+        """
+        # 1. 提取中文查询的英文关键词
+        extracted = self._extract_keywords_cn(query)
+        
+        if not extracted:
+            # LLM 不可用, 退化为直接搜索
+            return self.search(query, top_k=top_k)
+        
+        # 2. 构建英文搜索查询
+        keywords = extracted.get('keywords', [])
+        product = extracted.get('product', '')
+        en_query = ' '.join(keywords) if keywords else query
+        
+        # 3. 搜索
+        results = self.search(en_query, product=product if product else None, top_k=top_k)
+        
+        # 4. 附加元数据
+        for r in results:
+            r['cn_query'] = query
+            r['en_keywords'] = en_query
+        
+        return results
+
 
 if __name__ == '__main__':
     ft = FulltextSearch()
@@ -155,7 +243,26 @@ if __name__ == '__main__':
         results = ft.search(query, product=product, top_k=3)
         for r in results:
             print(f"  [{r['product']}] Ch {r['chapter'][:30]} p{r['page']} "
-                  f"s={r['score']:.3f}: {r['text'][:100]}")
+                  f"s={r['score']:.3f}: {r['text'][:80]}")
+        if not results:
+            print(f"  (no results)")
+        print()
+    
+    # 中文查询测试
+    print("=== 中文查询桥接测试 ===\n")
+    for cn_query in [
+        "XEN197X 怎么配置串口通信",
+        "1900 蓝牙配对设置",
+        "恢复出厂设置 操作步骤",
+    ]:
+        print(f"🔍 '{cn_query}':")
+        results = ft.search_cn(cn_query, top_k=3)
+        for r in results:
+            kw = r.get('en_keywords', '')
+            print(f"  [{r['product']}] Ch {r['chapter'][:30]} p{r['page']} "
+                  f"s={r['score']:.3f}")
+            print(f"    en={kw}")
+            print(f"    {r['text'][:100]}")
         if not results:
             print(f"  (no results)")
         print()

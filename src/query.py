@@ -77,11 +77,17 @@ class QueryEngineV3:
         return self._fulltext
 
     def _search_fulltext(self, query, models, top_k=3):
-        """全文搜索兜底"""
+        """全文搜索兜底, 自动检测中英文"""
         try:
             ft = self._get_fulltext()
             product = models[0] if models else None
-            results = ft.search(query, product=product, top_k=top_k)
+            
+            # 检测是否中文查询
+            has_cn = bool(re.search(r'[\u4e00-\u9fff]', query))
+            if has_cn:
+                results = ft.search_cn(query, top_k=top_k)
+            else:
+                results = ft.search(query, product=product, top_k=top_k)
             return results
         except Exception:
             return []
@@ -699,11 +705,15 @@ class QueryEngineV3:
                 search_method = 'llm_kb'
 
         # 🔥 全文检索兜底 — 所有检索都找不到时搜索手册原文
+        # 同时也为操作类查询并行搜索
         fulltext_results = None
-        if not groups:
+        doc_keywords = ['怎么', '如何', '设置', '配置', '说明', '介绍', '步骤', '操作', '教程']
+        need_fulltext = not groups or any(kw in user_text for kw in doc_keywords)
+        
+        if need_fulltext:
             fulltext_results = self._search_fulltext(user_text, models, top_k=3)
             if fulltext_results:
-                search_method = 'fulltext'
+                search_method = search_method + '+fulltext' if search_method != 'fulltext' else 'fulltext'
         
         # 无型号
         if not models:

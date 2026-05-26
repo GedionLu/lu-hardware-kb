@@ -89,6 +89,23 @@ function render() {
       div.textContent = m.content;
     }
 
+    // 全文检索结果
+    if (m.fulltext && m.fulltext.length > 0) {
+      const ftDiv = document.createElement('div');
+      ftDiv.style.cssText = 'margin-top:10px;padding:10px;background:#f8f9fa;border-left:3px solid #4a90d9;border-radius:4px;font-size:13px;';
+      const ftTitle = document.createElement('div');
+      ftTitle.style.cssText = 'font-weight:bold;color:#4a90d9;margin-bottom:6px;';
+      ftTitle.textContent = '📖 手册相关章节:';
+      ftDiv.appendChild(ftTitle);
+      m.fulltext.forEach(ft => {
+        const item = document.createElement('div');
+        item.style.cssText = 'margin:4px 0;color:#555;';
+        item.textContent = `[${ft.product}] ${ft.chapter} (p${ft.page})`;
+        ftDiv.appendChild(item);
+      });
+      div.appendChild(ftDiv);
+    }
+
     const time = document.createElement('div');
     time.className = 'time';
     time.textContent = m.time || '';
@@ -111,6 +128,7 @@ function addBot(data, meta) {
   messages.push({
     role: 'bot',
     segments: data.segments || [],
+    fulltext: data.fulltext || [],
     meta: meta || {},
     time: timeStr(),
   });
