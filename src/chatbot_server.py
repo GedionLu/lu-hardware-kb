@@ -23,7 +23,8 @@ PORT = 10054
 SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SRC_DIR)
 STATIC_DIR = os.path.join(ROOT_DIR, 'static')
-IMG_BASE = '/tmp/kb-images'
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IMG_BASE = os.path.join(PROJECT_ROOT, 'kb-images')
 RATE_LIMIT = 30          # 每 IP 每分钟
 RATE_WINDOW = 60         # 窗口秒
 QUERY_TIMEOUT = 30       # 秒
@@ -34,7 +35,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('/tmp/chatbot_server.log'),
+        logging.FileHandler(os.path.join(PROJECT_ROOT, 'logs', 'chatbot_server.log')),
         logging.StreamHandler(),
     ],
 )

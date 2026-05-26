@@ -34,9 +34,16 @@ Thumbs.db
 .env
 *.local
 
+# 运行日志
+logs/
+
 # 图片缓存
 /tmp/kb-images/
 /opt/kb-images/
+
+# 数据备份（ECS 环境无需备份数据）
+data_backup*
+data_backup_*/
 
 # 非项目文件
 AGENTS.md

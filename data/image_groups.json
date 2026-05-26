@@ -9417,5 +9417,636 @@
         "context_text": "若要禁用Interleaved 2 of 5 校验位的传输，可以扫描以上第3点'Validate, but don't Transmit'"
       }
     ]
+  },
+  {
+    "group_id": "g_XEN197X_Program_RS232_Serial_Port_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the RS232 Interface barcode.",
+        "ref_barcode": "PAP232.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP232..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_USB_PC_or_Macintosh_Keyboard_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the USB PC Keyboard or USB Macintosh Keyboard barcode.",
+        "ref_barcode": "PAP124.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP124..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_USB_HID_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the USB HID barcode.",
+        "ref_barcode": "PAP131.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_Verifone_Ruby_Terminal_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Verifone Ruby Terminal Plug and Play barcode.",
+        "ref_barcode": "PAPRBY.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPRBY..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_Wincor_Nixdorf_Terminal_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Wincor Nixdorf Terminal Plug and Play barcode.",
+        "ref_barcode": "PAPWNX.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPWNX..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_Wincor_Nixdorf_Beetle_Terminal_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Wincor Nixdorf Beetle Terminal Plug and Play barcode.",
+        "ref_barcode": "PAPBTL.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPBTL..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_Wincor_Nixdorf_RS232_Mode_A_Interface",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Program the Interface",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Wincor Nixdorf RS232 Mode A Plug and Play barcode.",
+        "ref_barcode": "PAPWMA.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPWMA..png",
+        "subcategory": "interface"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Replace_a_Linked_Scanner",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Override Locked Scanner barcode with a new scanner.",
+        "ref_barcode": "PAPSPT.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPSPT..png",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Place the new scanner in the base.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Program_the_Scanner_and_Base",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Ensure the scanner is linked to the intended base.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan the desired configuration barcodes to program settings.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Enter_or_Exit_Streaming_Presentation_Mode",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Press the Find My button twice to put the scanner into Streaming Presentation Mode.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Press the Find My button twice again to end Streaming Presentation Mode.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Power_the_Base",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Place the scanner in the base.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Connect the base to a Listed Limited Power Source (LPS) or Class 2 type power supply with output rated 5 to 5.2Vdc, 1A.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Configure_Base_Power_Communication_Indicator",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Base Power Communication Indicator On barcode to turn on the indicator.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan the Off barcode to turn off the indicator.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Customize_Battery_LED_Alerts",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the barcode for Always Off to turn off the battery LED.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan the barcode for Always On to keep the battery LED always on.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 3,
+        "context_text": "Scan the barcode for Always On in Base to display the LED only while in the base for 5 seconds.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Set_Low_Power_Alert_Flash_Number",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the barcode to set the number of low power flashes (1-9).",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Toggle_Low_Power_Alert_Beep",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Cordless System Operation",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the Low Power Alert Beep Off barcode to disable the beep.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan the Low Power Alert Beep On barcode to enable the beep.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "pairing"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Set_Batch_Mode_Quantity",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the quantity 0 barcode to change the quantity to 1030.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan the quantity 0 barcode to change the quantity to 0300.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 3,
+        "context_text": "Scan the quantity 1 barcode to change the quantity to 3001.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 4,
+        "context_text": "Scan the quantity 0 barcode to change the quantity to 3000.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Transmit_Batch_Data_to_Host",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the 'Batch Mode Transmit' barcode to send all stored data to the host.",
+        "ref_barcode": "PAP131.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Put_Scanner_in_Multiple_Scanner_Mode",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the multiple scanner mode barcode to unlink the scanner from the base.",
+        "ref_barcode": "PAP131.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Name_the_Scanner",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the 'Scanner Name' barcode.",
+        "ref_barcode": "PAP131.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan the numeric barcodes for the desired name (e.g., 3, 1, 2 for '312').",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Assign_Scanner_to_a_Work_Group",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the 'Application Work Group Selection' barcode.",
+        "ref_barcode": "PAP131.",
+        "note": "",
+        "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Program the settings (e.g., beeper volume, prefix/suffix, data format) as needed.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Pair_with_Bluetooth_HID_Keyboard",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the 'Bluetooth HID Keyboard Connect' barcode to pair with a Bluetooth device.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Pair_with_Bluetooth_Low_Energy_(BLE)_Devices",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan 'HID BLE Connect' to connect to BLE HID devices.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Scan 'Serial BLE Connect' to connect to BLE serial devices.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
+  },
+  {
+    "group_id": "g_XEN197X_Use_Scanner_with_PDA_or_Mobility_Systems_Device",
+    "source_doc": "XEN197X-EN-UG-01 Rev B.pdf",
+    "chapter": "Input/Output Settings",
+    "steps": [
+      {
+        "step_order": 1,
+        "context_text": "Scan the barcode for PDA/Mobility Systems devices.",
+        "ref_barcode": null,
+        "note": "",
+        "subcategory": "setup"
+      },
+      {
+        "step_order": 2,
+        "context_text": "Follow the instructions supplied with your Bluetooth device to locate the scanner.",
+        "ref_barcode": null,
+        "note": "",
+        "barcode_image": "",
+        "subcategory": "setup"
+      }
+    ],
+    "applicable_models": [
+      {
+        "model": "XEN197X",
+        "full_name": "XEN197X"
+      }
+    ],
+    "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
+    "total_config_codes": 0
   }
 ]

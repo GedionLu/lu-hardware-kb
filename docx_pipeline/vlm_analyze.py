@@ -24,7 +24,7 @@ try:
 except:
     HAS_ZBAR = False
 
-BASE = '/tmp/kb-images/raw'
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'kb-images', 'raw')
 CLASS_PATH = os.path.join(os.path.dirname(__file__), "../data/image_classification.json")
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "../data/image_index.json")
 
