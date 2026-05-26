@@ -33,7 +33,10 @@
         "subcategory": "interface",
         "context_text": "注意：串口软件端com口参数设置要与枪本身的com口保持一致。"
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "1202g无线枪基本使用说明(底座RS232串口线缆连接)",
+    "model": "1202g"
   },
   {
     "group_id": "g_1202g无线枪基本使用说明(底座USB线缆连接)",
@@ -52,21 +55,21 @@
         "step_order": 2,
         "image_id": "8a2972b5_1cc54e",
         "file_name": "1202g_s002_1cc54e_8a2972b5.png",
-        "subcategory": null,
+        "subcategory": "pairing",
         "context_text": "2.扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况"
       },
       {
         "step_order": 3,
         "image_id": "b82e1560_1cc54e",
         "file_name": "1202g_s003_1cc54e_b82e1560.png",
-        "subcategory": null,
+        "subcategory": "pairing",
         "context_text": "2.扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况"
       },
       {
         "step_order": 5,
         "image_id": "a107ba1b_1cc54e",
         "file_name": "1202g_s005_1cc54e_a107ba1b.jpeg",
-        "subcategory": null,
+        "subcategory": "pairing",
         "context_text": "3.1202g按键扫描底座配对码(如下标注，底座两处均有配对码，扫描其中一处即可)，并等待5~8s，注意听扫描枪提示音，出现滴的一声，表示配对成功。这里注意看下底座配对码标志，如下图"
       },
       {
@@ -83,7 +86,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "1202g无线枪基本使用说明(底座USB线缆连接)",
+    "model": "1202g"
   },
   {
     "group_id": "g_1472、1902、1952等等无线枪基本使用说明(底座USB线缆连接的情况)",
@@ -125,14 +131,14 @@
         "step_order": 3,
         "image_id": "8a2972b5_6537c4",
         "file_name": "1902_1952_1472_s003_6537c4_8a2972b5.png",
-        "subcategory": null,
+        "subcategory": "pairing",
         "context_text": "2.扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况"
       },
       {
         "step_order": 6,
         "image_id": "00a16087_6537c4",
         "file_name": "1902_1952_1472_s006_6537c4_00a16087.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "4.电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息"
       },
       {
@@ -142,7 +148,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "1472、1902、1952等等无线枪基本使用说明(底座USB线缆连接的情况)",
+    "model": "1472"
   },
   {
     "group_id": "g_1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28",
@@ -170,7 +179,7 @@
         "step_order": 2,
         "image_id": "d06db740_208a19",
         "file_name": "1900_s002_208a19_d06db740.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.1900 经过USB线缆连接到电脑的U口上，连接成功，扫描枪会有上电成功提示音；按键确认出光，然后依次扫描如下码：恢复出厂"
       },
       {
@@ -187,7 +196,10 @@
         "subcategory": "suffix",
         "context_text": "3.如需扫描后自动换行，请继续扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "1900-C USB线缆连接下，USB键盘口基本使用说明 2025.3.28",
+    "model": "1900"
   },
   {
     "group_id": "g_1902-C格式编辑：Code39码输出最后8位 2025.3.12",
@@ -239,7 +251,10 @@
         "subcategory": "suffix",
         "context_text": "配置码已包含回车后缀(即扫描后自动换行)"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "1902-C格式编辑：Code39码输出最后8位 2025.3.12",
+    "model": "1902"
   },
   {
     "group_id": "g_1902、1952、1472等无线枪串口通信说明以及串口指令触发介绍 2025.",
@@ -312,7 +327,10 @@
         "subcategory": "feature",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "无线枪串口通信说明及串口指令触发介绍",
+    "model": "1902, 1952, 1472"
   },
   {
     "group_id": "g_1902无线枪基本使用说明(底座RS232串口线缆连接)",
@@ -357,7 +375,10 @@
         "subcategory": "interface",
         "context_text": "注意：串口软件端com口参数设置要与枪本身的com口保持一致。"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1902无线枪基本使用说明（底座RS232串口线缆连接）",
+    "model": "1902"
   },
   {
     "group_id": "g_1911i、1981i无线枪基本使用说明(底座RS232串口线缆连接)",
@@ -400,7 +421,10 @@
         "subcategory": "interface",
         "context_text": "注意：软件端com口参数设置要与枪本身的com口保持一致。"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1911i、1981i无线枪基本使用说明（底座RS232串口线缆连接）",
+    "model": "1911i, 1981i"
   },
   {
     "group_id": "g_1981i无线枪基本使用说明(底座USB线缆连接)",
@@ -443,7 +467,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1981i无线枪基本使用说明（底座USB线缆连接）",
+    "model": "1981i"
   },
   {
     "group_id": "g_1990i串口连接下基本通信说明+串口指令触发功能介绍",
@@ -469,7 +496,7 @@
         "step_order": 4,
         "image_id": "013bf87a_75f2c4",
         "file_name": "1990i_串口_s004_75f2c4_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册32、33页对应波特率配置码(如下图)。"
       },
       {
@@ -479,7 +506,10 @@
         "subcategory": "feature",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1990i串口连接下基本通信说明及串口指令触发功能介绍",
+    "model": "1990i"
   },
   {
     "group_id": "g_1991i扫描枪连接蓝牙设备 2025.3.28",
@@ -550,7 +580,10 @@
         "subcategory": "pairing",
         "context_text": "11. 根据平板上显示的密码，依次扫描如下字符条码；最后扫描“Save”以保存设置"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "1991i扫描枪连接蓝牙设备",
+    "model": "1991i"
   },
   {
     "group_id": "g_1991i无线枪基本使用说明(底座RS232串口线缆连接)",
@@ -593,7 +626,10 @@
         "subcategory": "interface",
         "context_text": "注意：软件端com口参数设置要与枪本身的com口保持一致。"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "1991i无线枪基本使用说明(底座RS232串口线缆连接)",
+    "model": "1991i"
   },
   {
     "group_id": "g_1991i无线枪基本使用说明(底座USB线缆连接)",
@@ -636,7 +672,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "1991i无线枪基本使用说明(底座USB线缆连接)",
+    "model": "1991i"
   },
   {
     "group_id": "g_19x1i等无线枪基本使用说明(底座USB线缆连接)",
@@ -681,7 +720,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "19x1i等无线枪基本使用说明(底座USB线缆连接)",
+    "model": "19x1i"
   },
   {
     "group_id": "g_19xx、14xx、7680g等扫描枪基本使用说明(Keyboard Wedge",
@@ -845,7 +887,10 @@
         "subcategory": "interface",
         "context_text": "4.打开电脑的word、记事本等文本软件，光标定位好，输入法切换到英文下，然后扫码测试，可以扫描如下码，确认内容是否输出："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "19xx、14xx、7680g等扫描枪基本使用说明(Keyboard Wedge)",
+    "model": "19xx"
   },
   {
     "group_id": "g_19xx、14xx、扫描枪常用接口码总结说明",
@@ -971,14 +1016,14 @@
         "step_order": 1,
         "image_id": "e59795d6_b2e445",
         "file_name": "19xx_14xx_s001_b2e445_e59795d6.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "USB线缆连接下，基本都是即插即用，如需扫描重置USB键盘口，如下码："
       },
       {
         "step_order": 2,
         "image_id": "df9c08dc_b2e445",
         "file_name": "19xx_14xx_s002_b2e445_df9c08dc.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "USB线缆连接下作USB虚拟串口，用到如下码："
       },
       {
@@ -988,7 +1033,10 @@
         "subcategory": "interface",
         "context_text": "RS232串口线缆+外接电源，走串口通信，用到如下码："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "扫描枪常用接口码总结说明",
+    "model": "1900 1902 1472"
   },
   {
     "group_id": "g_19xx、14xx等扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
@@ -1121,7 +1169,7 @@
         "step_order": 4,
         "image_id": "013bf87a_aa7081",
         "file_name": "19xx_14xx_串口_s004_aa7081_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       },
       {
@@ -1131,7 +1179,10 @@
         "subcategory": "feature",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "model": "1900 1902 1472"
   },
   {
     "group_id": "g_19xx、14xx等扫描枪串口连接下基本通信说明",
@@ -1264,10 +1315,13 @@
         "step_order": 4,
         "image_id": "013bf87a_95cfee",
         "file_name": "19xx_14xx_串口_s004_95cfee_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "扫描枪串口连接下基本通信说明",
+    "model": "1900 1902 1472"
   },
   {
     "group_id": "g_19xx、14xx等系列扫描器：通过发送串口命令控制扫描枪发出数据成功提示或者错",
@@ -1410,7 +1464,10 @@
         "subcategory": "feature",
         "context_text": "164D0D424550454D4E2E"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "通过发送串口命令控制扫描枪发出数据成功提示或者错",
+    "model": "1900 1902 1472"
   },
   {
     "group_id": "g_19xx、14xx系列扫描枪 USB线缆连接下，USB键盘口基本使用说明",
@@ -1536,7 +1593,7 @@
         "step_order": 3,
         "image_id": "27a2fcb7_5e44c4",
         "file_name": "19xx_14xx_s003_5e44c4_27a2fcb7.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.1900 经过USB线缆连接到电脑的USB口(尽量接电脑主机USB口，而非扩展UBS口)上，连接成功，扫描枪会有上电成功提示音；按键确认出光，然后依次扫描如下码：恢复出厂"
       },
       {
@@ -1553,7 +1610,10 @@
         "subcategory": "suffix",
         "context_text": "3.如需扫描后自动换行，请继续扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB线缆连接下，USB键盘口基本使用说明",
+    "model": "1900 1902 1472"
   },
   {
     "group_id": "g_19xx、14xx系列等扫描枪设置自定义字符触发扫描或停止扫描 2025.8.5",
@@ -1738,7 +1798,10 @@
         "subcategory": "feature",
         "context_text": "(3).扫描如下码保存设置"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "设置自定义字符触发扫描或停止扫描",
+    "model": "19xx"
   },
   {
     "group_id": "g_19xx系列扫描器通过串口指令设置扫描枪延时 2025.4.3",
@@ -1874,7 +1937,10 @@
         "subcategory": "feature",
         "context_text": "DFEALT: 164D0D 444546414C542E"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "通过串口指令设置扫描枪延时",
+    "model": "1900"
   },
   {
     "group_id": "g_3320g EIO功能",
@@ -1912,7 +1978,10 @@
         "subcategory": "feature",
         "context_text": "1.扫描如下码，将EIO开启2.扫描如下码，若是当前串口通信无误的话，将有信息输出到串口软件端；查看读取的信息，是否有显示EIO enabled：3.若是经过以上验证，未显示EIO激活，那么需要跟供应商购买EIO许可，同时确认下EIO线缆情况：EIO许可SKU：SW-EIO-33XX  --- Software: External Input Output (EIO) license key for Vuquest 33xx请注意：许可与设备SN是一一对应关系。"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "EIO功能设置",
+    "model": "3320g"
   },
   {
     "group_id": "g_33x0g基本使用说明",
@@ -1940,14 +2009,14 @@
         "step_order": 3,
         "image_id": "92c07910_286478",
         "file_name": "33x0g_s003_286478_92c07910.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.33x0GHD USB线缆连接电脑，按键确认出光，然后依次扫描如下两个码执行恢复出厂："
       },
       {
         "step_order": 4,
         "image_id": "d7adac0f_286478",
         "file_name": "33x0g_s004_286478_d7adac0f.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常："
       },
       {
@@ -1968,10 +2037,13 @@
         "step_order": 7,
         "image_id": "4b8255eb_286478",
         "file_name": "33x0g_s007_286478_4b8255eb.png",
-        "subcategory": null,
+        "subcategory": "feature",
         "context_text": "若是需要修改扫描枪的com口参数，如要更换到9600的波特率等，可以查看手册2-23页功能码"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "基本使用说明",
+    "model": "33x0g"
   },
   {
     "group_id": "g_VuQuest33x0g通过串口指令设置扫描延时、No Read模式等",
@@ -2044,7 +2116,10 @@
         "subcategory": "feature",
         "context_text": "DFEALT: 164D0D 444546414C542E"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "通过串口指令设置扫描延时、No Read模式等",
+    "model": "33x0g"
   },
   {
     "group_id": "g_7120-2D扫描器串口连接下基本通信说明",
@@ -2086,10 +2161,13 @@
         "step_order": 4,
         "image_id": "013bf87a_ac9b83",
         "file_name": "7120_串口_s004_ac9b83_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "2D扫描器串口连接下基本通信说明",
+    "model": "7120"
   },
   {
     "group_id": "g_7580g扫描器串口连接下基本通信说明+串口指令触发功能介绍",
@@ -2117,7 +2195,7 @@
         "step_order": 4,
         "image_id": "013bf87a_63d826",
         "file_name": "7580g_串口_s004_63d826_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       },
       {
@@ -2127,7 +2205,10 @@
         "subcategory": "feature",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "扫描器串口连接下基本通信说明+串口指令触发功能介绍",
+    "model": "7580g"
   },
   {
     "group_id": "g_7580g：配置读取包含中文字符的二维码并输出到文本(光标处) 2025.3.2",
@@ -2179,7 +2260,10 @@
         "subcategory": "feature",
         "context_text": "2.驱动安装后，7580g扫描如下码，将USB口转串口"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "配置读取包含中文字符的二维码并输出到文本(光标处)",
+    "model": "7580g"
   },
   {
     "group_id": "g_7680g USB线缆连接下，USB键盘口基本使用说明",
@@ -2200,7 +2284,7 @@
         "step_order": 2,
         "image_id": "d06db740_023fd2",
         "file_name": "7680g_s002_023fd2_d06db740.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.7680g经过USB线缆连接到电脑的USB口上，连接成功，扫描枪会有上电成功提示音并出光，然后依次扫描如下码：恢复出厂"
       },
       {
@@ -2217,7 +2301,10 @@
         "subcategory": "suffix",
         "context_text": "3.如需扫描后自动换行，请继续扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB线缆连接下，USB键盘口基本使用说明",
+    "model": "7680g"
   },
   {
     "group_id": "g_7680g扫描器串口连接下基本通信说明",
@@ -2245,10 +2332,13 @@
         "step_order": 4,
         "image_id": "013bf87a_905db0",
         "file_name": "7680g_串口_s004_905db0_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "扫描器串口连接下基本通信说明",
+    "model": "7680g"
   },
   {
     "group_id": "g_Ezconfig配置案例分享 2025.2.19",
@@ -2270,7 +2360,10 @@
         "subcategory": null,
         "context_text": "请参考如下图片流程介绍："
       }
-    ]
+    ],
+    "title": "Ezconfig配置案例分享",
+    "subcategory": "setup",
+    "model": "通用"
   },
   {
     "group_id": "g_HF680添加回车(CR)后缀",
@@ -2308,7 +2401,10 @@
         "subcategory": "suffix",
         "context_text": "2.当PN为HF680-1-…/HF680-0…(如图1)时，扫描如下码设置回车后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "HF680添加回车(CR)后缀",
+    "model": "HF680"
   },
   {
     "group_id": "g_HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
@@ -2336,7 +2432,7 @@
         "step_order": 2,
         "image_id": "d06db740_fa8845",
         "file_name": "HH490_OH460_串口_s002_fa8845_d06db740.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.开篇扫描枪连接示意图右侧连接方式(确认串口线缆以及电源连接完毕)，并扫描如下码执行恢复出厂"
       },
       {
@@ -2350,7 +2446,7 @@
         "step_order": 4,
         "image_id": "013bf87a_fa8845",
         "file_name": "HH490_OH460_串口_s004_fa8845_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       },
       {
@@ -2360,7 +2456,10 @@
         "subcategory": "feature",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HH490(OH460)扫描枪串口连接下基本通信说明+串口指令触发功能介绍",
+    "model": "HH490"
   },
   {
     "group_id": "g_HH490、OH460基本使用说明(USB线缆连接下)",
@@ -2388,14 +2487,14 @@
         "step_order": 2,
         "image_id": "27a2fcb7_527ca0",
         "file_name": "HH490_OH460_s002_527ca0_27a2fcb7.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.扫描枪经过USB线缆连接到电脑的USB口(尽量接电脑主机USB口，而非扩展USB口)上，连接成功，扫描枪会有上电成功提示音；按键确认出光，然后依次扫描如下码：恢复出厂"
       },
       {
         "step_order": 3,
         "image_id": "d7adac0f_527ca0",
         "file_name": "HH490_OH460_s003_527ca0_d7adac0f.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后依次扫描如下码，确认文本端输出是否正常："
       },
       {
@@ -2405,7 +2504,10 @@
         "subcategory": "suffix",
         "context_text": "3.如需扫描后自动换行，请继续扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "HH490、OH460基本使用说明(USB线缆连接下)",
+    "model": "HH490"
   },
   {
     "group_id": "g_HH490通过发送串口指令控制’No Read’模式的开启与关闭",
@@ -2450,7 +2552,10 @@
         "subcategory": "feature",
         "context_text": "DFEALT: 164D0D 444546414C542E"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "HH490通过发送串口指令控制No Read模式的开启与关闭",
+    "model": "HH490"
   },
   {
     "group_id": "g_HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
@@ -2516,7 +2621,10 @@
         "subcategory": "feature",
         "context_text": "执行测试"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "HH492、OH462基本使用说明(Dongle版本)+数据格式编辑",
+    "model": "HH492"
   },
   {
     "group_id": "g_HH492或OH462 借助蓝牙调试助手搜索接收器的MAC信息",
@@ -2547,7 +2655,10 @@
         "subcategory": "pairing",
         "context_text": "CONMAC0C2369CDAC83."
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "HH492或OH462 借助蓝牙调试助手搜索接收器的MAC信息",
+    "model": "HH492"
   },
   {
     "group_id": "g_HH492配对码生成规则",
@@ -2578,7 +2689,10 @@
         "subcategory": "pairing",
         "context_text": "CONMAC0C2369CDAC83."
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "HH492配对码生成规则",
+    "model": "HH492"
   },
   {
     "group_id": "g_HH4x0串口通信介绍(RS232串口线缆+外接电源连接) 2025.7.31",
@@ -2602,7 +2716,10 @@
         "subcategory": "restore_factory",
         "context_text": "2.依次扫描如下码执行恢复出厂、设置到串口模式下，默认参数115200、8、1、None；默认含回车后缀："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "HH4x0串口通信介绍(RS232串口线缆+外接电源连接) 2025.7.31",
+    "model": "HH4x0"
   },
   {
     "group_id": "g_HH760 USB口虚拟串口功能说明+串口指令触发功能说明",
@@ -2630,7 +2747,7 @@
         "step_order": 2,
         "image_id": "33313aa6_2c16fc",
         "file_name": "HH760_HH762_串口_s002_2c16fc_33313aa6.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.HH760 USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB"
       },
       {
@@ -2661,7 +2778,10 @@
         "subcategory": "interface",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HH760 USB口虚拟串口功能说明+串口指令触发功能说明",
+    "model": "HH760"
   },
   {
     "group_id": "g_HH762 USB虚拟串口使用说明",
@@ -2734,7 +2854,10 @@
         "subcategory": "interface",
         "context_text": "若是需要将接口从USB串口转到USB键盘口下，文本/光标处输出，可以扫描如下码转换："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HH762 USB虚拟串口使用说明",
+    "model": "HH762"
   },
   {
     "group_id": "g_HH762无线枪基本使用说明(底座RS232串口线缆连接)",
@@ -2786,7 +2909,10 @@
         "subcategory": "interface",
         "context_text": "若是需要修改扫描枪的com口参数，如PLC软件端要更换到9600的波特率等："
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "HH762无线枪基本使用说明(底座RS232串口线缆连接)",
+    "model": "HH762"
   },
   {
     "group_id": "g_HH762无线枪基本使用说明(底座USB线缆连接)",
@@ -2814,14 +2940,14 @@
         "step_order": 3,
         "image_id": "8a2972b5_d9be2b",
         "file_name": "HH760_HH762_s003_d9be2b_8a2972b5.png",
-        "subcategory": null,
+        "subcategory": "pairing",
         "context_text": "2.扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况"
       },
       {
         "step_order": 5,
         "image_id": "00a16087_d9be2b",
         "file_name": "HH760_HH762_s005_d9be2b_00a16087.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "4.电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息"
       },
       {
@@ -2831,7 +2957,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "HH762无线枪基本使用说明(底座USB线缆连接)",
+    "model": "HH762"
   },
   {
     "group_id": "g_HH760扫描枪串口连接下基本通信说明",
@@ -2859,10 +2988,13 @@
         "step_order": 4,
         "image_id": "013bf87a_b84eb2",
         "file_name": "HH760_串口_s004_b84eb2_013bf87a.png",
-        "subcategory": null,
+        "subcategory": "interface",
         "context_text": "如需修改com口参数，比如波特率需设置到9600，那么可以扫描手册对应波特率配置码(如下图)。"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HH760扫描枪串口连接下基本通信说明",
+    "model": "HH760"
   },
   {
     "group_id": "g_关于Metrologic扫描器的省电模式说明",
@@ -2900,7 +3032,10 @@
         "subcategory": null,
         "context_text": "(打印到纸质端进行扫描)"
       }
-    ]
+    ],
+    "title": "关于Metrologic扫描器的省电模式说明",
+    "subcategory": "feature",
+    "model": "Metrologic"
   },
   {
     "group_id": "g_MS7120、7120PLUS、7120-2D简易说明",
@@ -2938,7 +3073,10 @@
         "subcategory": null,
         "context_text": "纸质上以及屏幕上标准的一维码、二维码都可以扫描："
       }
-    ]
+    ],
+    "title": "MS7120、7120PLUS、7120-2D简易说明",
+    "model": "7120",
+    "subcategory": "setup"
   },
   {
     "group_id": "g_OH350x设置隐藏首尾数据位",
@@ -2983,7 +3121,10 @@
         "subcategory": "setup",
         "context_text": "4.扫描退出设置"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "OH350x设置隐藏首尾数据位",
+    "model": "OH350"
   },
   {
     "group_id": "g_OH430 (1.0模组)扫描枪串口连接下基本通信说明",
@@ -3035,7 +3176,10 @@
         "subcategory": "restore_factory",
         "context_text": "2.扫描枪按键出光，然后从左往右依次扫描如下码，执行恢复出厂+设置串口："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "OH430 (1.0模组)扫描枪串口连接下基本通信说明",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(1.0模组) USB线缆连接下基本使用说明",
@@ -3084,17 +3228,20 @@
         "step_order": 2,
         "image_id": "3cb0ce32_9aa8be",
         "file_name": "OH430_s002_9aa8be_3cb0ce32.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.OH430 USB线缆连接到电脑端，按键确认出光，且电脑端无提示”USB设备无法识别”之类；依次扫描如下两个码，执行恢复出厂+USB键盘口："
       },
       {
         "step_order": 3,
         "image_id": "d7adac0f_9aa8be",
         "file_name": "OH430_s003_9aa8be_d7adac0f.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码看下输出情况："
       }
-    ]
+    ],
+    "title": "OH430(1.0模组) USB线缆连接下基本使用说明",
+    "model": "OH430",
+    "subcategory": "setup"
   },
   {
     "group_id": "g_OH430(1.0模组)恢复出厂、配置USB接口",
@@ -3160,7 +3307,10 @@
         "subcategory": "restore_factory",
         "context_text": "依次扫描如下三个码，执行恢复出厂+重置USB键盘口："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "OH430(1.0模组)恢复出厂、配置USB接口",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(1.0模组)设置USB虚拟串口",
@@ -3216,7 +3366,7 @@
         "step_order": 3,
         "image_id": "3cb0ce32_90c96d",
         "file_name": "OH430_USB虚拟串口_串口_s003_90c96d_3cb0ce32.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.OH430 USB线缆连接到电脑端，按键确认出光，且电脑端无提示”USB设备无法识别”之类；依次扫描如下两个码，执行恢复出厂+USB键盘口："
       },
       {
@@ -3247,7 +3397,10 @@
         "subcategory": "interface",
         "context_text": "（2）. 右键点击该设备，在下拉菜单中选择“卸载”按钮，界面如下图所示。按照界面设置，点确定往完成卸载。"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "设置USB虚拟串口",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(2.0模组) USB线缆连接下基本使用说明",
@@ -3296,17 +3449,20 @@
         "step_order": 2,
         "image_id": "bbd7122d_33eb85",
         "file_name": "OH430_s002_33eb85_bbd7122d.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.OH430 USB线缆连接到电脑端，按键确认出光，且电脑端无提示”USB设备无法识别”之类；依次扫描如下两个码，执行恢复出厂+USB键盘口："
       },
       {
         "step_order": 3,
         "image_id": "d7adac0f_33eb85",
         "file_name": "OH430_s003_33eb85_d7adac0f.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "2.电脑端打开一个记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码看下输出情况："
       }
-    ]
+    ],
+    "title": "USB线缆连接下基本使用说明",
+    "model": "OH430",
+    "subcategory": "setup"
   },
   {
     "group_id": "g_OH430(SN 24开头)设置自定义前缀@",
@@ -3393,7 +3549,10 @@
         "subcategory": "prefix",
         "context_text": "F. 扫描“保存”设置码"
       }
-    ]
+    ],
+    "subcategory": "prefix",
+    "title": "设置自定义前缀@",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(SN 25开头) 设置自定义后缀：键盘F7",
@@ -3494,7 +3653,10 @@
         "subcategory": "suffix",
         "context_text": "2.若是后续需要取消以上添加的后缀字符，请依次扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "设置自定义后缀：键盘F7",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(SN 25开头)设置自定义前缀#C",
@@ -3595,7 +3757,10 @@
         "subcategory": "prefix",
         "context_text": "若是后续需要取消前缀字符，请依次扫描如下两个码："
       }
-    ]
+    ],
+    "subcategory": "prefix",
+    "title": "设置自定义前缀#C",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(SN 25开头)设置自定义前缀：键盘F6",
@@ -3689,7 +3854,10 @@
         "subcategory": "prefix",
         "context_text": "若是后续需要取消前缀字符，请依次扫描如下两个码："
       }
-    ]
+    ],
+    "subcategory": "prefix",
+    "title": "设置自定义前缀：键盘F6",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430(SN前三位24H)添加CRLF后缀",
@@ -3762,7 +3930,10 @@
         "subcategory": "setup",
         "context_text": "3.退出设置"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "添加CRLF后缀",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430设置添加逗号后缀(SN前三位24L)",
@@ -3849,7 +4020,10 @@
         "subcategory": "suffix",
         "context_text": "F. 扫描“保存”设置码"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "设置添加逗号后缀",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430设置自定义后缀C# (SN 25开头)",
@@ -3957,7 +4131,10 @@
         "subcategory": "suffix",
         "context_text": "2.若是后续需要取消以上添加的后缀字符，请依次扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "设置自定义后缀C#",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430设置连续模式(自动扫描) 2025.4.11",
@@ -4051,7 +4228,10 @@
         "subcategory": "feature",
         "context_text": "3.若是需要修改相邻两次读码间隔，可以根据实际需求，继续扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "设置连续模式(自动扫描)",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430输出数据截取——输出后段12位字符(仅适用于1.0模组) 2025.3",
@@ -4159,7 +4339,10 @@
         "subcategory": "test_code",
         "context_text": "设置后，若是需要传输实际测试码全部内容，可以继续扫描如下设置码："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "输出后段12位字符设置",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH430输出数据截取——输出后段16位字符(仅适用于1.0模组) 2025.4",
@@ -4260,7 +4443,10 @@
         "subcategory": "test_code",
         "context_text": "设置后，若是需要传输实际测试码全部内容，可以继续扫描如下设置码："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "输出后段16位字符设置",
+    "model": "OH430"
   },
   {
     "group_id": "g_[特别注意]oh430,SN24开头的，变更两个功能码”修改后缀，修改前缀”",
@@ -4319,7 +4505,10 @@
         "subcategory": "suffix",
         "context_text": "在设置前后缀时要特别注意。"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "修改后缀与修改前缀注意事项",
+    "model": "OH430"
   },
   {
     "group_id": "g_案例记录-OH430扫码枪扫出来的为什么带有Caps Lock键",
@@ -4371,7 +4560,10 @@
         "subcategory": "feature",
         "context_text": "所以以上两个案例，都通过扫描兼容模式2得以解决(将底层切换方式，由Capslock改到了Shift)"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "Caps Lock问题解决（兼容模式2）",
+    "model": "OH430"
   },
   {
     "group_id": "g_OH4502 OH4503 (1.0模组，SN 1822~2110)：Inter",
@@ -4413,17 +4605,20 @@
         "step_order": 2,
         "image_id": "7c26060f_2c2391",
         "file_name": "OH450_s002_2c2391_7c26060f.png",
-        "subcategory": null,
+        "subcategory": "feature",
         "context_text": "[前提]开启具体配置前，务必确保已开启扫描枪设置功能，扫描如下码："
       },
       {
         "step_order": 3,
         "image_id": "70f86c48_2c2391",
         "file_name": "OH450_s003_2c2391_70f86c48.png",
-        "subcategory": null,
+        "subcategory": "feature",
         "context_text": "[前提]开启具体配置前，务必确保已开启扫描枪设置功能，扫描如下码："
       }
-    ]
+    ],
+    "title": "开启扫描枪设置功能前提步骤",
+    "model": "OH4502",
+    "subcategory": "setup"
   },
   {
     "group_id": "g_OH4502 OH4503 (2.0模组，SN 2110~)：InterLeav",
@@ -4465,28 +4660,28 @@
         "step_order": 2,
         "image_id": "095822f0_c8a159",
         "file_name": "OH450_s002_c8a159_095822f0.png",
-        "subcategory": null,
+        "subcategory": "feature",
         "context_text": "[前提]开启具体配置前，务必确保已开启扫描枪设置功能，扫描如下码："
       },
       {
         "step_order": 3,
         "image_id": "b8826e2b_c8a159",
         "file_name": "OH450_s003_c8a159_b8826e2b.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "1.恢复InterLeaved 2 of 5默认配置"
       },
       {
         "step_order": 4,
         "image_id": "cdafec65_c8a159",
         "file_name": "OH450_s004_c8a159_cdafec65.png",
-        "subcategory": null,
+        "subcategory": "feature",
         "context_text": "2.开启或关闭InterLeaved 2 of 5读取"
       },
       {
         "step_order": 5,
         "image_id": "283b1a64_c8a159",
         "file_name": "OH450_s005_c8a159_283b1a64.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "3.设置InterLeaved 2 of 5长度限制"
       },
       {
@@ -4496,7 +4691,10 @@
         "subcategory": null,
         "context_text": "出的数据包含校验字符。"
       }
-    ]
+    ],
+    "title": "InterLeaved 2 of 5 配置",
+    "model": "OH4502",
+    "subcategory": "feature"
   },
   {
     "group_id": "g_OH4502(SN前四位2508)基本功能验证 2025.4.9",
@@ -4611,7 +4809,10 @@
         "subcategory": "test_code",
         "context_text": "若需要调整扫描间隔，可以根据实际情况，继续扫描如下码进行修改："
       }
-    ]
+    ],
+    "subcategory": "test_code",
+    "title": "基本功能验证",
+    "model": "OH4502"
   },
   {
     "group_id": "g_OH4502或OH4503恢复出厂说明 2025.7.29",
@@ -4684,7 +4885,10 @@
         "subcategory": "restore_factory",
         "context_text": "2.扫描如下恢复出厂码"
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "恢复出厂说明",
+    "model": "OH4502"
   },
   {
     "group_id": "g_OH4503(SN前四位2519)设置自定义后缀-CRCR(双回车)",
@@ -4736,7 +4940,10 @@
         "subcategory": "suffix",
         "context_text": "3.按顺序依次扫描如下配置码(从左到右按序扫描)"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "设置自定义后缀-CRCR(双回车)",
+    "model": "OH4503"
   },
   {
     "group_id": "g_OH450X设置自定义前缀-A01-2025.4.10",
@@ -4816,7 +5023,10 @@
         "subcategory": "prefix",
         "context_text": "5.保存"
       }
-    ]
+    ],
+    "subcategory": "prefix",
+    "title": "设置自定义前缀-A01",
+    "model": "OH450X"
   },
   {
     "group_id": "g_OH450X设置自定义前缀-A02-2025.4.10",
@@ -4896,7 +5106,10 @@
         "subcategory": "prefix",
         "context_text": "5.保存"
       }
-    ]
+    ],
+    "subcategory": "prefix",
+    "title": "设置自定义前缀",
+    "model": "OH450X"
   },
   {
     "group_id": "g_OH450x(2.0模组)设置连续自动扫描",
@@ -4948,7 +5161,10 @@
         "subcategory": "feature",
         "context_text": "2.以上连续模式下，识读间隔设置的0，也即没有间隔，持续扫描；后续可根据实际需求，分别扫描如下对应功能码，体验不同识读间隔的输出效果：3.如需恢复手动按键扫描模式，请继续扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "设置连续自动扫描",
+    "model": "OH450x"
   },
   {
     "group_id": "g_OH450x截取中间段字符输出(SN前四位在2110及以上)",
@@ -5049,7 +5265,10 @@
         "subcategory": "test_code",
         "context_text": "若是需要取消该输出格式，希望输出完成测试码信息，请扫描如下功能码完成设置："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "截取中间段字符输出",
+    "model": "OH450x"
   },
   {
     "group_id": "g_OH450x截取前段字符输出(SN前四位在2110及以上)",
@@ -5129,7 +5348,10 @@
         "subcategory": "test_code",
         "context_text": "若是需要取消该输出格式，希望输出完成测试码信息，请扫描如下功能码完成设置："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "截取前段字符输出",
+    "model": "OH450x"
   },
   {
     "group_id": "g_OH450x截取后段13位字符输出(SN前四位在2110及以上)",
@@ -5209,7 +5431,10 @@
         "subcategory": "test_code",
         "context_text": "若是需要取消该输出格式，希望输出完成测试码信息，请扫描如下功能码完成设置："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "截取后段13位字符输出",
+    "model": "OH450x"
   },
   {
     "group_id": "g_SC2800添加自定义后缀：逗号（,）",
@@ -5261,7 +5486,10 @@
         "subcategory": "test_code",
         "context_text": "1.测试码"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "添加自定义后缀：逗号（,）",
+    "model": "SC2800"
   },
   {
     "group_id": "g_1470 USB口虚拟串口功能说明 2024.12.20",
@@ -5282,7 +5510,7 @@
         "step_order": 2,
         "image_id": "a879df63_077b8a",
         "file_name": "1470_串口_s002_077b8a_a879df63.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.1470 USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB"
       },
       {
@@ -5299,7 +5527,10 @@
         "subcategory": "interface",
         "context_text": "(2)驱动安装后，1470扫描如下码，将USB口转串口"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB口虚拟串口功能说明",
+    "model": "1470"
   },
   {
     "group_id": "g_1472 USB虚拟串口使用说明",
@@ -5365,7 +5596,10 @@
         "subcategory": "interface",
         "context_text": "若是需要将接口从USB串口转到USB键盘口下，文本/光标处输出，可以扫描如下码转换："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB虚拟串口使用说明",
+    "model": "1472"
   },
   {
     "group_id": "g_1900 USB口虚拟串口功能说明+串口指令触发功能说明",
@@ -5393,7 +5627,7 @@
         "step_order": 2,
         "image_id": "a879df63_dc16b8",
         "file_name": "1900_串口_s002_dc16b8_a879df63.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.1900 USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB"
       },
       {
@@ -5424,7 +5658,10 @@
         "subcategory": "interface",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB口虚拟串口功能说明+串口指令触发功能说明",
+    "model": "1900"
   },
   {
     "group_id": "g_1902 USB虚拟串口使用说明",
@@ -5504,7 +5741,10 @@
         "subcategory": "interface",
         "context_text": "若是需要将接口从USB串口转到USB键盘口下，文本/光标处输出，可以扫描如下码转换："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB虚拟串口使用说明",
+    "model": "1902"
   },
   {
     "group_id": "g_1952 USB虚拟串口使用说明+串口指令触发介绍",
@@ -5577,7 +5817,10 @@
         "subcategory": "interface",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB虚拟串口使用说明+串口指令触发介绍",
+    "model": "1952"
   },
   {
     "group_id": "g_19x1i等无线枪USB虚拟串口功能介绍(底座USB线缆连接)",
@@ -5643,7 +5886,10 @@
         "subcategory": "interface",
         "context_text": "我的电脑>管理>设备管理器>端口"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "无线枪USB虚拟串口功能介绍(底座USB线缆连接)",
+    "model": "19x1i"
   },
   {
     "group_id": "g_19xx、14xx等扫描枪USB口虚拟串口功能说明 2025.3.18",
@@ -5769,7 +6015,7 @@
         "step_order": 2,
         "image_id": "15b21d3c_76f169",
         "file_name": "19xx_14xx_串口_s002_76f169_15b21d3c.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.1470 USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB"
       },
       {
@@ -5793,7 +6039,10 @@
         "subcategory": "interface",
         "context_text": "(2)驱动安装后，扫描枪扫描如下码，将USB口转串口"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "扫描枪USB口虚拟串口功能说明",
+    "model": "19xx,14xx"
   },
   {
     "group_id": "g_3320g USB口虚拟串口功能说明+串口指令触发功能说明 2025.6.19",
@@ -5814,7 +6063,7 @@
         "step_order": 2,
         "image_id": "e78a323d_2889f4",
         "file_name": "3320g_串口_s002_2889f4_e78a323d.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.3320g USB线缆连接电脑，按键确认出光，然后依次扫描如下三个码：恢复出厂+USB"
       },
       {
@@ -5838,7 +6087,10 @@
         "subcategory": "interface",
         "context_text": "若对于扫描器当前扫描方式不确定，可以先扫描如下码设置到手动模式，然后去软件尝试发送指令"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB口虚拟串口功能说明+串口指令触发功能说明",
+    "model": "3320g"
   },
   {
     "group_id": "g_33x0GHD USB口虚拟串口功能说明 ---仅适用于Windows系统端 2",
@@ -5860,7 +6112,7 @@
         "step_order": 2,
         "image_id": "6c051410_68d907",
         "file_name": "33x0g_串口_s002_68d907_6c051410.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.33x0GHD USB线缆连接电脑，按键确认出光，然后依次扫描如下码执行恢复出厂："
       },
       {
@@ -5891,7 +6143,10 @@
         "subcategory": "interface",
         "context_text": "(3)检查电脑设备管理器端是否有扫描枪com口出现，类似下图：我的电脑>管理>设备管理器>端口"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "USB口虚拟串口功能说明 ---仅适用于Windows系统端",
+    "model": "33x0GHD"
   },
   {
     "group_id": "g_HF680 GEN7(HF680-R1-)设置USB仿真串口",
@@ -5919,7 +6174,7 @@
         "step_order": 3,
         "image_id": "4ef814e7_325904",
         "file_name": "HF680_串口_s003_325904_4ef814e7.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.HF680-R1-通过USB线缆连接到电脑端(如上右图)，确认扫描器出光，扫描如下码执行恢复出厂："
       },
       {
@@ -5950,7 +6205,10 @@
         "subcategory": "interface",
         "context_text": "后续若需要将USB虚拟串口转到USB键盘口(文本/光标处输出数据)下，请扫描如下码，转换到USB键盘口模式："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HF680 GEN7 设置USB仿真串口",
+    "model": "HF680"
   },
   {
     "group_id": "g_HH490、OH460 USB线缆连接下执行USB虚拟串口 2025.7.31",
@@ -5978,7 +6236,7 @@
         "step_order": 2,
         "image_id": "27a2fcb7_4062eb",
         "file_name": "HH490_OH460_USB虚拟串口_s002_4062eb_27a2fcb7.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.扫描枪经过USB线缆连接到电脑的USB口(尽量接电脑主机USB口，而非扩展USB口)上，连接成功，扫描枪会有上电成功提示音；按键确认出光，然后依次扫描如下两个码执行恢复出厂"
       },
       {
@@ -6009,7 +6267,10 @@
         "subcategory": "interface",
         "context_text": "我的电脑>管理>设备管理器>端口"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HH490、OH460 USB线缆连接下执行USB虚拟串口",
+    "model": "HH490"
   },
   {
     "group_id": "g_HH4X0系列扫描器USB仿真串口",
@@ -6030,7 +6291,7 @@
         "step_order": 1,
         "image_id": "0ab37933_760f81",
         "file_name": "HH4X0_串口_s001_760f81_0ab37933.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.扫描枪USB线缆连接电脑，按键确认出光；然后依次扫描如下三个码：恢复出厂+重置USB键盘口"
       },
       {
@@ -6047,7 +6308,10 @@
         "subcategory": "interface",
         "context_text": "2. 扫描枪扫描‘USB虚拟串口’设置码"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "HH4X0系列扫描器USB仿真串口",
+    "model": "HH4X0"
   },
   {
     "group_id": "g_OH420 执行USB虚拟串口操作说明",
@@ -6075,7 +6339,7 @@
         "step_order": 2,
         "image_id": "771abf37_11f4cd",
         "file_name": "OH420_USB虚拟串口_串口_s002_11f4cd_771abf37.png",
-        "subcategory": null,
+        "subcategory": "restore_factory",
         "context_text": "1.扫描枪经USB线缆连接到电脑端，且电脑端无异常提示、扫描枪按键出光的情况下，依次扫描如下码执行恢复出厂+配置USB键盘口："
       },
       {
@@ -6099,7 +6363,10 @@
         "subcategory": "interface",
         "context_text": "2.设置USB口转com口，依次扫描如下两个码："
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "OH420 执行USB虚拟串口操作说明",
+    "model": "OH420"
   },
   {
     "group_id": "g_Win11系统端文本传输串码、输出不全、乱码等问题(1.降级文本版本；2.设置一",
@@ -6130,7 +6397,10 @@
         "subcategory": "feature",
         "context_text": "2.若是经过以上降级文本版本后，还是无法改善Win11电脑端数据传输串码、输出不全等问题，可以继续扫描如下码，设置下延时，从而进一步改善问题："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "Win11系统端文本传输串码、输出不全、乱码等问题",
+    "model": "通用"
   },
   {
     "group_id": "g_[凌昆科技]OH430(SN前三位24H，1.0模组)设置自定义前后缀& 202",
@@ -6252,7 +6522,10 @@
         "subcategory": "suffix",
         "context_text": "10. 扫描“保存”设置码"
       }
-    ]
+    ],
+    "subcategory": "prefix",
+    "title": "设置自定义前后缀",
+    "model": "OH430"
   },
   {
     "group_id": "g_安卓设备添加回车后缀(新汇总) 2026.3.19",
@@ -6283,7 +6556,10 @@
         "subcategory": "suffix",
         "context_text": "然后在设备的EZconfig界面扫描回车后缀配置码："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "安卓设备添加回车后缀",
+    "model": "unknown"
   },
   {
     "group_id": "g_[徐工集团]1902 底座USB线缆连接下作USB虚拟串口使用说明",
@@ -6328,7 +6604,10 @@
         "subcategory": "pairing",
         "context_text": "2.驱动安装后，1902扫描如下码，将USB口转串口(注意此时枪与底座会短暂断开)，然后枪放在底座上，或者枪再次扫描下配对码，并等待5~8s，枪与底座将再次自动配对"
       }
-    ]
+    ],
+    "subcategory": "interface",
+    "title": "底座USB线缆连接下作USB虚拟串口使用说明",
+    "model": "1902"
   },
   {
     "group_id": "g_[徐工集团]1902底座USB线缆连接下文本端输出操作说明",
@@ -6356,14 +6635,14 @@
         "step_order": 2,
         "image_id": "8a2972b5_3a9129",
         "file_name": "1902_s002_3a9129_8a2972b5.png",
-        "subcategory": null,
+        "subcategory": "pairing",
         "context_text": "2.扫描枪按键出光后，扫描如下码，断开枪可能与其他底座连接的情况"
       },
       {
         "step_order": 4,
         "image_id": "00a16087_3a9129",
         "file_name": "1902_s004_3a9129_00a16087.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "4.电脑端打开记事本，鼠标光标定位好，电脑输入法切换到英文下，然后扫描如下码，确认文本端是否有输出信息"
       },
       {
@@ -6373,7 +6652,10 @@
         "subcategory": "suffix",
         "context_text": "5.需要实现扫描枪后自动换行(自动回车)，请继续扫描如下码，添加回车符后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "底座USB线缆连接下文本端输出操作说明",
+    "model": "1902"
   },
   {
     "group_id": "g_Fiji平台打印机通过发送打印指令抓取打印日志",
@@ -6404,7 +6686,10 @@
         "subcategory": "suffix",
         "context_text": "SYSVAR(82)=2 (注意：后面再敲入一回车)"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "Fiji平台打印机通过发送打印指令抓取打印日志",
+    "model": "unknown"
   },
   {
     "group_id": "g_PC300T，打印一张，中间出一张白纸",
@@ -6428,7 +6713,10 @@
         "subcategory": null,
         "context_text": "PC300T，打印一张，中间出一张白纸"
       }
-    ]
+    ],
+    "title": "PC300T打印测试",
+    "model": "PC300T",
+    "subcategory": "test_code"
   },
   {
     "group_id": "g_1472：配置读取包含中文字符的二维码并输出到文本端",
@@ -6494,7 +6782,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1472配置读取中文二维码并输出到文本端",
+    "model": "1472"
   },
   {
     "group_id": "g_1900、1470等扫描枪：USB线缆连接下读取包含中文字符的二维码并输出到文本",
@@ -6588,7 +6879,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1900/1470等扫描枪USB线缆连接下读取中文二维码并输出到文本",
+    "model": "1900"
   },
   {
     "group_id": "g_1911i：配置读取包含中文编码格式字符的二维码并输出到文本端",
@@ -6666,7 +6960,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1911i配置读取中文编码二维码并输出到文本端",
+    "model": "1911i"
   },
   {
     "group_id": "g_1952：扫描输出不受输入法以及大写锁定键等键盘影响",
@@ -6725,7 +7022,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "1952扫描输出不受输入法及大写锁定键影响",
+    "model": "1952"
   },
   {
     "group_id": "g_19x2系列扫描枪：配置读取包含中文编码格式字符的二维码并输出到文本端",
@@ -6798,7 +7098,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "配置读取包含中文编码格式字符的二维码并输出到文本端",
+    "model": "1900"
   },
   {
     "group_id": "g_7120-2D：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
@@ -6892,7 +7195,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "model": "7120"
   },
   {
     "group_id": "g_7580g及7680g：USB线缆连接下读取包含中文字符的二维码并输出到文本或光",
@@ -6972,7 +7278,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "USB线缆连接下读取包含中文字符的二维码并输出到文本或光",
+    "model": "7580g"
   },
   {
     "group_id": "g_HF600：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
@@ -7045,7 +7354,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "model": "HF600"
   },
   {
     "group_id": "g_HF680 GEN7：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标",
@@ -7132,7 +7444,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "USB线缆连接下读取包含中文字符的二维码并输出到文本或光标",
+    "model": "HF680"
   },
   {
     "group_id": "g_HF680-1：USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
@@ -7205,7 +7520,10 @@
         "subcategory": "feature",
         "context_text": "3.以上操作后，把Com_Text工具最小化，然后打开txt/word文本，鼠标光标定位好，电脑输入法切换到英文下，进行测试(如下样本码举例)"
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "USB线缆连接下读取包含中文字符的二维码并输出到文本或光标处",
+    "model": "HF680"
   },
   {
     "group_id": "g_OH460、HH490扫描枪：USB线缆连接下读取包含中文字符的二维码并输出到文",
@@ -7278,7 +7596,10 @@
         "subcategory": "feature",
         "context_text": "完成以上操作后，电脑端打开记事本，鼠标光标定位好，扫描如下码，确认输出情况："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "USB线缆连接下读取包含中文字符的二维码并输出到文本",
+    "model": "OH460, HH490"
   },
   {
     "group_id": "g_(影像式扫描枪冗余调整相关) 7680g：偶发自发扫描情况",
@@ -7302,7 +7623,10 @@
         "subcategory": "feature",
         "context_text": "调整冗余："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "影像式扫描枪冗余调整相关-偶发自发扫描情况",
+    "model": "7680g"
   },
   {
     "group_id": "g_1470多条码序列扫描(GS1-128码，先输出0开头的，再输出1开头的)-20",
@@ -7326,7 +7650,10 @@
         "subcategory": null,
         "context_text": "例如有如下2个GS1-128码在一起，需要一起输出"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "多条码序列扫描(GS1-128码，先输出0开头的，再输出1开头的)",
+    "model": "1470"
   },
   {
     "group_id": "g_1900多条码序列扫描(先QR，再EAN13) 2025.3.21",
@@ -7364,7 +7691,10 @@
         "subcategory": "feature",
         "context_text": "SEQSUF990D：最后整体回车"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "多条码序列扫描(先QR，再EAN13)",
+    "model": "1900"
   },
   {
     "group_id": "g_1900数据格式编辑-输出QR码指定字符串",
@@ -7402,7 +7732,10 @@
         "subcategory": "suffix",
         "context_text": "6.当前配置码已含回车后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "1900数据格式编辑-输出QR码指定字符串",
+    "model": "1900"
   },
   {
     "group_id": "g_1900数据格式编辑",
@@ -7440,7 +7773,10 @@
         "subcategory": "suffix",
         "context_text": "6.当前配置码已含回车后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "1900数据格式编辑",
+    "model": "1900"
   },
   {
     "group_id": "g_1900格式编辑：含网址的QR码输出最后一个斜线后面的信息",
@@ -7492,7 +7828,10 @@
         "subcategory": "feature",
         "context_text": "3.扫描验证电脑文本端，鼠标光标定位好，电脑输入法切换到英文下，扫描验证。"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "1900格式编辑：含网址的QR码输出最后一个斜线后面的信息",
+    "model": "1900"
   },
   {
     "group_id": "g_1900格式编辑：输出指定code128码；及格式编辑方法介绍",
@@ -7534,10 +7873,13 @@
         "step_order": 4,
         "image_id": "e0aa63f8_8b6ab1",
         "file_name": "1900_s004_8b6ab1_e0aa63f8.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.双击运行软件快捷方式，然后按如下流程操作配置："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "1900格式编辑：输出指定code128码；及格式编辑方法介绍",
+    "model": "1900"
   },
   {
     "group_id": "g_1900：设置同一个码，输出两次内容",
@@ -7568,7 +7910,10 @@
         "subcategory": "restore_factory",
         "context_text": "扫描恢复出厂，避免格式干扰："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "1900：设置同一个码，输出两次内容",
+    "model": "1900"
   },
   {
     "group_id": "g_1902-C格式编辑：输出QR码指定字符串 2025.4.9",
@@ -7613,7 +7958,10 @@
         "subcategory": "suffix",
         "context_text": "配置码不包含任何后缀"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "C格式编辑：输出QR码指定字符串",
+    "model": "1902"
   },
   {
     "group_id": "g_1902格式编辑：含网址的QR码输出最后一个斜线后面的信息",
@@ -7672,7 +8020,10 @@
         "subcategory": "feature",
         "context_text": "三、扫描验证电脑文本端，鼠标光标定位好，电脑输入法切换到英文下，扫描验证。"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "格式编辑：含网址的QR码输出最后一个斜线后面的信息",
+    "model": "1902"
   },
   {
     "group_id": "g_1952格式编辑：code128指定格式输出 2025.3.17",
@@ -7707,7 +8058,7 @@
         "step_order": 6,
         "image_id": "c1471a58_0e2a33",
         "file_name": "1952_s006_0e2a33_c1471a58.png",
-        "subcategory": null,
+        "subcategory": "test_code",
         "context_text": "测试输出效果展示如下："
       },
       {
@@ -7717,7 +8068,10 @@
         "subcategory": "suffix",
         "context_text": "后续根据实际需求，分别扫描如下码设置回车后缀或者Tab后缀："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "格式编辑：code128指定格式输出",
+    "model": "1952"
   },
   {
     "group_id": "g_1952格式编辑：code128指定格式输出 2025.3.18",
@@ -7769,7 +8123,10 @@
         "subcategory": "suffix",
         "context_text": "后续根据实际需求，分别扫描如下码设置回车后缀或者Tab后缀："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "格式编辑：code128指定格式输出",
+    "model": "1952"
   },
   {
     "group_id": "g_19xx、14xx系列等扫描枪设置自定义字符触发扫描或停止扫描 2025.8.5",
@@ -7961,7 +8318,10 @@
         "subcategory": "feature",
         "context_text": "(3).扫描如下码保存设置"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "设置自定义字符触发扫描或停止扫描",
+    "model": "19xx"
   },
   {
     "group_id": "g_19xx、33x0数据格式编辑—输出以PMX开头的DM码，其他DM码不输出 20",
@@ -8101,10 +8461,13 @@
         "step_order": 3,
         "image_id": "fa4ad844_25445c",
         "file_name": "19xx_s003_25445c_fa4ad844.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "如下是三种扫描模式，你们可以根据实际需求，分别扫描验证下："
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "数据格式编辑—输出以PMX开头的DM码，其他DM码不输出",
+    "model": "19xx"
   },
   {
     "group_id": "g_19xx、HF680 GEN7等扫描器借助Ezconfig执行恢复出厂",
@@ -8240,7 +8603,10 @@
         "subcategory": "restore_factory",
         "context_text": "2.按照如下流程，尝试借助Ezconfig连接扫描器，执行恢复出厂"
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "借助Ezconfig执行恢复出厂",
+    "model": "19xx"
   },
   {
     "group_id": "g_19xx等扫描枪：设置日期和时间前缀、回车后缀 2025.7.17",
@@ -8362,7 +8728,10 @@
         "subcategory": "suffix",
         "context_text": "所实现的效果："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "设置日期和时间前缀、回车后缀",
+    "model": "19xx"
   },
   {
     "group_id": "g_7120-2D读取低质量一维码优化",
@@ -8400,7 +8769,10 @@
         "subcategory": "feature",
         "context_text": "配置码："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "2D读取低质量一维码优化",
+    "model": "7120"
   },
   {
     "group_id": "g_HH492、OH462基本使用说明(Base版本)+数据格式编辑",
@@ -8459,7 +8831,10 @@
         "subcategory": "test_code",
         "context_text": "配对成功后，电脑端打开文本，鼠标光标定位好，输入法切换到英文下，扫描如下测试码验证扫描输出："
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "基本使用说明(Base版本)+数据格式编辑",
+    "model": "HH492"
   },
   {
     "group_id": "g_1952设置读取七位OCR字符模板",
@@ -8504,7 +8879,10 @@
         "subcategory": "feature",
         "context_text": "扫描七个7，表示七位模板"
       }
-    ]
+    ],
+    "subcategory": "restore_factory",
+    "title": "设置读取七位OCR字符模板",
+    "model": "1952"
   },
   {
     "group_id": "g_1470多条码序列扫描(GS1-128码，先输出0开头的，再输出1开头的)-20",
@@ -8535,7 +8913,10 @@
         "subcategory": "feature",
         "context_text": "其他："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "多条码序列扫描(GS1-128码，先输出0开头的，再输出1开头的)",
+    "model": "1470"
   },
   {
     "group_id": "g_7680 相同码延时+不重读 (常亮模式下快速读，匹配7580g的扫描速度)",
@@ -8559,7 +8940,10 @@
         "subcategory": "feature",
         "context_text": "DEFALT;TRGMMF1;PAPSPN;PWRNOL120;SHOTGN1;DLYRRD0;SUFBK2990D."
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "相同码延时+不重读 (常亮模式下快速读，匹配7580g的扫描速度)",
+    "model": "7680"
   },
   {
     "group_id": "g_常亮模式下重读延时(Reread delay，不累加)",
@@ -8616,7 +9000,10 @@
         "subcategory": "feature",
         "context_text": "DEFALT;PAPSPN;TRGMMF1;DLY2RR1000;DLYRRD1000;SUFBK2990D. (去掉Good Read Delay以及Message Delay)"
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "常亮模式下重读延时(Reread delay，不累加)",
+    "model": "19xx/14xx"
   },
   {
     "group_id": "g_1902-C问题总结(双字节替换)2025.4.18",
@@ -8696,7 +9083,10 @@
         "subcategory": "suffix",
         "context_text": "DEFALT;PAP124;VSUFCR;DATREE1;DATREP0002(0A0A)01(0D)FL."
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "C问题总结(双字节替换)",
+    "model": "1902"
   },
   {
     "group_id": "g_双字节替换案例分享",
@@ -8753,7 +9143,10 @@
         "subcategory": "feature",
         "context_text": "输出效果："
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "双字节替换案例分享",
+    "model": "1472"
   },
   {
     "group_id": "g_扫描数据替换命令介绍- DATREP.(涉及双字符或者多字符替换) 2025.6",
@@ -8817,7 +9210,10 @@
         "subcategory": "suffix",
         "context_text": "DEFALT;PAP124;VSUFCR;DATREE1;DATREP0002(0A0A)01(0D)FL."
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "扫描数据替换命令介绍- DATREP.(涉及双字符或者多字符替换) 2025.6",
+    "model": "1472"
   },
   {
     "group_id": "g_案例：将[GS][RS][EOT]替换为其他符号输出",
@@ -8860,7 +9256,10 @@
         "subcategory": "suffix",
         "context_text": "VSUFCR;DATREE1;DATREP0001(1D)04(5B47535D)DATREP0001(1E)04(5B52535D)DATREP0001(04)05(5B454F545D)FL."
       }
-    ]
+    ],
+    "subcategory": "suffix",
+    "title": "案例：将[GS][RS][EOT]替换为其他符号输出",
+    "model": "1472"
   },
   {
     "group_id": "g_B3指令(插入码制类型)以及B4指令(插入样本码长度)应用介绍",
@@ -8882,7 +9281,10 @@
         "subcategory": "feature",
         "context_text": "案例："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "B3指令(插入码制类型)以及B4指令(插入样本码长度)应用介绍",
+    "model": "1472"
   },
   {
     "group_id": "g_通过Ezconfig配置工具导出、导入1472配置 2025.5.8",
@@ -8903,14 +9305,14 @@
         "step_order": 5,
         "image_id": "03db629f_07118a",
         "file_name": "1472_Ezconfig_s005_07118a_03db629f.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.按如下图片流程，导出当前1472枪的配置："
       },
       {
         "step_order": 8,
         "image_id": "aad5addf_07118a",
         "file_name": "1472_Ezconfig_s008_07118a_aad5addf.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.按如下图片流程，将其他1472的配置导入到当前1472枪中："
       },
       {
@@ -8920,7 +9322,10 @@
         "subcategory": "pairing",
         "context_text": "将两套1472分别连接电脑(参考前面第一步验证基本通信芳芳)，枪和底座配对后，分别扫描如下码，读取出主板信息(注意文本端输出，务必将电脑输入法切换到英文下)"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "通过Ezconfig配置工具导出、导入1472配置 2025.5.8",
+    "model": "1472"
   },
   {
     "group_id": "g_通过Ezconfig配置工具导出、导入1950 配置 2025.5.9",
@@ -8939,14 +9344,14 @@
         "step_order": 4,
         "image_id": "03db629f_4988bf",
         "file_name": "Ezconfig_s004_4988bf_03db629f.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.按如下图片流程，导出当前1950枪的配置："
       },
       {
         "step_order": 7,
         "image_id": "aad5addf_4988bf",
         "file_name": "Ezconfig_s007_4988bf_aad5addf.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.按如下图片流程，将其他1950的配置导入到当前1950枪中(勿忘最后的”SAVE TO DEVICE”)："
       },
       {
@@ -8956,7 +9361,10 @@
         "subcategory": "feature",
         "context_text": "将两套1950分别连接电脑(参考前面第一步验证基本通信方法)，分别扫描如下码，读取出主板信息(注意文本端输出，务必将电脑输入法切换到英文下)"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "通过Ezconfig配置工具导出、导入1950配置",
+    "model": "1950"
   },
   {
     "group_id": "g_通过Ezconfig配置工具导出、导入1991i配置 2025.5.19",
@@ -8975,14 +9383,14 @@
         "step_order": 5,
         "image_id": "03db629f_5ea1c5",
         "file_name": "1991i_Ezconfig_s005_5ea1c5_03db629f.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.参考如下图片流程操作(如下以1472举例，1991i流程与之类似)，导出当前1991i枪的配置："
       },
       {
         "step_order": 8,
         "image_id": "aad5addf_5ea1c5",
         "file_name": "1991i_Ezconfig_s008_5ea1c5_aad5addf.png",
-        "subcategory": null,
+        "subcategory": "setup",
         "context_text": "2.按如下图片流程(以1472举例，1991i与之类似)，将其他1991i的配置导入到当前1991i枪中："
       },
       {
@@ -8992,7 +9400,10 @@
         "subcategory": "pairing",
         "context_text": "将两套1991i分别连接电脑(参考前面第一步验证基本通信芳芳)，枪和底座配对后，分别扫描如下码，读取出主板信息(注意文本端输出，务必将电脑输入法切换到英文下)"
       }
-    ]
+    ],
+    "subcategory": "setup",
+    "title": "通过Ezconfig配置工具导出、导入1991i配置",
+    "model": "1991i"
   },
   {
     "group_id": "g_1472、1902等无线枪配置离线存储模式说明 2025.4.16",
@@ -9086,7 +9497,10 @@
         "subcategory": "feature",
         "context_text": "5.退出离线存储模式"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "1472、1902等无线枪配置离线存储模式说明",
+    "model": "1472, 1902"
   },
   {
     "group_id": "g_1902、1472等无线扫描枪连接蓝牙设备",
@@ -9173,7 +9587,10 @@
         "subcategory": "pairing",
         "context_text": "如需获取扫描枪地址，可扫描如下码："
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "1902、1472等无线扫描枪连接蓝牙设备",
+    "model": "1902, 1472"
   },
   {
     "group_id": "g_1902无线扫描枪连接蓝牙电脑",
@@ -9246,7 +9663,10 @@
         "subcategory": "setup",
         "context_text": "--若是平板上有显示的PIN密码，按照提示，依次扫描如下字符条码；最后扫描“Save”以保存设置"
       }
-    ]
+    ],
+    "subcategory": "pairing",
+    "title": "1902无线扫描枪连接蓝牙电脑",
+    "model": "1902"
   },
   {
     "group_id": "g_190x-C等枪优化DPM码读取",
@@ -9298,7 +9718,10 @@
         "subcategory": "feature",
         "context_text": "非点阵码案例3："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "190x-C等枪优化DPM码读取",
+    "model": "1900"
   },
   {
     "group_id": "g_7680g：优化常亮模式下的扫描流畅度",
@@ -9322,7 +9745,10 @@
         "subcategory": "feature",
         "context_text": "DEFALT;PAPSPN;PWRNOL120;TRGPTO1000;DLYRRD200;SUFBK2990D."
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "7680g：优化常亮模式下的扫描流畅度",
+    "model": "7680g"
   },
   {
     "group_id": "g_对常亮模式下读取点阵码的优化",
@@ -9344,7 +9770,10 @@
         "subcategory": "feature",
         "context_text": "配置码："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "对常亮模式下读取点阵码的优化",
+    "model": "1900"
   },
   {
     "group_id": "g_昏暗环境下读取码优化",
@@ -9366,7 +9795,10 @@
         "subcategory": "feature",
         "context_text": "优化配置："
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "昏暗环境下读取码优化",
+    "model": "1900"
   },
   {
     "group_id": "g_针对Interleaved 2 of 5 校验位(Check Digit)的设置",
@@ -9416,7 +9848,10 @@
         "subcategory": "feature",
         "context_text": "若要禁用Interleaved 2 of 5 校验位的传输，可以扫描以上第3点'Validate, but don't Transmit'"
       }
-    ]
+    ],
+    "subcategory": "feature",
+    "title": "针对Interleaved 2 of 5 校验位(Check Digit)的设置",
+    "model": "1900"
   },
   {
     "group_id": "g_XEN197X_Program_RS232_Serial_Port_Interface",
@@ -9439,7 +9874,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program RS232 Serial Port Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_USB_PC_or_Macintosh_Keyboard_Interface",
@@ -9462,7 +9900,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program USB PC or Macintosh Keyboard Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_USB_HID_Interface",
@@ -9485,7 +9926,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program USB HID Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_Verifone_Ruby_Terminal_Interface",
@@ -9508,7 +9952,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program Verifone Ruby Terminal Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_Wincor_Nixdorf_Terminal_Interface",
@@ -9531,7 +9978,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program Wincor Nixdorf Terminal Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_Wincor_Nixdorf_Beetle_Terminal_Interface",
@@ -9554,7 +10004,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program Wincor Nixdorf Beetle Terminal Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_Wincor_Nixdorf_RS232_Mode_A_Interface",
@@ -9577,7 +10030,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Program Wincor Nixdorf RS232 Mode A Interface",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Replace_a_Linked_Scanner",
@@ -9608,7 +10064,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Replace a Linked Scanner",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Program_the_Scanner_and_Base",
@@ -9638,7 +10097,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Program the Scanner and Base",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Enter_or_Exit_Streaming_Presentation_Mode",
@@ -9669,7 +10131,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Enter or Exit Streaming Presentation Mode",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Power_the_Base",
@@ -9700,7 +10165,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Power the Base",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Configure_Base_Power_Communication_Indicator",
@@ -9729,7 +10197,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "interface",
+    "title": "Configure Base Power Communication Indicator",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Customize_Battery_LED_Alerts",
@@ -9765,7 +10236,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "feature",
+    "title": "Customize Battery LED Alerts",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Set_Low_Power_Alert_Flash_Number",
@@ -9787,7 +10261,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "feature",
+    "title": "Set Low Power Alert Flash Number",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Toggle_Low_Power_Alert_Beep",
@@ -9816,7 +10293,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "feature",
+    "title": "Toggle Low Power Alert Beep",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Set_Batch_Mode_Quantity",
@@ -9859,7 +10339,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "setup",
+    "title": "Set Batch Mode Quantity",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Transmit_Batch_Data_to_Host",
@@ -9882,7 +10365,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "setup",
+    "title": "Transmit Batch Data to Host",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Put_Scanner_in_Multiple_Scanner_Mode",
@@ -9905,7 +10391,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "setup",
+    "title": "Put Scanner in Multiple Scanner Mode",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Name_the_Scanner",
@@ -9935,7 +10424,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "setup",
+    "title": "Name the Scanner",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Assign_Scanner_to_a_Work_Group",
@@ -9966,7 +10458,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "setup",
+    "title": "Assign Scanner to a Work Group",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Pair_with_Bluetooth_HID_Keyboard",
@@ -9988,7 +10483,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Pair with Bluetooth HID Keyboard",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Pair_with_Bluetooth_Low_Energy_(BLE)_Devices",
@@ -10017,7 +10515,10 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Pair with Bluetooth Low Energy (BLE) Devices",
+    "model": "XEN197X"
   },
   {
     "group_id": "g_XEN197X_Use_Scanner_with_PDA_or_Mobility_Systems_Device",
@@ -10047,6 +10548,9 @@
       }
     ],
     "doc_name": "XEN197X-EN-UG-01 Rev B.pdf",
-    "total_config_codes": 0
+    "total_config_codes": 0,
+    "subcategory": "pairing",
+    "title": "Use Scanner with PDA or Mobility Systems Device",
+    "model": "XEN197X"
   }
 ]
