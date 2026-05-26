@@ -8172,59 +8172,66 @@
     "steps": [
       {
         "step_order": 1,
-        "context_text": "Scan the RS232 Interface barcode.",
+        "context_text": "数据格式：8数据位，无校验，1停止位",
         "ref_barcode": "PAP232.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP232..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "数据格式：8数据位，无校验，1停止位"
       },
       {
         "step_order": 2,
-        "context_text": "Scan the USB PC Keyboard or USB Macintosh Keyboard barcode.",
+        "context_text": "USB 键盘模式（PC）",
         "ref_barcode": "PAP124.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP124..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "USB 键盘模式（PC）"
       },
       {
         "step_order": 3,
-        "context_text": "Scan the USB HID barcode.",
+        "context_text": "USB HID 条码扫描器模式",
         "ref_barcode": "PAP131.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "USB HID 条码扫描器模式"
       },
       {
         "step_order": 4,
-        "context_text": "Scan the Verifone Ruby Terminal Plug and Play barcode.",
+        "context_text": "设置EAN-8条码格式为FF",
         "ref_barcode": "PAPRBY.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPRBY..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "设置EAN-8条码格式为FF"
       },
       {
         "step_order": 5,
-        "context_text": "Scan the Wincor Nixdorf Terminal Plug and Play barcode.",
+        "context_text": "Wincor Nixdorf终端设置",
         "ref_barcode": "PAPWNX.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPWNX..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "Wincor Nixdorf终端设置"
       },
       {
         "step_order": 6,
-        "context_text": "Scan the Wincor Nixdorf Beetle Terminal Plug and Play barcode.",
+        "context_text": "设置GS1 DataBar扩展为UPC-E C",
         "ref_barcode": "PAPBTL.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPBTL..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "设置GS1 DataBar扩展为UPC-E C"
       },
       {
         "step_order": 7,
-        "context_text": "Scan the Wincor Nixdorf RS232 Mode A Plug and Play barcode.",
+        "context_text": "Wincor Nixdorf RS232模式A设置",
         "ref_barcode": "PAPWMA.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPWMA..png",
-        "subcategory": "interface"
+        "subcategory": "interface",
+        "llm_description": "Wincor Nixdorf RS232模式A设置"
       },
       {
         "step_order": 8,
@@ -8261,11 +8268,12 @@
     "steps": [
       {
         "step_order": 1,
-        "context_text": "Scan the Override Locked Scanner barcode with a new scanner.",
+        "context_text": "USB IBM SurePos 桌面扫描器接口",
         "ref_barcode": "PAPSPT.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAPSPT..png",
-        "subcategory": "pairing"
+        "subcategory": "pairing",
+        "llm_description": "USB IBM SurePos 桌面扫描器接口"
       },
       {
         "step_order": 2,
@@ -8447,11 +8455,12 @@
       },
       {
         "step_order": 2,
-        "context_text": "Scan the 'Batch Mode Transmit' barcode to send all stored data to the host.",
+        "context_text": "USB HID 条码扫描器模式",
         "ref_barcode": "PAP131.",
         "note": "",
         "barcode_image": "/XEN197X-EN-UG-01 Rev B.pdf/yolo/XEN197X_PAP131..png",
-        "subcategory": "setup"
+        "subcategory": "setup",
+        "llm_description": "USB HID 条码扫描器模式"
       },
       {
         "step_order": 3,
